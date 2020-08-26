@@ -1,0 +1,415 @@
+<html>
+<head>
+<title>Model comparison</title>
+
+<script type="text/javascript">
+function detectLeftButton(evt) {
+    evt = evt || window.event;
+    var button = evt.which || evt.button;
+    return button == 1;
+}
+</script>
+</head>
+
+<body>
+<h1>Model comparison</h1>
+
+<nav>
+  <ul>
+	<li><a href="../index.html">Bird</a></li>
+    <li><a href="../mandril/mandril.html">Mandril</a></li>
+	<li><a href="../im_11/daisy.html">Daisy</a></li>
+	<li><a href="../im_12/tulip.html">Tulips</a></li>
+	<li><a href="../im_61/flower.html">Purple flower</a></li>
+	<li><a href="../im_100/ball.html">Basket ball</a></li>
+	<li><a href="../im_81/stone.html">Stones</a></li>
+	<!--<li><a href="report_bird/bird_thresh.html">Bird soft threshold decomposed</a></li> -->
+  </ul>
+</nav>
+
+<TABLE>
+<tr><th>Parameters</th><th>Values</th></tr>
+<tr><td>Y peak</td><td>200</td></tr>
+<tr><td>Display contrast</td><td>1000</td></tr>
+<tr><td>Gamma</td><td>2.2</td></tr>
+<tr><td>Ambient luminance</td><td>100</td></tr>
+</TABLE>
+<TABLE>
+<tr><th>Model No.</th><th>Description</th></tr>
+<tr><td>1</td><td>HDRVDP MTF CIE</td></tr>
+<tr><td>2</td><td>DKL pyramid Hard threshold</td></tr>
+<tr><td>3</td><td>DKL pyramid soft threshold</td></tr>
+<tr><td>4</td><td>Contrast pyramid hard threshold</td></tr>
+<tr><td>5</td><td>Contrast pyramid soft threshold</td></tr>
+</TABLE>
+Double-click and hold to view original image
+<TABLE>
+<TR><TR><TD>Age 25, Lum 10 cd/m^2, ppd 30, Model 1
+DE: 0.0026
+<div style="display: inline-block; "><img name="img_lum10_age25_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age25_mod1.src="img_lum10_age25_mod1_mo.png";return true;}' onMouseUp='document.img_lum10_age25_mod1.src="img_lum10_age25_mod1.png";return true;' style=""  src="img_lum10_age25_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 10 cd/m^2, ppd 30, Model 2
+DE: 0.3435
+<div style="display: inline-block; "><img name="img_lum10_age25_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age25_mod2.src="img_lum10_age25_mod2_mo.png";return true;}' onMouseUp='document.img_lum10_age25_mod2.src="img_lum10_age25_mod2.png";return true;' style=""  src="img_lum10_age25_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 10 cd/m^2, ppd 30, Model 3
+DE: 0.2560
+<div style="display: inline-block; "><img name="img_lum10_age25_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age25_mod3.src="img_lum10_age25_mod3_mo.png";return true;}' onMouseUp='document.img_lum10_age25_mod3.src="img_lum10_age25_mod3.png";return true;' style=""  src="img_lum10_age25_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 10 cd/m^2, ppd 30, Model 4
+DE: 0.6700
+<div style="display: inline-block; "><img name="img_lum10_age25_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age25_mod4.src="img_lum10_age25_mod4_mo.png";return true;}' onMouseUp='document.img_lum10_age25_mod4.src="img_lum10_age25_mod4.png";return true;' style=""  src="img_lum10_age25_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 10 cd/m^2, ppd 30, Model 5
+DE: 0.3621
+<div style="display: inline-block; "><img name="img_lum10_age25_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age25_mod5.src="img_lum10_age25_mod5_mo.png";return true;}' onMouseUp='document.img_lum10_age25_mod5.src="img_lum10_age25_mod5.png";return true;' style=""  src="img_lum10_age25_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 30 cd/m^2, ppd 30, Model 1
+DE: 0.0028
+<div style="display: inline-block; "><img name="img_lum30_age25_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age25_mod1.src="img_lum30_age25_mod1_mo.png";return true;}' onMouseUp='document.img_lum30_age25_mod1.src="img_lum30_age25_mod1.png";return true;' style=""  src="img_lum30_age25_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 30 cd/m^2, ppd 30, Model 2
+DE: 0.3258
+<div style="display: inline-block; "><img name="img_lum30_age25_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age25_mod2.src="img_lum30_age25_mod2_mo.png";return true;}' onMouseUp='document.img_lum30_age25_mod2.src="img_lum30_age25_mod2.png";return true;' style=""  src="img_lum30_age25_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 30 cd/m^2, ppd 30, Model 3
+DE: 0.2465
+<div style="display: inline-block; "><img name="img_lum30_age25_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age25_mod3.src="img_lum30_age25_mod3_mo.png";return true;}' onMouseUp='document.img_lum30_age25_mod3.src="img_lum30_age25_mod3.png";return true;' style=""  src="img_lum30_age25_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 30 cd/m^2, ppd 30, Model 4
+DE: 0.6085
+<div style="display: inline-block; "><img name="img_lum30_age25_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age25_mod4.src="img_lum30_age25_mod4_mo.png";return true;}' onMouseUp='document.img_lum30_age25_mod4.src="img_lum30_age25_mod4.png";return true;' style=""  src="img_lum30_age25_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 30 cd/m^2, ppd 30, Model 5
+DE: 0.3276
+<div style="display: inline-block; "><img name="img_lum30_age25_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age25_mod5.src="img_lum30_age25_mod5_mo.png";return true;}' onMouseUp='document.img_lum30_age25_mod5.src="img_lum30_age25_mod5.png";return true;' style=""  src="img_lum30_age25_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 50 cd/m^2, ppd 30, Model 1
+DE: 0.0029
+<div style="display: inline-block; "><img name="img_lum50_age25_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age25_mod1.src="img_lum50_age25_mod1_mo.png";return true;}' onMouseUp='document.img_lum50_age25_mod1.src="img_lum50_age25_mod1.png";return true;' style=""  src="img_lum50_age25_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 50 cd/m^2, ppd 30, Model 2
+DE: 0.3227
+<div style="display: inline-block; "><img name="img_lum50_age25_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age25_mod2.src="img_lum50_age25_mod2_mo.png";return true;}' onMouseUp='document.img_lum50_age25_mod2.src="img_lum50_age25_mod2.png";return true;' style=""  src="img_lum50_age25_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 50 cd/m^2, ppd 30, Model 3
+DE: 0.2480
+<div style="display: inline-block; "><img name="img_lum50_age25_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age25_mod3.src="img_lum50_age25_mod3_mo.png";return true;}' onMouseUp='document.img_lum50_age25_mod3.src="img_lum50_age25_mod3.png";return true;' style=""  src="img_lum50_age25_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 50 cd/m^2, ppd 30, Model 4
+DE: 0.7367
+<div style="display: inline-block; "><img name="img_lum50_age25_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age25_mod4.src="img_lum50_age25_mod4_mo.png";return true;}' onMouseUp='document.img_lum50_age25_mod4.src="img_lum50_age25_mod4.png";return true;' style=""  src="img_lum50_age25_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 50 cd/m^2, ppd 30, Model 5
+DE: 0.3987
+<div style="display: inline-block; "><img name="img_lum50_age25_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age25_mod5.src="img_lum50_age25_mod5_mo.png";return true;}' onMouseUp='document.img_lum50_age25_mod5.src="img_lum50_age25_mod5.png";return true;' style=""  src="img_lum50_age25_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 200 cd/m^2, ppd 30, Model 1
+DE: 4.5248
+<div style="display: inline-block; "><img name="img_lum200_age25_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age25_mod1.src="img_lum200_age25_mod1_mo.png";return true;}' onMouseUp='document.img_lum200_age25_mod1.src="img_lum200_age25_mod1.png";return true;' style=""  src="img_lum200_age25_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 200 cd/m^2, ppd 30, Model 2
+DE: 0.3685
+<div style="display: inline-block; "><img name="img_lum200_age25_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age25_mod2.src="img_lum200_age25_mod2_mo.png";return true;}' onMouseUp='document.img_lum200_age25_mod2.src="img_lum200_age25_mod2.png";return true;' style=""  src="img_lum200_age25_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 200 cd/m^2, ppd 30, Model 3
+DE: 0.3021
+<div style="display: inline-block; "><img name="img_lum200_age25_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age25_mod3.src="img_lum200_age25_mod3_mo.png";return true;}' onMouseUp='document.img_lum200_age25_mod3.src="img_lum200_age25_mod3.png";return true;' style=""  src="img_lum200_age25_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 200 cd/m^2, ppd 30, Model 4
+DE: 2.3171
+<div style="display: inline-block; "><img name="img_lum200_age25_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age25_mod4.src="img_lum200_age25_mod4_mo.png";return true;}' onMouseUp='document.img_lum200_age25_mod4.src="img_lum200_age25_mod4.png";return true;' style=""  src="img_lum200_age25_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 25, Lum 200 cd/m^2, ppd 30, Model 5
+DE: 1.2376
+<div style="display: inline-block; "><img name="img_lum200_age25_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age25_mod5.src="img_lum200_age25_mod5_mo.png";return true;}' onMouseUp='document.img_lum200_age25_mod5.src="img_lum200_age25_mod5.png";return true;' style=""  src="img_lum200_age25_mod5.png" width="503" height="343"/></div>
+</TD> </TR>
+<TR><TD>Age 35, Lum 10 cd/m^2, ppd 30, Model 1
+DE: 0.0026
+<div style="display: inline-block; "><img name="img_lum10_age35_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age35_mod1.src="img_lum10_age35_mod1_mo.png";return true;}' onMouseUp='document.img_lum10_age35_mod1.src="img_lum10_age35_mod1.png";return true;' style=""  src="img_lum10_age35_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 10 cd/m^2, ppd 30, Model 2
+DE: 0.5041
+<div style="display: inline-block; "><img name="img_lum10_age35_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age35_mod2.src="img_lum10_age35_mod2_mo.png";return true;}' onMouseUp='document.img_lum10_age35_mod2.src="img_lum10_age35_mod2.png";return true;' style=""  src="img_lum10_age35_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 10 cd/m^2, ppd 30, Model 3
+DE: 0.3985
+<div style="display: inline-block; "><img name="img_lum10_age35_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age35_mod3.src="img_lum10_age35_mod3_mo.png";return true;}' onMouseUp='document.img_lum10_age35_mod3.src="img_lum10_age35_mod3.png";return true;' style=""  src="img_lum10_age35_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 10 cd/m^2, ppd 30, Model 4
+DE: 0.9185
+<div style="display: inline-block; "><img name="img_lum10_age35_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age35_mod4.src="img_lum10_age35_mod4_mo.png";return true;}' onMouseUp='document.img_lum10_age35_mod4.src="img_lum10_age35_mod4.png";return true;' style=""  src="img_lum10_age35_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 10 cd/m^2, ppd 30, Model 5
+DE: 0.5041
+<div style="display: inline-block; "><img name="img_lum10_age35_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age35_mod5.src="img_lum10_age35_mod5_mo.png";return true;}' onMouseUp='document.img_lum10_age35_mod5.src="img_lum10_age35_mod5.png";return true;' style=""  src="img_lum10_age35_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 30 cd/m^2, ppd 30, Model 1
+DE: 0.0028
+<div style="display: inline-block; "><img name="img_lum30_age35_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age35_mod1.src="img_lum30_age35_mod1_mo.png";return true;}' onMouseUp='document.img_lum30_age35_mod1.src="img_lum30_age35_mod1.png";return true;' style=""  src="img_lum30_age35_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 30 cd/m^2, ppd 30, Model 2
+DE: 0.4711
+<div style="display: inline-block; "><img name="img_lum30_age35_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age35_mod2.src="img_lum30_age35_mod2_mo.png";return true;}' onMouseUp='document.img_lum30_age35_mod2.src="img_lum30_age35_mod2.png";return true;' style=""  src="img_lum30_age35_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 30 cd/m^2, ppd 30, Model 3
+DE: 0.3770
+<div style="display: inline-block; "><img name="img_lum30_age35_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age35_mod3.src="img_lum30_age35_mod3_mo.png";return true;}' onMouseUp='document.img_lum30_age35_mod3.src="img_lum30_age35_mod3.png";return true;' style=""  src="img_lum30_age35_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 30 cd/m^2, ppd 30, Model 4
+DE: 0.7966
+<div style="display: inline-block; "><img name="img_lum30_age35_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age35_mod4.src="img_lum30_age35_mod4_mo.png";return true;}' onMouseUp='document.img_lum30_age35_mod4.src="img_lum30_age35_mod4.png";return true;' style=""  src="img_lum30_age35_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 30 cd/m^2, ppd 30, Model 5
+DE: 0.4338
+<div style="display: inline-block; "><img name="img_lum30_age35_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age35_mod5.src="img_lum30_age35_mod5_mo.png";return true;}' onMouseUp='document.img_lum30_age35_mod5.src="img_lum30_age35_mod5.png";return true;' style=""  src="img_lum30_age35_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 50 cd/m^2, ppd 30, Model 1
+DE: 0.0029
+<div style="display: inline-block; "><img name="img_lum50_age35_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age35_mod1.src="img_lum50_age35_mod1_mo.png";return true;}' onMouseUp='document.img_lum50_age35_mod1.src="img_lum50_age35_mod1.png";return true;' style=""  src="img_lum50_age35_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 50 cd/m^2, ppd 30, Model 2
+DE: 0.4877
+<div style="display: inline-block; "><img name="img_lum50_age35_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age35_mod2.src="img_lum50_age35_mod2_mo.png";return true;}' onMouseUp='document.img_lum50_age35_mod2.src="img_lum50_age35_mod2.png";return true;' style=""  src="img_lum50_age35_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 50 cd/m^2, ppd 30, Model 3
+DE: 0.3906
+<div style="display: inline-block; "><img name="img_lum50_age35_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age35_mod3.src="img_lum50_age35_mod3_mo.png";return true;}' onMouseUp='document.img_lum50_age35_mod3.src="img_lum50_age35_mod3.png";return true;' style=""  src="img_lum50_age35_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 50 cd/m^2, ppd 30, Model 4
+DE: 0.9493
+<div style="display: inline-block; "><img name="img_lum50_age35_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age35_mod4.src="img_lum50_age35_mod4_mo.png";return true;}' onMouseUp='document.img_lum50_age35_mod4.src="img_lum50_age35_mod4.png";return true;' style=""  src="img_lum50_age35_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 50 cd/m^2, ppd 30, Model 5
+DE: 0.5187
+<div style="display: inline-block; "><img name="img_lum50_age35_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age35_mod5.src="img_lum50_age35_mod5_mo.png";return true;}' onMouseUp='document.img_lum50_age35_mod5.src="img_lum50_age35_mod5.png";return true;' style=""  src="img_lum50_age35_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 200 cd/m^2, ppd 30, Model 1
+DE: 4.5322
+<div style="display: inline-block; "><img name="img_lum200_age35_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age35_mod1.src="img_lum200_age35_mod1_mo.png";return true;}' onMouseUp='document.img_lum200_age35_mod1.src="img_lum200_age35_mod1.png";return true;' style=""  src="img_lum200_age35_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 200 cd/m^2, ppd 30, Model 2
+DE: 0.6493
+<div style="display: inline-block; "><img name="img_lum200_age35_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age35_mod2.src="img_lum200_age35_mod2_mo.png";return true;}' onMouseUp='document.img_lum200_age35_mod2.src="img_lum200_age35_mod2.png";return true;' style=""  src="img_lum200_age35_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 200 cd/m^2, ppd 30, Model 3
+DE: 0.5254
+<div style="display: inline-block; "><img name="img_lum200_age35_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age35_mod3.src="img_lum200_age35_mod3_mo.png";return true;}' onMouseUp='document.img_lum200_age35_mod3.src="img_lum200_age35_mod3.png";return true;' style=""  src="img_lum200_age35_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 200 cd/m^2, ppd 30, Model 4
+DE: 2.8495
+<div style="display: inline-block; "><img name="img_lum200_age35_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age35_mod4.src="img_lum200_age35_mod4_mo.png";return true;}' onMouseUp='document.img_lum200_age35_mod4.src="img_lum200_age35_mod4.png";return true;' style=""  src="img_lum200_age35_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 35, Lum 200 cd/m^2, ppd 30, Model 5
+DE: 1.5701
+<div style="display: inline-block; "><img name="img_lum200_age35_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age35_mod5.src="img_lum200_age35_mod5_mo.png";return true;}' onMouseUp='document.img_lum200_age35_mod5.src="img_lum200_age35_mod5.png";return true;' style=""  src="img_lum200_age35_mod5.png" width="503" height="343"/></div>
+</TD> </TR>
+<TR><TD>Age 45, Lum 10 cd/m^2, ppd 30, Model 1
+DE: 0.0026
+<div style="display: inline-block; "><img name="img_lum10_age45_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age45_mod1.src="img_lum10_age45_mod1_mo.png";return true;}' onMouseUp='document.img_lum10_age45_mod1.src="img_lum10_age45_mod1.png";return true;' style=""  src="img_lum10_age45_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 10 cd/m^2, ppd 30, Model 2
+DE: 0.7595
+<div style="display: inline-block; "><img name="img_lum10_age45_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age45_mod2.src="img_lum10_age45_mod2_mo.png";return true;}' onMouseUp='document.img_lum10_age45_mod2.src="img_lum10_age45_mod2.png";return true;' style=""  src="img_lum10_age45_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 10 cd/m^2, ppd 30, Model 3
+DE: 0.6323
+<div style="display: inline-block; "><img name="img_lum10_age45_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age45_mod3.src="img_lum10_age45_mod3_mo.png";return true;}' onMouseUp='document.img_lum10_age45_mod3.src="img_lum10_age45_mod3.png";return true;' style=""  src="img_lum10_age45_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 10 cd/m^2, ppd 30, Model 4
+DE: 1.3793
+<div style="display: inline-block; "><img name="img_lum10_age45_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age45_mod4.src="img_lum10_age45_mod4_mo.png";return true;}' onMouseUp='document.img_lum10_age45_mod4.src="img_lum10_age45_mod4.png";return true;' style=""  src="img_lum10_age45_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 10 cd/m^2, ppd 30, Model 5
+DE: 0.7767
+<div style="display: inline-block; "><img name="img_lum10_age45_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age45_mod5.src="img_lum10_age45_mod5_mo.png";return true;}' onMouseUp='document.img_lum10_age45_mod5.src="img_lum10_age45_mod5.png";return true;' style=""  src="img_lum10_age45_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 30 cd/m^2, ppd 30, Model 1
+DE: 0.0028
+<div style="display: inline-block; "><img name="img_lum30_age45_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age45_mod1.src="img_lum30_age45_mod1_mo.png";return true;}' onMouseUp='document.img_lum30_age45_mod1.src="img_lum30_age45_mod1.png";return true;' style=""  src="img_lum30_age45_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 30 cd/m^2, ppd 30, Model 2
+DE: 0.7439
+<div style="display: inline-block; "><img name="img_lum30_age45_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age45_mod2.src="img_lum30_age45_mod2_mo.png";return true;}' onMouseUp='document.img_lum30_age45_mod2.src="img_lum30_age45_mod2.png";return true;' style=""  src="img_lum30_age45_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 30 cd/m^2, ppd 30, Model 3
+DE: 0.6193
+<div style="display: inline-block; "><img name="img_lum30_age45_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age45_mod3.src="img_lum30_age45_mod3_mo.png";return true;}' onMouseUp='document.img_lum30_age45_mod3.src="img_lum30_age45_mod3.png";return true;' style=""  src="img_lum30_age45_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 30 cd/m^2, ppd 30, Model 4
+DE: 1.1286
+<div style="display: inline-block; "><img name="img_lum30_age45_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age45_mod4.src="img_lum30_age45_mod4_mo.png";return true;}' onMouseUp='document.img_lum30_age45_mod4.src="img_lum30_age45_mod4.png";return true;' style=""  src="img_lum30_age45_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 30 cd/m^2, ppd 30, Model 5
+DE: 0.6289
+<div style="display: inline-block; "><img name="img_lum30_age45_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age45_mod5.src="img_lum30_age45_mod5_mo.png";return true;}' onMouseUp='document.img_lum30_age45_mod5.src="img_lum30_age45_mod5.png";return true;' style=""  src="img_lum30_age45_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 50 cd/m^2, ppd 30, Model 1
+DE: 0.0029
+<div style="display: inline-block; "><img name="img_lum50_age45_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age45_mod1.src="img_lum50_age45_mod1_mo.png";return true;}' onMouseUp='document.img_lum50_age45_mod1.src="img_lum50_age45_mod1.png";return true;' style=""  src="img_lum50_age45_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 50 cd/m^2, ppd 30, Model 2
+DE: 0.7800
+<div style="display: inline-block; "><img name="img_lum50_age45_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age45_mod2.src="img_lum50_age45_mod2_mo.png";return true;}' onMouseUp='document.img_lum50_age45_mod2.src="img_lum50_age45_mod2.png";return true;' style=""  src="img_lum50_age45_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 50 cd/m^2, ppd 30, Model 3
+DE: 0.6508
+<div style="display: inline-block; "><img name="img_lum50_age45_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age45_mod3.src="img_lum50_age45_mod3_mo.png";return true;}' onMouseUp='document.img_lum50_age45_mod3.src="img_lum50_age45_mod3.png";return true;' style=""  src="img_lum50_age45_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 50 cd/m^2, ppd 30, Model 4
+DE: 1.3175
+<div style="display: inline-block; "><img name="img_lum50_age45_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age45_mod4.src="img_lum50_age45_mod4_mo.png";return true;}' onMouseUp='document.img_lum50_age45_mod4.src="img_lum50_age45_mod4.png";return true;' style=""  src="img_lum50_age45_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 50 cd/m^2, ppd 30, Model 5
+DE: 0.7362
+<div style="display: inline-block; "><img name="img_lum50_age45_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age45_mod5.src="img_lum50_age45_mod5_mo.png";return true;}' onMouseUp='document.img_lum50_age45_mod5.src="img_lum50_age45_mod5.png";return true;' style=""  src="img_lum50_age45_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 200 cd/m^2, ppd 30, Model 1
+DE: 4.5495
+<div style="display: inline-block; "><img name="img_lum200_age45_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age45_mod1.src="img_lum200_age45_mod1_mo.png";return true;}' onMouseUp='document.img_lum200_age45_mod1.src="img_lum200_age45_mod1.png";return true;' style=""  src="img_lum200_age45_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 200 cd/m^2, ppd 30, Model 2
+DE: 1.0403
+<div style="display: inline-block; "><img name="img_lum200_age45_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age45_mod2.src="img_lum200_age45_mod2_mo.png";return true;}' onMouseUp='document.img_lum200_age45_mod2.src="img_lum200_age45_mod2.png";return true;' style=""  src="img_lum200_age45_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 200 cd/m^2, ppd 30, Model 3
+DE: 0.8875
+<div style="display: inline-block; "><img name="img_lum200_age45_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age45_mod3.src="img_lum200_age45_mod3_mo.png";return true;}' onMouseUp='document.img_lum200_age45_mod3.src="img_lum200_age45_mod3.png";return true;' style=""  src="img_lum200_age45_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 200 cd/m^2, ppd 30, Model 4
+DE: 3.7370
+<div style="display: inline-block; "><img name="img_lum200_age45_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age45_mod4.src="img_lum200_age45_mod4_mo.png";return true;}' onMouseUp='document.img_lum200_age45_mod4.src="img_lum200_age45_mod4.png";return true;' style=""  src="img_lum200_age45_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 45, Lum 200 cd/m^2, ppd 30, Model 5
+DE: 2.1502
+<div style="display: inline-block; "><img name="img_lum200_age45_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age45_mod5.src="img_lum200_age45_mod5_mo.png";return true;}' onMouseUp='document.img_lum200_age45_mod5.src="img_lum200_age45_mod5.png";return true;' style=""  src="img_lum200_age45_mod5.png" width="503" height="343"/></div>
+</TD> </TR>
+<TR><TD>Age 55, Lum 10 cd/m^2, ppd 30, Model 1
+DE: 0.0026
+<div style="display: inline-block; "><img name="img_lum10_age55_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age55_mod1.src="img_lum10_age55_mod1_mo.png";return true;}' onMouseUp='document.img_lum10_age55_mod1.src="img_lum10_age55_mod1.png";return true;' style=""  src="img_lum10_age55_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 10 cd/m^2, ppd 30, Model 2
+DE: 1.3499
+<div style="display: inline-block; "><img name="img_lum10_age55_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age55_mod2.src="img_lum10_age55_mod2_mo.png";return true;}' onMouseUp='document.img_lum10_age55_mod2.src="img_lum10_age55_mod2.png";return true;' style=""  src="img_lum10_age55_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 10 cd/m^2, ppd 30, Model 3
+DE: 1.1438
+<div style="display: inline-block; "><img name="img_lum10_age55_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age55_mod3.src="img_lum10_age55_mod3_mo.png";return true;}' onMouseUp='document.img_lum10_age55_mod3.src="img_lum10_age55_mod3.png";return true;' style=""  src="img_lum10_age55_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 10 cd/m^2, ppd 30, Model 4
+DE: 2.3730
+<div style="display: inline-block; "><img name="img_lum10_age55_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age55_mod4.src="img_lum10_age55_mod4_mo.png";return true;}' onMouseUp='document.img_lum10_age55_mod4.src="img_lum10_age55_mod4.png";return true;' style=""  src="img_lum10_age55_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 10 cd/m^2, ppd 30, Model 5
+DE: 1.3830
+<div style="display: inline-block; "><img name="img_lum10_age55_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age55_mod5.src="img_lum10_age55_mod5_mo.png";return true;}' onMouseUp='document.img_lum10_age55_mod5.src="img_lum10_age55_mod5.png";return true;' style=""  src="img_lum10_age55_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 30 cd/m^2, ppd 30, Model 1
+DE: 0.0028
+<div style="display: inline-block; "><img name="img_lum30_age55_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age55_mod1.src="img_lum30_age55_mod1_mo.png";return true;}' onMouseUp='document.img_lum30_age55_mod1.src="img_lum30_age55_mod1.png";return true;' style=""  src="img_lum30_age55_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 30 cd/m^2, ppd 30, Model 2
+DE: 1.3373
+<div style="display: inline-block; "><img name="img_lum30_age55_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age55_mod2.src="img_lum30_age55_mod2_mo.png";return true;}' onMouseUp='document.img_lum30_age55_mod2.src="img_lum30_age55_mod2.png";return true;' style=""  src="img_lum30_age55_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 30 cd/m^2, ppd 30, Model 3
+DE: 1.1469
+<div style="display: inline-block; "><img name="img_lum30_age55_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age55_mod3.src="img_lum30_age55_mod3_mo.png";return true;}' onMouseUp='document.img_lum30_age55_mod3.src="img_lum30_age55_mod3.png";return true;' style=""  src="img_lum30_age55_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 30 cd/m^2, ppd 30, Model 4
+DE: 1.8480
+<div style="display: inline-block; "><img name="img_lum30_age55_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age55_mod4.src="img_lum30_age55_mod4_mo.png";return true;}' onMouseUp='document.img_lum30_age55_mod4.src="img_lum30_age55_mod4.png";return true;' style=""  src="img_lum30_age55_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 30 cd/m^2, ppd 30, Model 5
+DE: 1.0761
+<div style="display: inline-block; "><img name="img_lum30_age55_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age55_mod5.src="img_lum30_age55_mod5_mo.png";return true;}' onMouseUp='document.img_lum30_age55_mod5.src="img_lum30_age55_mod5.png";return true;' style=""  src="img_lum30_age55_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 50 cd/m^2, ppd 30, Model 1
+DE: 0.0029
+<div style="display: inline-block; "><img name="img_lum50_age55_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age55_mod1.src="img_lum50_age55_mod1_mo.png";return true;}' onMouseUp='document.img_lum50_age55_mod1.src="img_lum50_age55_mod1.png";return true;' style=""  src="img_lum50_age55_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 50 cd/m^2, ppd 30, Model 2
+DE: 1.3870
+<div style="display: inline-block; "><img name="img_lum50_age55_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age55_mod2.src="img_lum50_age55_mod2_mo.png";return true;}' onMouseUp='document.img_lum50_age55_mod2.src="img_lum50_age55_mod2.png";return true;' style=""  src="img_lum50_age55_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 50 cd/m^2, ppd 30, Model 3
+DE: 1.1999
+<div style="display: inline-block; "><img name="img_lum50_age55_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age55_mod3.src="img_lum50_age55_mod3_mo.png";return true;}' onMouseUp='document.img_lum50_age55_mod3.src="img_lum50_age55_mod3.png";return true;' style=""  src="img_lum50_age55_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 50 cd/m^2, ppd 30, Model 4
+DE: 2.0982
+<div style="display: inline-block; "><img name="img_lum50_age55_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age55_mod4.src="img_lum50_age55_mod4_mo.png";return true;}' onMouseUp='document.img_lum50_age55_mod4.src="img_lum50_age55_mod4.png";return true;' style=""  src="img_lum50_age55_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 50 cd/m^2, ppd 30, Model 5
+DE: 1.2283
+<div style="display: inline-block; "><img name="img_lum50_age55_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age55_mod5.src="img_lum50_age55_mod5_mo.png";return true;}' onMouseUp='document.img_lum50_age55_mod5.src="img_lum50_age55_mod5.png";return true;' style=""  src="img_lum50_age55_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 200 cd/m^2, ppd 30, Model 1
+DE: 4.5839
+<div style="display: inline-block; "><img name="img_lum200_age55_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age55_mod1.src="img_lum200_age55_mod1_mo.png";return true;}' onMouseUp='document.img_lum200_age55_mod1.src="img_lum200_age55_mod1.png";return true;' style=""  src="img_lum200_age55_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 200 cd/m^2, ppd 30, Model 2
+DE: 1.9327
+<div style="display: inline-block; "><img name="img_lum200_age55_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age55_mod2.src="img_lum200_age55_mod2_mo.png";return true;}' onMouseUp='document.img_lum200_age55_mod2.src="img_lum200_age55_mod2.png";return true;' style=""  src="img_lum200_age55_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 200 cd/m^2, ppd 30, Model 3
+DE: 1.7035
+<div style="display: inline-block; "><img name="img_lum200_age55_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age55_mod3.src="img_lum200_age55_mod3_mo.png";return true;}' onMouseUp='document.img_lum200_age55_mod3.src="img_lum200_age55_mod3.png";return true;' style=""  src="img_lum200_age55_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 200 cd/m^2, ppd 30, Model 4
+DE: 5.7308
+<div style="display: inline-block; "><img name="img_lum200_age55_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age55_mod4.src="img_lum200_age55_mod4_mo.png";return true;}' onMouseUp='document.img_lum200_age55_mod4.src="img_lum200_age55_mod4.png";return true;' style=""  src="img_lum200_age55_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 55, Lum 200 cd/m^2, ppd 30, Model 5
+DE: 3.5175
+<div style="display: inline-block; "><img name="img_lum200_age55_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age55_mod5.src="img_lum200_age55_mod5_mo.png";return true;}' onMouseUp='document.img_lum200_age55_mod5.src="img_lum200_age55_mod5.png";return true;' style=""  src="img_lum200_age55_mod5.png" width="503" height="343"/></div>
+</TD> </TR>
+<TR><TD>Age 65, Lum 10 cd/m^2, ppd 30, Model 1
+DE: 0.0026
+<div style="display: inline-block; "><img name="img_lum10_age65_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age65_mod1.src="img_lum10_age65_mod1_mo.png";return true;}' onMouseUp='document.img_lum10_age65_mod1.src="img_lum10_age65_mod1.png";return true;' style=""  src="img_lum10_age65_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 10 cd/m^2, ppd 30, Model 2
+DE: 3.4537
+<div style="display: inline-block; "><img name="img_lum10_age65_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age65_mod2.src="img_lum10_age65_mod2_mo.png";return true;}' onMouseUp='document.img_lum10_age65_mod2.src="img_lum10_age65_mod2.png";return true;' style=""  src="img_lum10_age65_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 10 cd/m^2, ppd 30, Model 3
+DE: 2.9302
+<div style="display: inline-block; "><img name="img_lum10_age65_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age65_mod3.src="img_lum10_age65_mod3_mo.png";return true;}' onMouseUp='document.img_lum10_age65_mod3.src="img_lum10_age65_mod3.png";return true;' style=""  src="img_lum10_age65_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 10 cd/m^2, ppd 30, Model 4
+DE: 5.3907
+<div style="display: inline-block; "><img name="img_lum10_age65_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age65_mod4.src="img_lum10_age65_mod4_mo.png";return true;}' onMouseUp='document.img_lum10_age65_mod4.src="img_lum10_age65_mod4.png";return true;' style=""  src="img_lum10_age65_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 10 cd/m^2, ppd 30, Model 5
+DE: 3.2872
+<div style="display: inline-block; "><img name="img_lum10_age65_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age65_mod5.src="img_lum10_age65_mod5_mo.png";return true;}' onMouseUp='document.img_lum10_age65_mod5.src="img_lum10_age65_mod5.png";return true;' style=""  src="img_lum10_age65_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 30 cd/m^2, ppd 30, Model 1
+DE: 0.0028
+<div style="display: inline-block; "><img name="img_lum30_age65_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age65_mod1.src="img_lum30_age65_mod1_mo.png";return true;}' onMouseUp='document.img_lum30_age65_mod1.src="img_lum30_age65_mod1.png";return true;' style=""  src="img_lum30_age65_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 30 cd/m^2, ppd 30, Model 2
+DE: 3.4796
+<div style="display: inline-block; "><img name="img_lum30_age65_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age65_mod2.src="img_lum30_age65_mod2_mo.png";return true;}' onMouseUp='document.img_lum30_age65_mod2.src="img_lum30_age65_mod2.png";return true;' style=""  src="img_lum30_age65_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 30 cd/m^2, ppd 30, Model 3
+DE: 3.0125
+<div style="display: inline-block; "><img name="img_lum30_age65_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age65_mod3.src="img_lum30_age65_mod3_mo.png";return true;}' onMouseUp='document.img_lum30_age65_mod3.src="img_lum30_age65_mod3.png";return true;' style=""  src="img_lum30_age65_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 30 cd/m^2, ppd 30, Model 4
+DE: 4.0659
+<div style="display: inline-block; "><img name="img_lum30_age65_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age65_mod4.src="img_lum30_age65_mod4_mo.png";return true;}' onMouseUp='document.img_lum30_age65_mod4.src="img_lum30_age65_mod4.png";return true;' style=""  src="img_lum30_age65_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 30 cd/m^2, ppd 30, Model 5
+DE: 2.5252
+<div style="display: inline-block; "><img name="img_lum30_age65_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age65_mod5.src="img_lum30_age65_mod5_mo.png";return true;}' onMouseUp='document.img_lum30_age65_mod5.src="img_lum30_age65_mod5.png";return true;' style=""  src="img_lum30_age65_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 50 cd/m^2, ppd 30, Model 1
+DE: 0.0029
+<div style="display: inline-block; "><img name="img_lum50_age65_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age65_mod1.src="img_lum50_age65_mod1_mo.png";return true;}' onMouseUp='document.img_lum50_age65_mod1.src="img_lum50_age65_mod1.png";return true;' style=""  src="img_lum50_age65_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 50 cd/m^2, ppd 30, Model 2
+DE: 3.7030
+<div style="display: inline-block; "><img name="img_lum50_age65_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age65_mod2.src="img_lum50_age65_mod2_mo.png";return true;}' onMouseUp='document.img_lum50_age65_mod2.src="img_lum50_age65_mod2.png";return true;' style=""  src="img_lum50_age65_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 50 cd/m^2, ppd 30, Model 3
+DE: 3.2351
+<div style="display: inline-block; "><img name="img_lum50_age65_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age65_mod3.src="img_lum50_age65_mod3_mo.png";return true;}' onMouseUp='document.img_lum50_age65_mod3.src="img_lum50_age65_mod3.png";return true;' style=""  src="img_lum50_age65_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 50 cd/m^2, ppd 30, Model 4
+DE: 4.4563
+<div style="display: inline-block; "><img name="img_lum50_age65_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age65_mod4.src="img_lum50_age65_mod4_mo.png";return true;}' onMouseUp='document.img_lum50_age65_mod4.src="img_lum50_age65_mod4.png";return true;' style=""  src="img_lum50_age65_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 50 cd/m^2, ppd 30, Model 5
+DE: 2.7980
+<div style="display: inline-block; "><img name="img_lum50_age65_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age65_mod5.src="img_lum50_age65_mod5_mo.png";return true;}' onMouseUp='document.img_lum50_age65_mod5.src="img_lum50_age65_mod5.png";return true;' style=""  src="img_lum50_age65_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 200 cd/m^2, ppd 30, Model 1
+DE: 4.6455
+<div style="display: inline-block; "><img name="img_lum200_age65_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age65_mod1.src="img_lum200_age65_mod1_mo.png";return true;}' onMouseUp='document.img_lum200_age65_mod1.src="img_lum200_age65_mod1.png";return true;' style=""  src="img_lum200_age65_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 200 cd/m^2, ppd 30, Model 2
+DE: 5.1782
+<div style="display: inline-block; "><img name="img_lum200_age65_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age65_mod2.src="img_lum200_age65_mod2_mo.png";return true;}' onMouseUp='document.img_lum200_age65_mod2.src="img_lum200_age65_mod2.png";return true;' style=""  src="img_lum200_age65_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 200 cd/m^2, ppd 30, Model 3
+DE: 4.6250
+<div style="display: inline-block; "><img name="img_lum200_age65_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age65_mod3.src="img_lum200_age65_mod3_mo.png";return true;}' onMouseUp='document.img_lum200_age65_mod3.src="img_lum200_age65_mod3.png";return true;' style=""  src="img_lum200_age65_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 200 cd/m^2, ppd 30, Model 4
+DE: 10.6598
+<div style="display: inline-block; "><img name="img_lum200_age65_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age65_mod4.src="img_lum200_age65_mod4_mo.png";return true;}' onMouseUp='document.img_lum200_age65_mod4.src="img_lum200_age65_mod4.png";return true;' style=""  src="img_lum200_age65_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 65, Lum 200 cd/m^2, ppd 30, Model 5
+DE: 6.9421
+<div style="display: inline-block; "><img name="img_lum200_age65_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age65_mod5.src="img_lum200_age65_mod5_mo.png";return true;}' onMouseUp='document.img_lum200_age65_mod5.src="img_lum200_age65_mod5.png";return true;' style=""  src="img_lum200_age65_mod5.png" width="503" height="343"/></div>
+</TD> </TR>
+<TR><TD>Age 75, Lum 10 cd/m^2, ppd 30, Model 1
+DE: 0.0026
+<div style="display: inline-block; "><img name="img_lum10_age75_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age75_mod1.src="img_lum10_age75_mod1_mo.png";return true;}' onMouseUp='document.img_lum10_age75_mod1.src="img_lum10_age75_mod1.png";return true;' style=""  src="img_lum10_age75_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 10 cd/m^2, ppd 30, Model 2
+DE: 14.3431
+<div style="display: inline-block; "><img name="img_lum10_age75_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age75_mod2.src="img_lum10_age75_mod2_mo.png";return true;}' onMouseUp='document.img_lum10_age75_mod2.src="img_lum10_age75_mod2.png";return true;' style=""  src="img_lum10_age75_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 10 cd/m^2, ppd 30, Model 3
+DE: 12.3511
+<div style="display: inline-block; "><img name="img_lum10_age75_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age75_mod3.src="img_lum10_age75_mod3_mo.png";return true;}' onMouseUp='document.img_lum10_age75_mod3.src="img_lum10_age75_mod3.png";return true;' style=""  src="img_lum10_age75_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 10 cd/m^2, ppd 30, Model 4
+DE: 16.1677
+<div style="display: inline-block; "><img name="img_lum10_age75_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age75_mod4.src="img_lum10_age75_mod4_mo.png";return true;}' onMouseUp='document.img_lum10_age75_mod4.src="img_lum10_age75_mod4.png";return true;' style=""  src="img_lum10_age75_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 10 cd/m^2, ppd 30, Model 5
+DE: 10.8096
+<div style="display: inline-block; "><img name="img_lum10_age75_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum10_age75_mod5.src="img_lum10_age75_mod5_mo.png";return true;}' onMouseUp='document.img_lum10_age75_mod5.src="img_lum10_age75_mod5.png";return true;' style=""  src="img_lum10_age75_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 30 cd/m^2, ppd 30, Model 1
+DE: 0.0028
+<div style="display: inline-block; "><img name="img_lum30_age75_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age75_mod1.src="img_lum30_age75_mod1_mo.png";return true;}' onMouseUp='document.img_lum30_age75_mod1.src="img_lum30_age75_mod1.png";return true;' style=""  src="img_lum30_age75_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 30 cd/m^2, ppd 30, Model 2
+DE: 14.0848
+<div style="display: inline-block; "><img name="img_lum30_age75_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age75_mod2.src="img_lum30_age75_mod2_mo.png";return true;}' onMouseUp='document.img_lum30_age75_mod2.src="img_lum30_age75_mod2.png";return true;' style=""  src="img_lum30_age75_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 30 cd/m^2, ppd 30, Model 3
+DE: 12.2338
+<div style="display: inline-block; "><img name="img_lum30_age75_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age75_mod3.src="img_lum30_age75_mod3_mo.png";return true;}' onMouseUp='document.img_lum30_age75_mod3.src="img_lum30_age75_mod3.png";return true;' style=""  src="img_lum30_age75_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 30 cd/m^2, ppd 30, Model 4
+DE: 14.7591
+<div style="display: inline-block; "><img name="img_lum30_age75_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age75_mod4.src="img_lum30_age75_mod4_mo.png";return true;}' onMouseUp='document.img_lum30_age75_mod4.src="img_lum30_age75_mod4.png";return true;' style=""  src="img_lum30_age75_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 30 cd/m^2, ppd 30, Model 5
+DE: 9.7904
+<div style="display: inline-block; "><img name="img_lum30_age75_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum30_age75_mod5.src="img_lum30_age75_mod5_mo.png";return true;}' onMouseUp='document.img_lum30_age75_mod5.src="img_lum30_age75_mod5.png";return true;' style=""  src="img_lum30_age75_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 50 cd/m^2, ppd 30, Model 1
+DE: 0.0029
+<div style="display: inline-block; "><img name="img_lum50_age75_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age75_mod1.src="img_lum50_age75_mod1_mo.png";return true;}' onMouseUp='document.img_lum50_age75_mod1.src="img_lum50_age75_mod1.png";return true;' style=""  src="img_lum50_age75_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 50 cd/m^2, ppd 30, Model 2
+DE: 14.3526
+<div style="display: inline-block; "><img name="img_lum50_age75_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age75_mod2.src="img_lum50_age75_mod2_mo.png";return true;}' onMouseUp='document.img_lum50_age75_mod2.src="img_lum50_age75_mod2.png";return true;' style=""  src="img_lum50_age75_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 50 cd/m^2, ppd 30, Model 3
+DE: 12.5500
+<div style="display: inline-block; "><img name="img_lum50_age75_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age75_mod3.src="img_lum50_age75_mod3_mo.png";return true;}' onMouseUp='document.img_lum50_age75_mod3.src="img_lum50_age75_mod3.png";return true;' style=""  src="img_lum50_age75_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 50 cd/m^2, ppd 30, Model 4
+DE: 15.5308
+<div style="display: inline-block; "><img name="img_lum50_age75_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age75_mod4.src="img_lum50_age75_mod4_mo.png";return true;}' onMouseUp='document.img_lum50_age75_mod4.src="img_lum50_age75_mod4.png";return true;' style=""  src="img_lum50_age75_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 50 cd/m^2, ppd 30, Model 5
+DE: 10.4180
+<div style="display: inline-block; "><img name="img_lum50_age75_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum50_age75_mod5.src="img_lum50_age75_mod5_mo.png";return true;}' onMouseUp='document.img_lum50_age75_mod5.src="img_lum50_age75_mod5.png";return true;' style=""  src="img_lum50_age75_mod5.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 200 cd/m^2, ppd 30, Model 1
+DE: 4.7498
+<div style="display: inline-block; "><img name="img_lum200_age75_mod1" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age75_mod1.src="img_lum200_age75_mod1_mo.png";return true;}' onMouseUp='document.img_lum200_age75_mod1.src="img_lum200_age75_mod1.png";return true;' style=""  src="img_lum200_age75_mod1.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 200 cd/m^2, ppd 30, Model 2
+DE: 17.0682
+<div style="display: inline-block; "><img name="img_lum200_age75_mod2" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age75_mod2.src="img_lum200_age75_mod2_mo.png";return true;}' onMouseUp='document.img_lum200_age75_mod2.src="img_lum200_age75_mod2.png";return true;' style=""  src="img_lum200_age75_mod2.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 200 cd/m^2, ppd 30, Model 3
+DE: 15.1948
+<div style="display: inline-block; "><img name="img_lum200_age75_mod3" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age75_mod3.src="img_lum200_age75_mod3_mo.png";return true;}' onMouseUp='document.img_lum200_age75_mod3.src="img_lum200_age75_mod3.png";return true;' style=""  src="img_lum200_age75_mod3.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 200 cd/m^2, ppd 30, Model 4
+DE: 24.5467
+<div style="display: inline-block; "><img name="img_lum200_age75_mod4" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age75_mod4.src="img_lum200_age75_mod4_mo.png";return true;}' onMouseUp='document.img_lum200_age75_mod4.src="img_lum200_age75_mod4.png";return true;' style=""  src="img_lum200_age75_mod4.png" width="503" height="343"/></div>
+</TD> <TD>Age 75, Lum 200 cd/m^2, ppd 30, Model 5
+DE: 17.4904
+<div style="display: inline-block; "><img name="img_lum200_age75_mod5" unselectable="on" onDragStart='return false;' onMouseDown='if(detectLeftButton(event)){document.img_lum200_age75_mod5.src="img_lum200_age75_mod5_mo.png";return true;}' onMouseUp='document.img_lum200_age75_mod5.src="img_lum200_age75_mod5.png";return true;' style=""  src="img_lum200_age75_mod5.png" width="503" height="343"/></div>
+</TD> </TR>
+</TABLE>
+</body>
+</html>
