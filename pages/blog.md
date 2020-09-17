@@ -11,9 +11,9 @@ description: Maliha Ashraf's personal blog
 		<p>
 			This started as a lockdown coping mechanism but I might have taken it a tad too far. 
 		</p>
-		<img src="./assets/plants/plants2.JPG" width="180"/>
-		<img src="./assets/plants/plants3.JPG" width="180"/>
-		<img src="./assets/plants/plants1.JPG" width="320"/>
+		<img src="../assets/plants/plants2.JPG" width="180"/>
+		<img src="../assets/plants/plants3.JPG" width="180"/>
+		<img src="../assets/plants/plants1.JPG" width="320"/>
 		<div style="height:4px;"><br></div>
 		<img src="../assets/plants/plants4.JPG" width="320"/>
 		<img src="../assets/plants/plants5.JPG" width="180"/>
