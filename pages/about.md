@@ -4,8 +4,8 @@ title: about
 description: Maliha Ashraf
 ---
 
-### Education
-#### 2019 - Present
+### education
+#### 2019 - present
 #### PhD
 [Jeremy Smith](https://www.liverpool.ac.uk/electrical-engineering-and-electronics/staff/jeremy-smith/), [Sophie Wuerger](https://pcwww.liv.ac.uk/~sophiew/), University of Liverpool<br/>
 #### 2016 - 2018
