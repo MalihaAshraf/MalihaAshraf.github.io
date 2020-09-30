@@ -2,5 +2,13 @@ Test site locally:
 bundle exec jekyll serve
 http://localhost:4000
 
+after google analytics:
+
+set JEKYLL_ENV=production 
+bundle exec jekyll serve
+After Ctrl+C
+set JEKYLL_ENV=development
+
+
 Pages:
 _includes\themes\twitter\default.html
