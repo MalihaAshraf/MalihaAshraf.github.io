@@ -2,7 +2,7 @@
 layout: frontpage
 title: Maliha Ashraf
 description: PhD student at University of Liverpool
-keywords: computational neuroscience, human color vision, contrast sensitivity
+keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computational color, computational vision, vision, contrast, contrast sensitivity, perception, modeling, modelling, psychology, psychophysics, ned, ujm, ugr, uef, uol, liverpool
 ---
 
 <div class="navbar">
