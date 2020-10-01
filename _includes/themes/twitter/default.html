@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  
+	{% if jekyll.environment == 'production' and site.analytics.provider %}
+	{% include analytics.html %}
+	{% endif %}
+	
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
@@ -27,9 +32,7 @@
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 	
-	{% if site.google_analytics and jekyll.environment == 'production' %}
-	{% include analytics.html %}
-	{% endif %}
+	
   </head>
 
   <body>
