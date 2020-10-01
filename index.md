@@ -58,7 +58,7 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
 	<div class="row-fluid">
 		<div class = "span2">
 		
-			<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
+			<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="pages/icons64/cc_by.png" /></a>
 		</div>
 		<div class = "span5">
 			Site design from <a href="https://kbroman.org/simple_site/pages/user_site.html">Tutorial: Making a personal site</a>.
