@@ -1,7 +1,7 @@
 ---
 layout: frontpage
 title: Maliha Ashraf
-description: PhD student at University of Liverpool
+description: Maliha Ashraf is a PhD student at the University of Liverpool. She has previously received an Erasumus Mundus Joint Master degree in "Color in Science & Technology".
 keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computational color, computational vision, vision, contrast, contrast sensitivity, perception, modeling, modelling, psychology, psychophysics, ned, ujm, ugr, uef, uol, liverpool
 ---
 
