@@ -5,15 +5,15 @@ description: Maliha Ashraf
 ---
 
 ### education
-#### 2019 - present
-#### PhD
+
+##### PhD (2019 - present)
 [Jeremy Smith](https://www.liverpool.ac.uk/electrical-engineering-and-electronics/staff/jeremy-smith/), [Sophie Wuerger](https://pcwww.liv.ac.uk/~sophiew/), University of Liverpool<br/>
-#### 2016 - 2018
-#### MS in Color Sciences
+##### MS in Color Sciences (2016 - 2018)
 [COSI](https://cosi-master.eu/scholarships/), Erasmus Mundus Joint Master Degree<br/>
-#### 2012 - 2016
-#### BE in Electronic Engineering
+##### BE in Electronic Engineering (2012 - 2016)
 NED University of Engineering & Technology <br/>
+
+
 [orcid](https://orcid.org): [0000-0002-8142-5611](https://orcid.org/0000-0002-8142-5611)<br/>
 [google scholar](https://scholar.google.com/citations?user=9Jl9K3wAAAAJ&hl=en)<br/>
 <!-- [impactstory](https://impactstory.org/u/0000-0002-4914-6671)<br/> -->
