@@ -42,7 +42,7 @@ Wuerger, S., **Ashraf, M.**, Kim, M., Martinovic, J., Pérez-Ortiz, M., & Mantiu
 ### posters
 
 **Ashraf, M.**, Wuerger, S. M., Kim, M., Sauderson, H., Martinovic, J., & Mantiuk, R. K. (2020). Spatio-chromatic contrast sensitivity across the life span: Interctions between age and light level in high dynamic range. Poster Presentation at *Virtual Vision Science Society (V-VSS) Annual Meeting*, 19-24 June 2020.
-[![doi](icons16/doi-icon.png)]https://doi.org/10.1167/jov.20.11.1286)
+[![doi](icons16/doi-icon.png)](https://doi.org/10.1167/jov.20.11.1286)
 [![pdf](icons16/pdf-icon.png)](../assets/pubs/VSS2020_poster.pdf)
 
 **Ashraf, M.**, Wuerger, S. M., Mantiuk, R. K., Kim, M., Saunderson, H., & Martinovic, J. (2019). Age-related changes in spatio-chromatic contrast sensitivity at mesopic and photopic light levels. Poster Presentation at *Women in Vision UK Meeting*, 13 December 2019, Belfast, UK.
