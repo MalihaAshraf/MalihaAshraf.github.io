@@ -15,6 +15,12 @@ description: Maliha Ashraf's publications
 
 ### <a name="articles"></a>articles
 
+**Ashraf, M.**, Wuerger, S., Kim, M., Martinovic, J., & Mantiuk, R. K. (November, 2020). Spatio-chromatic contrast sensitivity across the lifespan: inter-actions between age and light level in high dynamic range. In: *Color Imaging Conference (CIC28)*. 
+[![pdf](icons16/pdf-icon.png)](../assets/pubs/CIC2020_Aging.pdf)
+
+Mantiuk, R. K., Kim, M., **Ashraf, M.**, Xu, Q., Luo, M. R., Martinovic, J., &  Wuerger, S. (November, 2020). Practical color contrast sensitivity functions for luminance levels up to 10,000cd/m^2. In: *Color Imaging Conference (CIC28)*. 
+[![pdf](icons16/pdf-icon.png)](../assets/pubs/CIC_2020___Arbitrary_Color_Detection.pdf)
+
 
 Wuerger, S., **Ashraf, M.**, Kim, M., Martinovic, J., Pérez-Ortiz, M., & Mantiuk, R. K. (2020). Spatio-chromatic contrast sensitivity under mesopic and photopic light levels. *Journal of Vision*, 20(4), 23-23.
 <!-- [![GitHub](icons16/github-icon.png)](https://github.com/kbroman/Paper_ReScience2020) -->
@@ -29,6 +35,9 @@ Wuerger, S., **Ashraf, M.**, Kim, M., Martinovic, J., Pérez-Ortiz, M., & Mantiu
 [![pdf](icons16/pdf-icon.png)](../assets/pubs/Ashraf_2018_CVCS.pdf)
 
 ### talks
+
+**Ashraf, M.**, Wuerger, S., Kim, M., Martinovic, J., & Mantiuk, R. K. (November, 2020). Spatio-chromatic contrast sensitivity across the lifespan: inter-actions between age and light level in high dynamic range. Oral Presentation at *Color Imaging Conference (CIC28)*, 16-19 November 2020. 
+[![pdf](icons16/pdf-icon.png)](../assets/pubs/CIC2020_Aging.pdf)
 
 **Ashraf, M.**, Wuerger, S. M., Mantiuk, R. K., Kim, M., & Martinovic, J. (2019). Age-related changes in spatio-chromatic contrast sensitivity at mesopic and photopic light levels. Oral Presentation at *Applied Vision Association (AVA) Xmas Meeting*, 16 December 2019, Cardiff, UK. 
 [![pdf](icons16/pdf-icon.png)](../assets/pubs/AVA2019_presentation.pdf)

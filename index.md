@@ -22,6 +22,29 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
 
 <div class="container">
 <!--<h4><a name="contact"></a>Recent Publication</h4>-->
+	<b>Gave a talk at Virtual CIC28, November 16, 2020</b><br/>
+	
+	<div class="row-fluid">
+		<div class = "span7">
+		Spatio-chromatic contrast sensitivity across the lifespan: inter-
+		actions between age and light level in high dynamic range<br/><br/><br/>
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class = "span1">
+		</div>
+		<div class="span5">
+			<a href = "assets/projects/agingcsf/AgingCSF.gif" target = "_blank">
+				<img src="assets/projects/agingcsf/AgingCSF.gif"/>
+			</a>
+		</div>
+	</div>
+</div>
+
+<hr />
+
+<div class="container">
+<!--<h4><a name="contact"></a>Recent Publication</h4>-->
 
     <div class="row-fluid">
         <div class="span2">
