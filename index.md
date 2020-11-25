@@ -22,12 +22,30 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
 
 <div class="container">
 <!--<h4><a name="contact"></a>Recent Publication</h4>-->
+	<b>Our paper won the best paper award at Virtual CIC28!</b><br/>
+	
+	<div class="row-fluid">
+		<div class = "span7">
+		Mantiuk, R. K., Kim, M., Ashraf, M., Xu, Q., Luo, M. R., Martinovic, J., & Wuerger, S. (November, 2020). Practical color contrast sensitivity functions for luminance levels up to 10,000cd/m^2. <a href = "assets/pubs/CIC_2020___Arbitrary_Color_Detection.pdf" target = "_blank">
+			Pre-print available.	
+			</a><br/><br/>
+		</div>
+	</div>
+</div>
+
+<hr />
+
+<div class="container">
+<!--<h4><a name="contact"></a>Recent Publication</h4>-->
 	<b>Gave a talk at Virtual CIC28, November 16, 2020</b><br/>
 	
 	<div class="row-fluid">
 		<div class = "span7">
 		Spatio-chromatic contrast sensitivity across the lifespan: inter-
-		actions between age and light level in high dynamic range<br/><br/><br/>
+		actions between age and light level in high dynamic range<br/>
+		<a href = "assets/pubs/CIC2020_Aging.pdf" target = "_blank">
+			Pre-print available.	
+			</a><br/><br/>
 		</div>
 	</div>
 	<div class="row-fluid">
