@@ -36,6 +36,17 @@ Wuerger, S., **Ashraf, M.**, Kim, M., Martinovic, J., Pérez-Ortiz, M., & Mantiu
 
 ### talks
 
+**Ashraf, M.**, Wuerger, S., Martinovic, J., & Mantiuk, R. K. (January, 2021). Effect of ageing of human visual system on spatio-chromatic contrast vision
+. Oral Presentation at *Colour Vision Meeting (Colour Group GB)*, 6 January 2021. 
+[![pdf](icons16/pdf-icon.png)](../assets/pubs/CG2021_AgingCSF.pdf)
+
+**Ashraf, M.**, Wuerger, S., Martinovic, J., & Mantiuk, R. K. (December, 2020). Effect of ageing of human optics on spatio-chromatic contrast sensitivity
+. Oral Presentation at *Virtual AVA (Applied Vision Association) 2020 Meeting*, 21 December 2020. 
+[![pdf](icons16/pdf-icon.png)](../assets/pubs/AVA2020_AgingCSF.pdf)
+
+**Ashraf, M.** (December, 2020). Spatio-chromatic contrast sensitivity across the lifespan: inter-actions between age and light level in high dynamic range. Oral Presentation at *Colour Group GB (Great Britain) Student Awards*, 2 December 2020. 
+[![web](icons16/web-icon.png)](https://www.colour.org.uk/student-awards/)
+
 **Ashraf, M.**, Wuerger, S., Kim, M., Martinovic, J., & Mantiuk, R. K. (November, 2020). Spatio-chromatic contrast sensitivity across the lifespan: inter-actions between age and light level in high dynamic range. Oral Presentation at *Color Imaging Conference (CIC28)*, 16-19 November 2020. 
 [![pdf](icons16/pdf-icon.png)](../assets/pubs/CIC2020_Aging.pdf)
 
