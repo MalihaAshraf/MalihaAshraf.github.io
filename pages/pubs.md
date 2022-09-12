@@ -15,12 +15,23 @@ description: Maliha Ashraf's publications
 
 ### <a name="articles"></a>articles
 
+Mantiuk, R. K., **Ashraf, M.**, & Chapiro, A. (2022). StelaCSF: a unified model of contrast sensitivity as the function of spatio-temporal frequency, eccentricity, luminance and area. *ACM Trans. Graph.* 41, 4, Article 145, 16 pages. 
+[![doi](icons16/doi-icon.png)](https://doi.org/10.1145/3528223.3530115) 
+
+**Ashraf, M.**, Mantiuk, R. K., Finlayson, G. D., Kucuk, A., & Wuerger, S. (2022). Colour difference formula for photopic and mesopic vision incorporating cone and rod responses. *London Imaging Meeting*, 79 - 83.
+[![doi](icons16/doi-icon.png)](https://doi.org/10.2352/lim.2022.1.1.18)
+
+Kucuk, A., Finlayson, G. D., Mantiuk, R. K., & **Ashraf, M.** (2022). Comparison of Regression Methods and Neural Networks for Colour Corrections. *London Imaging Meeting*, 74-79. 
+[![doi](icons16/doi-icon.png)](https://doi.org/10.2352/lim.2022.1.1.17)
+
+Weaver, J., Lavallée, Y., **Ashraf, M.**, Kendrick, J. E., Lamur, A., Schauroth, J., & Wadsworth, F. B. (2022). Vesiculation and densification of pyroclasts: A clast-size dependent competition between bubble growth and diffusive outgassing. *Journal of Volcanology and Geothermal Research*, 107550. 
+[![doi](icons16/doi-icon.png)](https://doi.org/10.1016/j.jvolgeores.2022.107550)
+
 **Ashraf, M.**, Wuerger, S., Kim, M., Martinovic, J., & Mantiuk, R. K. (November, 2020). Spatio-chromatic contrast sensitivity across the lifespan: inter-actions between age and light level in high dynamic range. In: *Color Imaging Conference (CIC28)*. 
 [![pdf](icons16/pdf-icon.png)](../assets/pubs/CIC2020_Aging.pdf)
 
 Mantiuk, R. K., Kim, M., **Ashraf, M.**, Xu, Q., Luo, M. R., Martinovic, J., &  Wuerger, S. (November, 2020). Practical color contrast sensitivity functions for luminance levels up to 10,000cd/m^2. In: *Color Imaging Conference (CIC28)*. 
 [![pdf](icons16/pdf-icon.png)](../assets/pubs/CIC_2020___Arbitrary_Color_Detection.pdf)
-
 
 Wuerger, S., **Ashraf, M.**, Kim, M., Martinovic, J., Pérez-Ortiz, M., & Mantiuk, R. K. (2020). Spatio-chromatic contrast sensitivity under mesopic and photopic light levels. *Journal of Vision*, 20(4), 23-23.
 <!-- [![GitHub](icons16/github-icon.png)](https://github.com/kbroman/Paper_ReScience2020) -->
@@ -29,6 +40,8 @@ Wuerger, S., **Ashraf, M.**, Kim, M., Martinovic, J., Pérez-Ortiz, M., & Mantiu
 <!-- * 160 * -->
 <!-- https://doi.org/10.5281/zenodo.3959516 -->
 
+Kim, M., **Ashraf, M.**, Pérez-Ortiz, M., Martinovic, J., Wuerger, S., & Mantiuk, R. K. (2020). Contrast Sensitivity Functions for HDR Displays. *London Imaging Meeting*.
+[![doi](icons16/doi-icon.png)](https://doi.org/10.2352/issn.2694-118X.2020.LIM-28)
 
 **Ashraf, M.**, & Sapaico, L. R. (2018). Evaluation of Color Correction Methods for Printed Surfaces. *Colour and Visual Computing Symposium (CVCS)*, Gjøvik, 1-6. 
 [![doi](icons16/doi-icon.png)](https://doi.org/10.1109/CVCS.2018.8496542)
