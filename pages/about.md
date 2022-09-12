@@ -89,9 +89,21 @@ Developed a pipeline for spectral design and development of optimum illuminants 
 
 ### awards
 
+**Best paper award**<br/>	
+*2022*<br/>
+Paper (*Suprathreshold Contrast Matching between Different Luminance Levels*) won award at the Color and Imaging Conference’22<br/><br/>
+
+**Meta Reality Labs travel award**<br/>	
+*April 2022*<br/>
+Travel award for Scottish Vision Conference 2022<br/><br/> 
+
+**Best paper award**<br/>	
+*2020*<br/>
+Paper (*Practical color contrast sensitivity functions for luminance levels up to 10,000 cd/m^2*) won award at the Color and Imaging Conference’20<br/><br/>
+
 **WD Wright Award**<br/>
 *June 2020*<br/>
-Colour Vision Group of Great Britain (Travel Award)<br/><br/>
+Travel award by Colour Vision Group of Great Britain for Colour and Imaging Conference'20<br/><br/>
 
 **Erasmus Mundus Scholarship**<br/>
 *Sep 2016 - Aug 2018*<br/>
