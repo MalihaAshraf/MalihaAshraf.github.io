@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>csf-castle</title>
+
+<script type="text/javascript">
+function detectLeftButton(evt) {
+    evt = evt || window.event;
+    var button = evt.which || evt.button;
+    return button == 1;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+
+<body>
+<h1>Fitting of chromatic Gabor and Disc datasets</h1>
+<h2>Fitting error</h2>
+<TABLE>
+<tr><td rowspan="2">Dataset</td><td colspan="3">Fitting error</td><td colspan="3">Sensitivity adjustment</td></tr><tr><td><a href="#castle-csf-temp">castleCSF-temp</a></td><td><a href="#stela-csf">stelaCSF</a></td><td><a href="#cone-contrast-mat">Cone contrast</a></td><td><a href="#castle-csf-temp">castleCSF-temp</a></td><td><a href="#stela-csf">stelaCSF</a></td><td><a href="#cone-contrast-mat">Cone contrast</a></td></tr><tr><td>Average training</td><td>5.65 [dB]</td><td>7.05 [dB]</td><td>5.87 [dB]</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td><a href="#modelfest">modelfest</a></td><td>6.02 [dB]</td><td>7.29 [dB]</td><td>5.29 [dB]</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><td><a href="#colorfest">colorfest</a></td><td>3.09 [dB]</td><td>8.30 [dB]</td><td>3.05 [dB]</td><td>0.601</td><td>1.026</td><td>1.542</td></tr><tr><td><a href="#hdrvdp_csf">hdrvdp_csf</a></td><td>5.43 [dB]</td><td>6.04 [dB]</td><td>2.20 [dB]</td><td>0.906</td><td>1.455</td><td>1.779</td></tr><tr><td><a href="#hdr_csf">hdr_csf</a></td><td>3.87 [dB]</td><td>8.10 [dB]</td><td>3.38 [dB]</td><td>0.618</td><td>1.290</td><td>1.681</td></tr><tr><td><a href="#hdr_csf_disc">hdr_csf_disc</a></td><td>4.33 [dB]</td><td>7.95 [dB]</td><td>24.74 [dB]</td><td>0.694</td><td>1.590</td><td>0.883</td></tr><tr><td><a href="#vanderHorst1969_a">vanderHorst1969_a</a></td><td>5.08 [dB]</td><td>3.97 [dB]</td><td>18.61 [dB]</td><td>0.118</td><td>1.000</td><td>0.545</td></tr><tr><td><a href="#vanderHorst1969_b">vanderHorst1969_b</a></td><td>4.87 [dB]</td><td>7.65 [dB]</td><td>4.53 [dB]</td><td>0.207</td><td>0.497</td><td>0.916</td></tr><tr><td><a href="#swanson1986">swanson1986</a></td><td>8.87 [dB]</td><td>6.22 [dB]</td><td>9.57 [dB]</td><td>0.018</td><td>0.330</td><td>0.170</td></tr><tr><td><a href="#kong2018">kong2018</a></td><td>5.16 [dB]</td><td>6.31 [dB]</td><td>7.77 [dB]</td><td>0.482</td><td>1.550</td><td>0.650</td></tr><tr><td><a href="#five_centres">five_centres</a></td><td>6.55 [dB]</td><td>7.10 [dB]</td><td>3.08 [dB]</td><td>0.722</td><td>0.596</td><td>2.082</td></tr></TABLE>
+<h2>Model parameters</h2>
+<div class="params_frame">
+<div align="center">castleCSF-temp</div>
+<div style="white-space: pre-line;">
+</div>
+</div>
+<div class="params_frame">
+<div align="center">stelaCSF</div>
+<div style="white-space: pre-line;">
+	p.ach_sust.S_max = [ 2200.11 9.53934 0.405355 7.54866e-07 1.85526e+28 ];
+	p.ach_sust.f_max = [ 0.0181456 4.67284e+39 0.0412733 ];
+	p.ach_sust.bw = 2.80135;
+	p.ach_sust.a = 4.88677e-48;
+	p.ach_trans.S_max = [ 0.303473 4.68988e+06 ];
+	p.ach_trans.f_max = 1.43956e-15;
+	p.ach_trans.bw = 5.22064;
+	p.ach_trans.a = 0.000273289;
+	p.sigma_trans = 0.149301;
+	p.sigma_sust = 7.18137;
+	p.ecc_drop = 0.0296662;
+	p.ecc_drop_nasal = 0.0113638;
+	p.ecc_drop_f = 0.0190062;
+	p.ecc_drop_f_nasal = 0.0193858;
+</div>
+</div>
+<div class="params_frame">
+<div align="center">Cone contrast</div>
+<div style="white-space: pre-line;">
+	p.cm(1).S_max = [ 431751 1.96712 0.341896 701879 9.43842e-05 ];
+	p.cm(1).f_max = [ 1.21764 542.211 0.197265 ];
+	p.cm(1).bw = 1.31965;
+	p.cm(1).gamma = 0.843053;
+	p.cm(1).Ac_prime = 157.393;
+	p.cm(2).S_max = [ 64125.4 39.0681 0.477706 ];
+	p.cm(2).f_max = 1.97e-06;
+	p.cm(2).bw = 4.81435;
+	p.cm(2).gamma = 1.12525;
+	p.cm(2).Ac_prime = 27.3797;
+	p.cm(3).S_max = [ 4866.89 91.2555 0.326656 ];
+	p.cm(3).f_max = 4.59816e-08;
+	p.cm(3).bw = 5.59;
+	p.cm(3).gamma = 1.52782;
+	p.cm(3).Ac_prime = 1.02435;
+	p.colmat = [ 0.00126073 0.431221 1.0107 1.91063 6.4188e-07 0.000164388 ];
+
+M_lms2acc =
+
+    1.0000    0.4312    0.0000
+    1.0000   -1.0107    0.0002
+   -0.0013   -1.9106    1.0000
+
+</div>
+</div>
+<h2 id="castle-csf-temp"><a class="top_align_button" href="#castle-csf-temp">&#8632;</a>CSF model: castleCSF-temp</h2>
+<img src="fig_csf_contour_castleCSF-temp.png"/>
+<br/>
+<h2 id="stela-csf"><a class="top_align_button" href="#stela-csf">&#8632;</a>CSF model: stelaCSF</h2>
+<img src="fig_csf_contour_stelaCSF.png"/>
+<br/>
+<h2 id="cone-contrast-mat"><a class="top_align_button" href="#cone-contrast-mat">&#8632;</a>CSF model: Cone contrast</h2>
+<img src="fig_csf_contour_Cone contrast.png"/>
+<br/>
+<h2>Legend</h2>
+<p>To keep the plots legible, only up to 3 models are plotted.</p>
+<img src="legend.png"/>
+<h2 id="modelfest"><a class="top_align_button" href="#modelfest">&#8632;</a>Dataset: [modelfest] ModelFest</h2>
+<div>Achroatic CSF as a function of frequency<br/>
+<img src="fig_modelfest_1.png"/>
+<br/></div>
+<h2 id="colorfest"><a class="top_align_button" href="#colorfest">&#8632;</a>Dataset: [colorfest] ColorFest</h2>
+<div>Chromatic CSF as a function of frequency<br/>
+<img src="fig_colorfest_1.png"/>
+<br/></div>
+<h2 id="hdrvdp_csf"><a class="top_align_button" href="#hdrvdp_csf">&#8632;</a>Dataset: [hdrvdp_csf] HDR-VDP CSF</h2>
+<div>Achromatic CSF as a function of frequency<br/>
+<img src="fig_hdrvdp_csf_1.png"/>
+<br/></div>
+<div>Achromatic CSF as a function of size<br/>
+<img src="fig_hdrvdp_csf_2.png"/>
+<br/></div>
+<h2 id="hdr_csf"><a class="top_align_button" href="#hdr_csf">&#8632;</a>Dataset: [hdr_csf] High Dynamic Range CSF</h2>
+<div>CSF as the function of frequency at different luminance levels (fixed number of cycles)<br/>
+<img src="fig_hdr_csf_1.png"/>
+<br/></div>
+<div>CSF for different number of cycles<br/>
+<img src="fig_hdr_csf_2.png"/>
+<br/></div>
+<h2 id="hdr_csf_disc"><a class="top_align_button" href="#hdr_csf_disc">&#8632;</a>Dataset: [hdr_csf_disc] High Dynamic Range Disc CSF</h2>
+<div>CSF as the function of size at different luminance levels<br/>
+<img src="fig_hdr_csf_disc_1.png"/>
+<br/></div>
+<h2 id="vanderHorst1969_a"><a class="top_align_button" href="#vanderHorst1969_a">&#8632;</a>Dataset: [vanderHorst1969_a] Van der Horst & Gerard 1969</h2>
+<div>Chromatic contrast thresholds of rectangular flickering stimuli as a function of temporal frequency<br/>
+<img src="fig_vanderHorst1969_a_1.png"/>
+<br/></div>
+<div>Chromatic contrast thresholds of rectangular flickering stimuli as a function of luminance<br/>
+<img src="fig_vanderHorst1969_a_2.png"/>
+<br/></div>
+<h2 id="vanderHorst1969_b"><a class="top_align_button" href="#vanderHorst1969_b">&#8632;</a>Dataset: [vanderHorst1969_b] Van der Horst & Bouman 1969</h2>
+<div>Static chromatic contrast thresholds as a function of spatial frequency<br/>
+<img src="fig_vanderHorst1969_b_1.png"/>
+<br/></div>
+<div>Static chromatic contrast thresholds as function of luminance<br/>
+<img src="fig_vanderHorst1969_b_2.png"/>
+<br/></div>
+<div>Chromatic contrast thresholds for travelling sine waves as function of spatial frequency<br/>
+<img src="fig_vanderHorst1969_b_3.png"/>
+<br/></div>
+<div>Chromatic contrast thresholds for travelling sine waves as function of spatial frequency<br/>
+<img src="fig_vanderHorst1969_b_4.png"/>
+<br/></div>
+<div>Chromatic contrast thresholds for travelling sine waves as function of temporal frequency<br/>
+<img src="fig_vanderHorst1969_b_5.png"/>
+<br/></div>
+<div>Chromatic contrast thresholds for travelling sine waves as function of temporal frequency<br/>
+<img src="fig_vanderHorst1969_b_6.png"/>
+<br/></div>
+<h2 id="swanson1986"><a class="top_align_button" href="#swanson1986">&#8632;</a>Dataset: [swanson1986] Swanson et al. 1986</h2>
+<div>Temporal contrast sensitivity of flickering disc stimuli for different luminances<br/>
+<img src="fig_swanson1986_1.png"/>
+<br/></div>
+<div>Temporal achromatic contrast sensitivity of flickering disc stimuli for different sizes<br/>
+<img src="fig_swanson1986_2.png"/>
+<br/></div>
+<div>Temporal chromatic contrast sensitivity of flickering disc stimuli for different sizes<br/>
+<img src="fig_swanson1986_3.png"/>
+<br/></div>
+<h2 id="kong2018"><a class="top_align_button" href="#kong2018">&#8632;</a>Dataset: [kong2018] Kong et al. 2018</h2>
+<div>Chromatic CSF as a function of temporal frequency (9 background colors and 4 color directions in uv space<br/>
+<img src="fig_kong2018_1.png"/>
+<br/></div>
+<h2 id="five_centres"><a class="top_align_button" href="#five_centres">&#8632;</a>Dataset: [five_centres] Five centres [Xu et al. 2020]</h2>
+<div>Chromatic CSF as ellipses<br/>
+<img src="fig_five_centres_1.png"/>
+<br/></div>
+<div>Chromatic CSF as a function of frequency<br/>
+<img src="fig_five_centres_2.png"/>
+<br/></div>
+</body>
+</html>
