@@ -15,43 +15,44 @@ function detectLeftButton(evt) {
 <h1>Fitting of chromatic Gabor and Disc datasets</h1>
 <h2>Fitting error</h2>
 <TABLE>
-<tr><td rowspan="2">Dataset</td><td colspan="1">Fitting error</td><td colspan="1">Sensitivity adjustment</td></tr><tr><td><a href="#castle-csf">castleCSF</a></td><td><a href="#castle-csf">castleCSF</a></td></tr><tr><td>Average training</td><td>NaN [dB]</td><td>N/A</td></tr><tr><td><a href="#modelfest">modelfest</a></td><td>2.58 [dB]</td><td>1.000</td></tr><tr><td><a href="#colorfest">colorfest</a></td><td>3.05 [dB]</td><td>1.032</td></tr><tr><td><a href="#hdrvdp_csf">hdrvdp_csf</a></td><td>3.24 [dB]</td><td>1.367</td></tr><tr><td><a href="#hdr_csf">hdr_csf</a></td><td>3.93 [dB]</td><td>1.000</td></tr><tr><td><a href="#hdr_csf_disc">hdr_csf_disc</a></td><td>2.73 [dB]</td><td>1.325</td></tr><tr><td><a href="#anderson1991">anderson1991</a></td><td>NaN [dB]</td><td>1.000</td></tr><tr><td><a href="#virsu1979">virsu1979</a></td><td>4.87 [dB]</td><td>1.598</td></tr><tr><td><a href="#virsu1982">virsu1982</a></td><td>6.27 [dB]</td><td>0.588</td></tr><tr><td><a href="#robson1966">robson1966</a></td><td>8.56 [dB]</td><td>0.687</td></tr><tr><td><a href="#rovamo1993">rovamo1993</a></td><td>3.53 [dB]</td><td>1.868</td></tr><tr><td><a href="#vanderHorst1969_a">vanderHorst1969_a</a></td><td>5.78 [dB]</td><td>0.626</td></tr><tr><td><a href="#vanderHorst1969_b">vanderHorst1969_b</a></td><td>4.43 [dB]</td><td>0.458</td></tr></TABLE>
+<tr><td rowspan="2">Dataset</td><td colspan="1">Fitting error</td><td colspan="1">Sensitivity adjustment</td></tr><tr><td><a href="#castle-csf">castleCSF</a></td><td><a href="#castle-csf">castleCSF</a></td></tr><tr><td>Average training</td><td>NaN [dB]</td><td>N/A</td></tr><tr><td><a href="#modelfest">modelfest</a></td><td>2.77 [dB]</td><td>1.115</td></tr><tr><td><a href="#colorfest">colorfest</a></td><td>3.13 [dB]</td><td>1.149</td></tr><tr><td><a href="#hdrvdp_csf">hdrvdp_csf</a></td><td>3.20 [dB]</td><td>1.473</td></tr><tr><td><a href="#hdr_csf">hdr_csf</a></td><td>3.96 [dB]</td><td>1.000</td></tr><tr><td><a href="#hdr_csf_disc">hdr_csf_disc</a></td><td>2.86 [dB]</td><td>1.536</td></tr><tr><td><a href="#anderson1991">anderson1991</a></td><td>NaN [dB]</td><td>1.000</td></tr><tr><td><a href="#virsu1979">virsu1979</a></td><td>5.57 [dB]</td><td>1.752</td></tr><tr><td><a href="#virsu1982">virsu1982</a></td><td>6.22 [dB]</td><td>0.656</td></tr><tr><td><a href="#robson1966">robson1966</a></td><td>8.51 [dB]</td><td>0.785</td></tr><tr><td><a href="#rovamo1993">rovamo1993</a></td><td>3.27 [dB]</td><td>2.115</td></tr><tr><td><a href="#vanderHorst1969_a">vanderHorst1969_a</a></td><td>5.72 [dB]</td><td>0.864</td></tr><tr><td><a href="#vanderHorst1969_b">vanderHorst1969_b</a></td><td>4.23 [dB]</td><td>0.624</td></tr><tr><td><a href="#swanson1986">swanson1986</a></td><td>8.11 [dB]</td><td>0.156</td></tr></TABLE>
 <h2>Model parameters</h2>
 <div class="params_frame">
 <div align="center">castleCSF</div>
 <div style="white-space: pre-line;">
-	p.sust(1).S_max = [ 151.552 121187 0.0924618 0.000384336 3.8667e+06 ];
-	p.sust(1).f_max = [ 2.57121 466.859 0.398087 ];
-	p.sust(1).bw = 1.21262;
-	p.sust(1).A0 = 37309.8;
-	p.sust(1).f0 = 0.0175218;
-	p.sust(2).S_max = [ 7943.82 10331.3 0.592451 ];
-	p.sust(2).f_max = 1.21306;
+	p.sust(1).S_max = [ 77.4505 126030 0.0548192 0.000507155 5.10945e+06 ];
+	p.sust(1).f_max = [ 2.98369 858.199 0.393315 ];
+	p.sust(1).bw = 1.28183;
+	p.sust(1).A0 = 38512.9;
+	p.sust(1).f0 = 0.018085;
+	p.sust(2).S_max = [ 41161.9 2806.78 0.710172 ];
+	p.sust(2).f_max = 1.15286;
 	p.sust(2).bw = 2.04656e-111;
-	p.sust(2).A0 = 62.6841;
-	p.sust(2).f0 = 0.360679;
-	p.sust(3).S_max = [ 7840.07 41825.6 0.486157 ];
-	p.sust(3).f_max = 1.2913;
+	p.sust(2).A0 = 70.8068;
+	p.sust(2).f0 = 0.0512302;
+	p.sust(3).S_max = [ 14230.5 31384.3 0.445065 ];
+	p.sust(3).f_max = 1.34482;
 	p.sust(3).bw = 0;
-	p.sust(3).A0 = 2.99943;
-	p.sust(3).f0 = 0.127993;
-	p.trans(1).S_max = [ 1.00051e-223 133.807 ];
-	p.trans(1).f_max = 0.737512;
+	p.sust(3).A0 = 4.76033;
+	p.sust(3).f0 = 0.0283732;
+	p.trans(1).S_max = [ 1.00051e-223 296.451 ];
+	p.trans(1).f_max = 0.541555;
 	p.trans(1).bw = 3.39404e-24;
-	p.trans(1).A0 = 2522.98;
-	p.trans(1).f0 = 0.326374;
-	p.trans(2).S_max = [ 0.0397173 83.7346 ];
-	p.trans(2).f_max = 0.279928;
-	p.trans(2).bw = 0.660327;
+	p.trans(1).A0 = 2941.03;
+	p.trans(1).f0 = 0.377208;
+	p.trans(2).S_max = [ 0.109158 87.8571 ];
+	p.trans(2).f_max = 0.0740562;
+	p.trans(2).bw = 1.32695;
 	p.trans(2).A0 = 3.5313e+18;
 	p.trans(2).f0 = 2.9904e+28;
-	p.trans(3).S_max = [ 0.101422 14.1032 ];
-	p.trans(3).f_max = 0.862238;
+	p.trans(3).S_max = [ 0.0873769 5.24281 ];
+	p.trans(3).f_max = 0.808693;
 	p.trans(3).bw = 0;
-	p.trans(3).A0 = 8.81386e+22;
-	p.trans(3).f0 = 1.86456e+56;
-	p.sigma_sust = [ Inf 7.77542e+56 Inf ];
-	p.sigma_trans = [ 3.19639 2.04153 Inf ];
+	p.trans(3).A0 = 947.49;
+	p.trans(3).f0 = 7.54011;
+	p.sigma_sust = [ 505735 5632.28 3346.03 ];
+	p.sigma_trans = [ 2.93136 1.91577 1.5391 ];
+	p.colmat = [ 0.00123883 0.229778 0.932581 1.07013 6.41585e-07 0.0037047 ];
 
 M_lms2acc =
 
@@ -146,6 +147,16 @@ M_lms2acc =
 <br/></div>
 <div>Chromatic contrast thresholds for travelling sine waves as function of temporal frequency<br/>
 <img src="fig_vanderHorst1969_b_6.png"/>
+<br/></div>
+<h2 id="swanson1986"><a class="top_align_button" href="#swanson1986">&#8632;</a>Dataset: [swanson1986] Swanson et al. 1986</h2>
+<div>Temporal contrast sensitivity of flickering disc stimuli for different luminances<br/>
+<img src="fig_swanson1986_1.png"/>
+<br/></div>
+<div>Temporal achromatic contrast sensitivity of flickering disc stimuli for different sizes<br/>
+<img src="fig_swanson1986_2.png"/>
+<br/></div>
+<div>Temporal chromatic contrast sensitivity of flickering disc stimuli for different sizes<br/>
+<img src="fig_swanson1986_3.png"/>
 <br/></div>
 </body>
 </html>
