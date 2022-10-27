@@ -15,50 +15,50 @@ function detectLeftButton(evt) {
 <h1>Fitting of chromatic Gabor and Disc datasets</h1>
 <h2>Fitting error</h2>
 <TABLE>
-<tr><td rowspan="2">Dataset</td><td colspan="1">Fitting error</td><td colspan="1">Sensitivity adjustment</td></tr><tr><td><a href="#castle-csf">castleCSF</a></td><td><a href="#castle-csf">castleCSF</a></td></tr><tr><td>Average training</td><td>NaN [dB]</td><td>N/A</td></tr><tr><td><a href="#modelfest">modelfest</a></td><td>2.77 [dB]</td><td>1.115</td></tr><tr><td><a href="#colorfest">colorfest</a></td><td>3.13 [dB]</td><td>1.149</td></tr><tr><td><a href="#hdrvdp_csf">hdrvdp_csf</a></td><td>3.20 [dB]</td><td>1.473</td></tr><tr><td><a href="#hdr_csf">hdr_csf</a></td><td>3.96 [dB]</td><td>1.000</td></tr><tr><td><a href="#hdr_csf_disc">hdr_csf_disc</a></td><td>2.86 [dB]</td><td>1.536</td></tr><tr><td><a href="#anderson1991">anderson1991</a></td><td>NaN [dB]</td><td>1.000</td></tr><tr><td><a href="#virsu1979">virsu1979</a></td><td>5.57 [dB]</td><td>1.752</td></tr><tr><td><a href="#virsu1982">virsu1982</a></td><td>6.22 [dB]</td><td>0.656</td></tr><tr><td><a href="#robson1966">robson1966</a></td><td>8.51 [dB]</td><td>0.785</td></tr><tr><td><a href="#rovamo1993">rovamo1993</a></td><td>3.27 [dB]</td><td>2.115</td></tr><tr><td><a href="#vanderHorst1969_a">vanderHorst1969_a</a></td><td>5.72 [dB]</td><td>0.864</td></tr><tr><td><a href="#vanderHorst1969_b">vanderHorst1969_b</a></td><td>4.23 [dB]</td><td>0.624</td></tr><tr><td><a href="#swanson1986">swanson1986</a></td><td>8.11 [dB]</td><td>0.156</td></tr></TABLE>
+<tr><td rowspan="2">Dataset</td><td colspan="1">Fitting error</td><td colspan="1">Sensitivity adjustment</td></tr><tr><td><a href="#castle-csf">castleCSF</a></td><td><a href="#castle-csf">castleCSF</a></td></tr><tr><td>Average training</td><td>NaN [dB]</td><td>N/A</td></tr><tr><td><a href="#modelfest">modelfest</a></td><td>2.73 [dB]</td><td>0.984</td></tr><tr><td><a href="#colorfest">colorfest</a></td><td>2.83 [dB]</td><td>1.069</td></tr><tr><td><a href="#hdrvdp_csf">hdrvdp_csf</a></td><td>3.21 [dB]</td><td>1.286</td></tr><tr><td><a href="#hdr_csf">hdr_csf</a></td><td>3.52 [dB]</td><td>1.000</td></tr><tr><td><a href="#hdr_csf_disc">hdr_csf_disc</a></td><td>3.18 [dB]</td><td>1.430</td></tr><tr><td><a href="#anderson1991">anderson1991</a></td><td>NaN [dB]</td><td>1.000</td></tr><tr><td><a href="#virsu1979">virsu1979</a></td><td>4.55 [dB]</td><td>1.575</td></tr><tr><td><a href="#virsu1982">virsu1982</a></td><td>6.18 [dB]</td><td>0.727</td></tr><tr><td><a href="#robson1966">robson1966</a></td><td>8.64 [dB]</td><td>0.864</td></tr><tr><td><a href="#rovamo1993">rovamo1993</a></td><td>3.65 [dB]</td><td>1.800</td></tr><tr><td><a href="#vanderHorst1969_a">vanderHorst1969_a</a></td><td>5.80 [dB]</td><td>0.997</td></tr><tr><td><a href="#vanderHorst1969_b">vanderHorst1969_b</a></td><td>4.21 [dB]</td><td>0.810</td></tr><tr><td><a href="#swanson1986">swanson1986</a></td><td>8.14 [dB]</td><td>0.160</td></tr></TABLE>
 <h2>Model parameters</h2>
 <div class="params_frame">
 <div align="center">castleCSF</div>
 <div style="white-space: pre-line;">
-	p.sust(1).S_max = [ 77.4505 126030 0.0548192 0.000507155 5.10945e+06 ];
-	p.sust(1).f_max = [ 2.98369 858.199 0.393315 ];
-	p.sust(1).bw = 1.28183;
-	p.sust(1).A0 = 38512.9;
-	p.sust(1).f0 = 0.018085;
-	p.sust(2).S_max = [ 41161.9 2806.78 0.710172 ];
-	p.sust(2).f_max = 1.15286;
+	p.sust(1).S_max = [ 238.794 43475.4 0.136454 0.000604018 2.21977e+06 ];
+	p.sust(1).f_max = [ 3.50023 741.994 0.370083 ];
+	p.sust(1).bw = 1.04376;
+	p.sust(1).A0 = 36271.5;
+	p.sust(1).f0 = 0.0163703;
+	p.sust(2).S_max = [ 71374.3 1958.59 0.983262 ];
+	p.sust(2).f_max = 1.19807;
 	p.sust(2).bw = 2.04656e-111;
-	p.sust(2).A0 = 70.8068;
-	p.sust(2).f0 = 0.0512302;
-	p.sust(3).S_max = [ 14230.5 31384.3 0.445065 ];
-	p.sust(3).f_max = 1.34482;
+	p.sust(2).A0 = 35.5602;
+	p.sust(2).f0 = 0.0836354;
+	p.sust(3).S_max = [ 7601.98 39599.3 0.325229 ];
+	p.sust(3).f_max = 0.917613;
 	p.sust(3).bw = 0;
-	p.sust(3).A0 = 4.76033;
-	p.sust(3).f0 = 0.0283732;
-	p.trans(1).S_max = [ 1.00051e-223 296.451 ];
-	p.trans(1).f_max = 0.541555;
-	p.trans(1).bw = 3.39404e-24;
-	p.trans(1).A0 = 2941.03;
-	p.trans(1).f0 = 0.377208;
-	p.trans(2).S_max = [ 0.109158 87.8571 ];
-	p.trans(2).f_max = 0.0740562;
-	p.trans(2).bw = 1.32695;
-	p.trans(2).A0 = 3.5313e+18;
-	p.trans(2).f0 = 2.9904e+28;
-	p.trans(3).S_max = [ 0.0873769 5.24281 ];
-	p.trans(3).f_max = 0.808693;
+	p.sust(3).A0 = 3.44074;
+	p.sust(3).f0 = 0.0202263;
+	p.trans(1).S_max = [ 1.00051e-223 73.8037 ];
+	p.trans(1).f_max = 0.68132;
+	p.trans(1).bw = 8.41298e-27;
+	p.trans(1).A0 = 3800.84;
+	p.trans(1).f0 = 0.665142;
+	p.trans(2).S_max = [ 0.0757415 74.1557 ];
+	p.trans(2).f_max = 0.0868169;
+	p.trans(2).bw = 1.18408;
+	p.trans(2).A0 = 29.0251;
+	p.trans(2).f0 = 4.86702e+33;
+	p.trans(3).S_max = [ 0.117949 3.50952 ];
+	p.trans(3).f_max = 1.31609;
 	p.trans(3).bw = 0;
-	p.trans(3).A0 = 947.49;
-	p.trans(3).f0 = 7.54011;
-	p.sigma_sust = [ 505735 5632.28 3346.03 ];
-	p.sigma_trans = [ 2.93136 1.91577 1.5391 ];
-	p.colmat = [ 0.00123883 0.229778 0.932581 1.07013 6.41585e-07 0.0037047 ];
+	p.trans(3).A0 = 2129.98;
+	p.trans(3).f0 = 0.157937;
+	p.sigma_sust = [ 2.23541e+34 1.29643e+31 9.12656e+64 ];
+	p.sigma_trans = [ 1.45066 1.91557 2.17988 ];
+	p.colmat = [ 1.12294e-06 2.26376e-67 1.41355 3.35348 0.0170339 0.221486 ];
 
 M_lms2acc =
 
-    1.0000    0.2298    0.0000
-    1.0000   -0.9326    0.0037
-   -0.0012   -1.0701    1.0000
+    1.0000    0.0000    0.0170
+    1.0000   -1.4136    0.2215
+   -0.0000   -3.3535    1.0000
 
 </div>
 </div>
