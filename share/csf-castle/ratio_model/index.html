@@ -1,0 +1,183 @@
+<html>
+<head>
+<title>csf-castle</title>
+
+<script type="text/javascript">
+function detectLeftButton(evt) {
+    evt = evt || window.event;
+    var button = evt.which || evt.button;
+    return button == 1;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+
+<body>
+<h1>Fitting of chromatic Gabor and Disc datasets</h1>
+<h2>Fitting error</h2>
+<TABLE>
+<tr><td rowspan="2">Dataset</td><td colspan="1">Fitting error</td><td colspan="1">Sensitivity adjustment</td></tr><tr><td><a href="#castle-csf-temp">castleCSF-temp</a></td><td><a href="#castle-csf-temp">castleCSF-temp</a></td></tr><tr><td>Average training</td><td>6.70 [dB]</td><td>N/A</td></tr><tr><td><a href="#modelfest">modelfest</a></td><td>3.39 [dB]</td><td>0.675</td></tr><tr><td><a href="#colorfest">colorfest</a></td><td>3.02 [dB]</td><td>0.586</td></tr><tr><td><a href="#hdrvdp_csf">hdrvdp_csf</a></td><td>5.43 [dB]</td><td>0.904</td></tr><tr><td><a href="#hdr_csf">hdr_csf</a></td><td>5.85 [dB]</td><td>1.000</td></tr><tr><td><a href="#hdr_csf_disc">hdr_csf_disc</a></td><td>4.40 [dB]</td><td>0.684</td></tr><tr><td><a href="#vanderHorst1969_a">vanderHorst1969_a</a></td><td>4.80 [dB]</td><td>0.108</td></tr><tr><td><a href="#vanderHorst1969_b">vanderHorst1969_b</a></td><td>4.86 [dB]</td><td>0.205</td></tr><tr><td><a href="#swanson1986">swanson1986</a></td><td>8.69 [dB]</td><td>0.017</td></tr><tr><td><a href="#kong2018">kong2018</a></td><td>5.15 [dB]</td><td>0.479</td></tr><tr><td><a href="#five_centres">five_centres</a></td><td>6.55 [dB]</td><td>0.721</td></tr><tr><td><a href="#kim2013">kim2013</a></td><td>4.25 [dB]</td><td>0.663</td></tr><tr><td><a href="#koenderink1978">koenderink1978</a></td><td>7.45 [dB]</td><td>0.990</td></tr><tr><td><a href="#lucassen2018">lucassen2018</a></td><td>7.07 [dB]</td><td>0.195</td></tr><tr><td><a href="#rovamo1993">rovamo1993</a></td><td>4.55 [dB]</td><td>1.045</td></tr><tr><td><a href="#robson1966">robson1966</a></td><td>2.71 [dB]</td><td>0.611</td></tr><tr><td><a href="#laird2006">laird2006</a></td><td>6.55 [dB]</td><td>0.626</td></tr><tr><td><a href="#snowden1995">snowden1995</a></td><td>8.25 [dB]</td><td>0.374</td></tr><tr><td><a href="#virsu1979">virsu1979</a></td><td>6.93 [dB]</td><td>0.894</td></tr><tr><td><a href="#virsu1982">virsu1982</a></td><td>5.68 [dB]</td><td>0.856</td></tr><tr><td><a href="#wright1983">wright1983</a></td><td>3.45 [dB]</td><td>0.533</td></tr><tr><td><a href="#anderson1991">anderson1991</a></td><td>8.82 [dB]</td><td>2.117</td></tr><tr><td><a href="#krajancich2021">krajancich2021</a></td><td>14.73 [dB]</td><td>6.743</td></tr><tr><td><a href="#hartmann1979">hartmann1979</a></td><td>15.92 [dB]</td><td>8.608</td></tr></TABLE>
+<h2>Model parameters</h2>
+<div class="params_frame">
+<div align="center">castleCSF-temp</div>
+<div style="white-space: pre-line;">
+</div>
+</div>
+<h2 id="castle-csf-temp"><a class="top_align_button" href="#castle-csf-temp">&#8632;</a>CSF model: castleCSF-temp</h2>
+<img src="fig_csf_contour_castleCSF-temp_1.png"/>
+<img src="fig_csf_contour_castleCSF-temp_2.png"/>
+<img src="fig_csf_contour_castleCSF-temp_3.png"/>
+<br/>
+<h2>Legend</h2>
+<p>To keep the plots legible, only up to 3 models are plotted.</p>
+<img src="legend.png"/>
+<h2 id="modelfest"><a class="top_align_button" href="#modelfest">&#8632;</a>Dataset: [modelfest] ModelFest</h2>
+<div>Achroatic CSF as a function of frequency<br/>
+<img src="fig_modelfest_1.png"/>
+<br/></div>
+<h2 id="colorfest"><a class="top_align_button" href="#colorfest">&#8632;</a>Dataset: [colorfest] ColorFest</h2>
+<div>Chromatic CSF as a function of frequency<br/>
+<img src="fig_colorfest_1.png"/>
+<br/></div>
+<h2 id="hdrvdp_csf"><a class="top_align_button" href="#hdrvdp_csf">&#8632;</a>Dataset: [hdrvdp_csf] HDR-VDP CSF</h2>
+<div>Achromatic CSF as a function of frequency<br/>
+<img src="fig_hdrvdp_csf_1.png"/>
+<br/></div>
+<div>Achromatic CSF as a function of size<br/>
+<img src="fig_hdrvdp_csf_2.png"/>
+<br/></div>
+<h2 id="hdr_csf"><a class="top_align_button" href="#hdr_csf">&#8632;</a>Dataset: [hdr_csf] High Dynamic Range CSF</h2>
+<div>CSF as the function of frequency at different luminance levels (fixed number of cycles)<br/>
+<img src="fig_hdr_csf_1.png"/>
+<br/></div>
+<div>CSF for different number of cycles<br/>
+<img src="fig_hdr_csf_2.png"/>
+<br/></div>
+<h2 id="hdr_csf_disc"><a class="top_align_button" href="#hdr_csf_disc">&#8632;</a>Dataset: [hdr_csf_disc] High Dynamic Range Disc CSF</h2>
+<div>CSF as the function of size at different luminance levels<br/>
+<img src="fig_hdr_csf_disc_1.png"/>
+<br/></div>
+<h2 id="vanderHorst1969_a"><a class="top_align_button" href="#vanderHorst1969_a">&#8632;</a>Dataset: [vanderHorst1969_a] Van der Horst & Gerard 1969</h2>
+<div>Chromatic contrast thresholds of rectangular flickering stimuli as a function of temporal frequency<br/>
+<img src="fig_vanderHorst1969_a_1.png"/>
+<br/></div>
+<div>Chromatic contrast thresholds of rectangular flickering stimuli as a function of luminance<br/>
+<img src="fig_vanderHorst1969_a_2.png"/>
+<br/></div>
+<h2 id="vanderHorst1969_b"><a class="top_align_button" href="#vanderHorst1969_b">&#8632;</a>Dataset: [vanderHorst1969_b] Van der Horst & Bouman 1969</h2>
+<div>Static chromatic contrast thresholds as a function of spatial frequency<br/>
+<img src="fig_vanderHorst1969_b_1.png"/>
+<br/></div>
+<div>Static chromatic contrast thresholds as function of luminance<br/>
+<img src="fig_vanderHorst1969_b_2.png"/>
+<br/></div>
+<div>Chromatic contrast thresholds for travelling sine waves as function of spatial frequency<br/>
+<img src="fig_vanderHorst1969_b_3.png"/>
+<br/></div>
+<div>Chromatic contrast thresholds for travelling sine waves as function of spatial frequency<br/>
+<img src="fig_vanderHorst1969_b_4.png"/>
+<br/></div>
+<div>Chromatic contrast thresholds for travelling sine waves as function of temporal frequency<br/>
+<img src="fig_vanderHorst1969_b_5.png"/>
+<br/></div>
+<div>Chromatic contrast thresholds for travelling sine waves as function of temporal frequency<br/>
+<img src="fig_vanderHorst1969_b_6.png"/>
+<br/></div>
+<h2 id="swanson1986"><a class="top_align_button" href="#swanson1986">&#8632;</a>Dataset: [swanson1986] Swanson et al. 1986</h2>
+<div>Temporal contrast sensitivity of flickering disc stimuli for different luminances<br/>
+<img src="fig_swanson1986_1.png"/>
+<br/></div>
+<div>Temporal achromatic contrast sensitivity of flickering disc stimuli for different sizes<br/>
+<img src="fig_swanson1986_2.png"/>
+<br/></div>
+<div>Temporal chromatic contrast sensitivity of flickering disc stimuli for different sizes<br/>
+<img src="fig_swanson1986_3.png"/>
+<br/></div>
+<h2 id="kong2018"><a class="top_align_button" href="#kong2018">&#8632;</a>Dataset: [kong2018] Kong et al. 2018</h2>
+<div>Chromatic CSF as a function of temporal frequency (9 background colors and 4 color directions in uv space<br/>
+<img src="fig_kong2018_1.png"/>
+<br/></div>
+<h2 id="five_centres"><a class="top_align_button" href="#five_centres">&#8632;</a>Dataset: [five_centres] Five centres [Xu et al. 2020]</h2>
+<div>Chromatic CSF as ellipses<br/>
+<img src="fig_five_centres_1.png"/>
+<br/></div>
+<div>Chromatic CSF as a function of frequency<br/>
+<img src="fig_five_centres_2.png"/>
+<br/></div>
+<h2 id="kim2013"><a class="top_align_button" href="#kim2013">&#8632;</a>Dataset: [kim2013] Chromatic CSF [Kim et al. 2013]</h2>
+<div>Chromatic CSF as a function of frequency<br/>
+<img src="fig_kim2013_1.png"/>
+<br/></div>
+<h2 id="koenderink1978"><a class="top_align_button" href="#koenderink1978">&#8632;</a>Dataset: [koenderink1978] Koenderink et al. 1978</h2>
+<div>CSF at near peripheral visual field (eccentricity 0°-8°)<br/>
+<img src="fig_koenderink1978_1.png"/>
+<br/></div>
+<div>CSF at Far Peripheral Visual Field (Eccentricity 0°–50°)<br/>
+<img src="fig_koenderink1978_2.png"/>
+<br/></div>
+<div>CSF with Target Extent as a Sensitivity Controlling Parameter<br/>
+<img src="fig_koenderink1978_3.png"/>
+<br/></div>
+<div>CSF at different Mean Retinal Illuminances<br/>
+<img src="fig_koenderink1978_4.png"/>
+<br/></div>
+<h2 id="lucassen2018"><a class="top_align_button" href="#lucassen2018">&#8632;</a>Dataset: [lucassen2018] Lucassen et al. 2018</h2>
+<div>Lucassen2018 CSF sensitivity vs spatial frequency<br/>
+<img src="fig_lucassen2018_1.png"/>
+<br/></div>
+<div>Lucassen2018 CSF delta(uv) vs spatial frequency<br/>
+<img src="fig_lucassen2018_2.png"/>
+<br/></div>
+<h2 id="rovamo1993"><a class="top_align_button" href="#rovamo1993">&#8632;</a>Dataset: [rovamo1993] Rovamo et al. 1993</h2>
+<div>CSF as the funcation of stimulus area<br/>
+<img src="fig_rovamo1993_1.png"/>
+<br/></div>
+<h2 id="robson1966"><a class="top_align_button" href="#robson1966">&#8632;</a>Dataset: [robson1966] Robson 1966</h2>
+<div>Spatial CSF for different temporal frequencies<br/>
+<img src="fig_robson1966_1.png"/>
+<br/></div>
+<div>Temporal CSF for different spatial frequencies<br/>
+<img src="fig_robson1966_2.png"/>
+<br/></div>
+<h2 id="laird2006"><a class="top_align_button" href="#laird2006">&#8632;</a>Dataset: [laird2006] Laird et al. 2006</h2>
+<div>Achromatic CSF as a function of temporal frequency for different spatial frequencies<br/>
+<img src="fig_laird2006_1.png"/>
+<br/></div>
+<h2 id="snowden1995"><a class="top_align_button" href="#snowden1995">&#8632;</a>Dataset: [snowden1995] Snowden et al. 1995</h2>
+<div>Temporal Contrast sensitivity as function of spatial frequency and luminance<br/>
+<img src="fig_snowden1995_1.png"/>
+<br/></div>
+<h2 id="virsu1979"><a class="top_align_button" href="#virsu1979">&#8632;</a>Dataset: [virsu1979] Virsu & Rovamo 1979</h2>
+<div>Contrast sensitivity of central and peripheral vision as a function of spatial frequency and eccentricity<br/>
+<img src="fig_virsu1979_1.png"/>
+<br/></div>
+<h2 id="virsu1982"><a class="top_align_button" href="#virsu1982">&#8632;</a>Dataset: [virsu1982] Virsu et al. 1982</h2>
+<div>Contrast sensitivity as the function of frequency<br/>
+<img src="fig_virsu1982_1.png"/>
+<br/></div>
+<div>Contrast sensitivity as the function of eccentricity<br/>
+<img src="fig_virsu1982_2.png"/>
+<br/></div>
+<h2 id="wright1983"><a class="top_align_button" href="#wright1983">&#8632;</a>Dataset: [wright1983] Wright and Johnson 1983</h2>
+<div>CSF as function of eccentricity<br/>
+<img src="fig_wright1983_1.png"/>
+<br/></div>
+<h2 id="anderson1991"><a class="top_align_button" href="#anderson1991">&#8632;</a>Dataset: [anderson1991] Anderson et al. 1991</h2>
+<div>Contrast sensitivity as the function of retinal visual field (at 8 Hz)<br/>
+<img src="fig_anderson1991_1.png"/>
+<br/></div>
+<h2 id="krajancich2021"><a class="top_align_button" href="#krajancich2021">&#8632;</a>Dataset: [krajancich2021] Krajancich et al. 2021</h2>
+<div>Critical fusion frequency at eccentricities<br/>
+<img src="fig_krajancich2021_1.png"/>
+<br/></div>
+<div>CFF at luminance levels for 0.57 cpd<br/>
+<img src="fig_krajancich2021_2.png"/>
+<br/></div>
+<div>CFF at luminance levels, foveal vision (ecc=0)<br/>
+<img src="fig_krajancich2021_3.png"/>
+<br/></div>
+<h2 id="hartmann1979"><a class="top_align_button" href="#hartmann1979">&#8632;</a>Dataset: [hartmann1979] Hartmann et al. 1979</h2>
+<div>CFF as a function of eccentricity at different luminance levels<br/>
+<img src="fig_hartmann1979_1.png"/>
+<br/></div>
+</body>
+</html>
