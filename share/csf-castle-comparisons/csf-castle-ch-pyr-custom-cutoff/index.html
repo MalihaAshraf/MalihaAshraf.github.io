@@ -1,0 +1,381 @@
+<html>
+<head>
+<title>csf-castle-ch-pyr-custom-cutoff</title>
+
+<script type="text/javascript">
+function detectLeftButton(evt) {
+    evt = evt || window.event;
+    var button = evt.which || evt.button;
+    return button == 1;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+
+<body>
+<h1>Comparison of castleCSF with chromatic Pyramid of visibility</h1>
+<h2>Fitting error</h2>
+<TABLE>
+<tr><td rowspan="2">Dataset</td>
+<td colspan="2">Fitting error</td>
+<td colspan="2">Sensitivity adjustment</td>
+</tr>
+<tr><td><a href="#castle-csf-rkm38">castleCSF-rkm38</a></td>
+<td><a href="#csf-pyramid-comb">Combined Chromatic Pyramid of Visibility CSF</a></td>
+<td><a href="#castle-csf-rkm38">castleCSF-rkm38</a></td>
+<td><a href="#csf-pyramid-comb">Combined Chromatic Pyramid of Visibility CSF</a></td>
+</tr>
+<tr><td>Average training</td>
+<td>3.63 [dB]</td>
+<td>4.59 [dB]</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+<tr><td><a href="#modelfest">modelfest</a></td>
+<td>2.39 [dB]</td>
+<td>3.14 [dB]</td>
+<td>0.927</td>
+<td>1.503</td>
+</tr>
+<tr><td><a href="#hdrvdp_csf">hdrvdp_csf</a></td>
+<td>3.29 [dB]</td>
+<td>6.47 [dB]</td>
+<td>1.189</td>
+<td>2.037</td>
+</tr>
+<tr><td><a href="#rovamo1993">rovamo1993</a></td>
+<td>3.26 [dB]</td>
+<td>7.35 [dB]</td>
+<td>1.506</td>
+<td>3.010</td>
+</tr>
+<tr><td><a href="#laird2006">laird2006</a></td>
+<td>5.06 [dB]</td>
+<td>6.41 [dB]</td>
+<td>0.859</td>
+<td>2.125</td>
+</tr>
+<tr><td><a href="#snowden1995">snowden1995</a></td>
+<td>7.11 [dB]</td>
+<td>8.13 [dB]</td>
+<td>0.629</td>
+<td>2.334</td>
+</tr>
+<tr><td><a href="#robson1966">robson1966</a></td>
+<td>2.10 [dB]</td>
+<td>3.05 [dB]</td>
+<td>1.152</td>
+<td>5.137</td>
+</tr>
+<tr><td><a href="#virsu1979">virsu1979</a></td>
+<td>6.33 [dB]</td>
+<td>12.79 [dB]</td>
+<td>1.508</td>
+<td>2.633</td>
+</tr>
+<tr><td><a href="#virsu1982">virsu1982</a></td>
+<td>3.19 [dB]</td>
+<td>3.30 [dB]</td>
+<td>1.247</td>
+<td>2.727</td>
+</tr>
+<tr><td><a href="#wright1983">wright1983</a></td>
+<td>2.70 [dB]</td>
+<td>3.28 [dB]</td>
+<td>0.854</td>
+<td>1.848</td>
+</tr>
+<tr><td><a href="#colorfest">colorfest</a></td>
+<td>2.18 [dB]</td>
+<td>5.00 [dB]</td>
+<td>0.942</td>
+<td>2.151</td>
+</tr>
+<tr><td><a href="#hdr_csf">hdr_csf</a></td>
+<td>2.24 [dB]</td>
+<td>11.02 [dB]</td>
+<td>1.000</td>
+<td>1.000</td>
+</tr>
+<tr><td><a href="#kim2013">kim2013</a></td>
+<td>3.98 [dB]</td>
+<td>4.29 [dB]</td>
+<td>1.028</td>
+<td>2.226</td>
+</tr>
+<tr><td><a href="#five_centres">five_centres</a></td>
+<td>3.38 [dB]</td>
+<td>3.43 [dB]</td>
+<td>1.147</td>
+<td>4.274</td>
+</tr>
+<tr><td><a href="#lucassen2018">lucassen2018</a></td>
+<td>2.59 [dB]</td>
+<td>2.31 [dB]</td>
+<td>0.570</td>
+<td>1.474</td>
+</tr>
+<tr><td><a href="#hdr_csf_disc">hdr_csf_disc</a></td>
+<td>2.87 [dB]</td>
+<td>4.90 [dB]</td>
+<td>1.594</td>
+<td>1.768</td>
+</tr>
+<tr><td><a href="#kong2018">kong2018</a></td>
+<td>3.74 [dB]</td>
+<td>2.61 [dB]</td>
+<td>0.963</td>
+<td>3.685</td>
+</tr>
+<tr><td><a href="#vanderHorst1969_b">vanderHorst1969_b</a></td>
+<td>3.06 [dB]</td>
+<td>3.62 [dB]</td>
+<td>0.729</td>
+<td>2.042</td>
+</tr>
+</TABLE>
+<h2>Model comparison statistics</h2>
+<TABLE>
+<tr><td rowspan="2" colspan="1">Model</td>
+<td rowspan="2" colspan="1">Sum of Square Errors (SS)</td>
+<td rowspan="2" colspan="1">Degrees of freedom (df)</td>
+<td colspan="2">F-test</td>
+<td rowspan="2" colspan="1">AIC</td>
+</tr>
+<tr><td>F-statistic</td>
+<td>p-value</td>
+</tr>
+<tr><td><a href="#castle-csf-rkm38">castleCSF-rkm38 (Reference Model)</a></td>
+<td>52.071</td>
+<td>1313</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>-4370.37</td>
+</tr>
+<tr><td><a href="#csf-pyramid-comb">Combined Chromatic Pyramid of Visibility CSF</a></td>
+<td>91.824</td>
+<td>1341</td>
+<td>35.7993</td>
+<td>0.0000 &check;</td>
+<td>-3648.09</td>
+</tr>
+</TABLE>
+<p>
+We use AIC and F-test to test whether the difference in fitting error is statistically significant at alpha=0.05 level. Both statistical metrics take the number of optimized parameters into account. 
+</p>
+
+<p>
+<b>F-test</b>: For F-test, we compare the fitting results from stelaCSF with those of other models. The F-static is calculated using the residual sum of squares and degrees of freedom (number of data points - number of optimized parameters) from both models. The corresponding p-value indicates whether or not the null hypothesis is rejected, where H<sub>0</sub>: the stelaCSF does not provide significant better fit than the other model. The p-values less than 0.05 indicates that stelaCSF provides a better fit to the data at the significance level of 0.05 (marked with &check;). We performed the F-test for all individual datasets as well as for all datasets combined. For smaller datasets, where the number of data points are comparable to the number of model parameters, F-test can not provide any results since it indicates there is more variance within the models' fits than between.  
+</p>
+
+<p>
+<b>AIC</b>: Akaike information criterion is a statistical estimator of prediction error and relative quality of the models, which accounts for the number of parameters of each model. 
+The model with the lower AIC score is considered to be better and with a good balance of error value and the number of parameters.  
+</p>
+
+<p>
+The sensitivity adjustment column contains a multiplier that is used to adjust the sensitivity of each datasets. It corresponds to <i>s<sub>d</sub></i> in the paper (Eq. 18).
+</p>
+<h2>Model parameters</h2>
+<div class="params_frame">
+<div align="center">castleCSF-rkm38</div>
+<div style="white-space: pre-line;">
+
+M_lms2acc =
+
+    1.0000    1.0000         0
+    1.0000   -2.5126         0
+   -1.0000   -1.0000   17.6944
+
+	p.rg.sigma_sust = 11.2565;
+	p.rg.beta_sust = 1.05799;
+	p.rg.ch_sust.S_max = [ 14189.8 39.3514 0.526016 ];
+	p.rg.ch_sust.f_max = 0.00204092;
+	p.rg.ch_sust.bw = 2.17849;
+	p.rg.A_0 = 1.79568;
+	p.rg.f_0 = 7.11266;
+	p.yv.sigma_sust = 11.0122;
+	p.yv.beta_sust = 1.0709;
+	p.yv.ch_sust.S_max = [ 451.863 82.8437 0.41522 ];
+	p.yv.ch_sust.f_max = 0.00341554;
+	p.yv.ch_sust.bw = 2.94975;
+	p.yv.A_0 = 2.78868e+07;
+	p.yv.f_0 = 0.000424501;
+	p.ach.ach_sust.S_max = [ 57.7488 1.68665 0.334827 8.43951e-07 8.98016e+09 ];
+	p.ach.ach_sust.f_max = [ 1.65236 136.438 0.211205 ];
+	p.ach.ach_sust.bw = 0.000214211;
+	p.ach.ach_sust.a = 0.492172;
+	p.ach.ach_trans.S_max = [ 0.536666 55.3042 ];
+	p.ach.ach_trans.f_max = 0.0265229;
+	p.ach.ach_trans.bw = 1.65339;
+	p.ach.ach_trans.a = 0.000273289;
+	p.ach.sigma_trans = 0.123717;
+	p.ach.sigma_sust = 8.23506;
+	p.ach.ecc_drop = 0.0276925;
+	p.ach.ecc_drop_nasal = 0.0146376;
+	p.ach.ecc_drop_f = 0.0202542;
+	p.ach.ecc_drop_f_nasal = 0.0164634;
+	p.colmat = [ 2.51263 0 0 17.6944 ];
+Parameters for Ach component:
+	p.ach_sust.S_max = [ 57.7488 1.68665 0.334827 8.43951e-07 8.98016e+09 ];
+	p.ach_sust.f_max = [ 1.65236 136.438 0.211205 ];
+	p.ach_sust.bw = 0.000214211;
+	p.ach_sust.a = 0.492172;
+	p.ach_trans.S_max = [ 0.536666 55.3042 ];
+	p.ach_trans.f_max = 0.0265229;
+	p.ach_trans.bw = 1.65339;
+	p.ach_trans.a = 0.000273289;
+	p.sigma_trans = 0.123717;
+	p.sigma_sust = 8.23506;
+	p.ecc_drop = 0.0276925;
+	p.ecc_drop_nasal = 0.0146376;
+	p.ecc_drop_f = 0.0202542;
+	p.ecc_drop_f_nasal = 0.0164634;
+
+Parameters for RG component:
+				p.ch_sust.S_max = [ 14189.8 39.3514 0.526016 ];
+				p.ch_sust.f_max = 0.00204092;
+				p.ch_sust.bw = 2.17849;
+				p.A_0 = 1.79568;
+				p.f_0 = 7.11266;
+				p.sigma_sust = 11.2565;
+				p.beta_sust = 1.05799;
+				p.ecc_drop = 0.0296662;
+				p.ecc_drop_nasal = 0.0113638;
+				p.ecc_drop_f = 0.0190062;
+				p.ecc_drop_f_nasal = 0.0193858;
+
+Parameters for YV component:
+				p.ch_sust.S_max = [ 451.863 82.8437 0.41522 ];
+				p.ch_sust.f_max = 0.00341554;
+				p.ch_sust.bw = 2.94975;
+				p.A_0 = 2.78868e+07;
+				p.f_0 = 0.000424501;
+				p.sigma_sust = 11.0122;
+				p.beta_sust = 1.0709;
+				p.ecc_drop = 0.0296662;
+				p.ecc_drop_nasal = 0.0113638;
+				p.ecc_drop_f = 0.0190062;
+				p.ecc_drop_f_nasal = 0.0193858;
+
+</div>
+</div>
+<div class="params_frame">
+<div align="center">Combined Chromatic Pyramid of Visibility CSF</div>
+<div style="white-space: pre-line;">
+			p.P_ach = 0.723121;
+			p.c_w_neg_ach = 0.358429;
+			p.c_f_neg_ach = 0.0441466;
+			p.c_i_ach = 0.32103;
+			p.c_0_ach = 0.53675;
+			p.P_rg = 0.866522;
+			p.c_w_neg_rg = 0.0405761;
+			p.c_f_neg_rg = 0.0538055;
+			p.c_i_rg = 0.411104;
+			p.c_0_rg = 0.414275;
+			p.P_yv = 0.0222052;
+			p.c_w_neg_yv = 0.04369;
+			p.c_f_neg_yv = 0.12493;
+			p.c_i_yv = 0.320865;
+			p.c_0_yv = 0.0630938;
+Parameters for Ach subclass
+Parameters for RG subclass
+Parameters for YV subclass
+</div>
+</div>
+<h2>Legend</h2>
+<p>To keep the plots legible, only up to 3 models are plotted.</p>
+<img src="legend.png"/>
+<h2 id="modelfest"><a class="top_align_button" href="#modelfest">&#8632;</a>Dataset: [modelfest] ModelFest</h2>
+<div>Achromatic CSF as a function of frequency<br/>
+<img src="fig_modelfest_1.png"/>
+<br/></div>
+<h2 id="hdrvdp_csf"><a class="top_align_button" href="#hdrvdp_csf">&#8632;</a>Dataset: [hdrvdp_csf] HDR-VDP CSF</h2>
+<div>Achromatic CSF as a function of frequency<br/>
+<img src="fig_hdrvdp_csf_1.png"/>
+<br/></div>
+<div>Achromatic CSF as a function of size<br/>
+<img src="fig_hdrvdp_csf_2.png"/>
+<br/></div>
+<h2 id="rovamo1993"><a class="top_align_button" href="#rovamo1993">&#8632;</a>Dataset: [rovamo1993] Rovamo et al. 1993</h2>
+<div>CSF as the funcation of stimulus area<br/>
+<img src="fig_rovamo1993_1.png"/>
+<br/></div>
+<h2 id="laird2006"><a class="top_align_button" href="#laird2006">&#8632;</a>Dataset: [laird2006] Laird et al. 2006</h2>
+<div>Achromatic CSF as a function of temporal frequency for different spatial frequencies<br/>
+<img src="fig_laird2006_1.png"/>
+<br/></div>
+<h2 id="snowden1995"><a class="top_align_button" href="#snowden1995">&#8632;</a>Dataset: [snowden1995] Snowden et al. 1995</h2>
+<div>Temporal contrast sensitivity at different spatial frequencies and luminance levels<br/>
+<img src="fig_snowden1995_1.png"/>
+<br/></div>
+<h2 id="robson1966"><a class="top_align_button" href="#robson1966">&#8632;</a>Dataset: [robson1966] Robson 1966</h2>
+<div>Spatial CSF for different temporal frequencies<br/>
+<img src="fig_robson1966_1.png"/>
+<br/></div>
+<div>Temporal CSF for different spatial frequencies<br/>
+<img src="fig_robson1966_2.png"/>
+<br/></div>
+<h2 id="virsu1979"><a class="top_align_button" href="#virsu1979">&#8632;</a>Dataset: [virsu1979] Virsu & Rovamo 1979</h2>
+<div>Contrast sensitivity of central and peripheral vision as a function of spatial frequency and eccentricity<br/>
+<img src="fig_virsu1979_1.png"/>
+<br/></div>
+<h2 id="virsu1982"><a class="top_align_button" href="#virsu1982">&#8632;</a>Dataset: [virsu1982] Virsu et al. 1982</h2>
+<div>Contrast sensitivity as the function of frequency<br/>
+<img src="fig_virsu1982_1.png"/>
+<br/></div>
+<div>Contrast sensitivity as the function of eccentricity<br/>
+<img src="fig_virsu1982_2.png"/>
+<br/></div>
+<h2 id="wright1983"><a class="top_align_button" href="#wright1983">&#8632;</a>Dataset: [wright1983] Wright and Johnson 1983</h2>
+<div>CSF as function of eccentricity<br/>
+<img src="fig_wright1983_1.png"/>
+<br/></div>
+<h2 id="colorfest"><a class="top_align_button" href="#colorfest">&#8632;</a>Dataset: [colorfest] ColorFest</h2>
+<div>Chromatic CSF as a function of frequency<br/>
+<img src="fig_colorfest_1.png"/>
+<br/></div>
+<h2 id="hdr_csf"><a class="top_align_button" href="#hdr_csf">&#8632;</a>Dataset: [hdr_csf] High Dynamic Range CSF</h2>
+<div>CSF as the function of frequency at different luminance levels (fixed number of cycles)<br/>
+<img src="fig_hdr_csf_1.png"/>
+<br/></div>
+<div>CSF for different number of cycles<br/>
+<img src="fig_hdr_csf_2.png"/>
+<br/></div>
+<h2 id="kim2013"><a class="top_align_button" href="#kim2013">&#8632;</a>Dataset: [kim2013] Chromatic CSF [Kim et al. 2013]</h2>
+<div>Chromatic CSF as a function of frequency<br/>
+<img src="fig_kim2013_1.png"/>
+<br/></div>
+<h2 id="five_centres"><a class="top_align_button" href="#five_centres">&#8632;</a>Dataset: [five_centres] Five centres [Xu et al. 2020]</h2>
+<div>Chromatic CSF as ellipses<br/>
+<img src="fig_five_centres_1.png"/>
+<br/></div>
+<div>Chromatic CSF as a function of frequency<br/>
+<img src="fig_five_centres_2.png"/>
+<br/></div>
+<h2 id="lucassen2018"><a class="top_align_button" href="#lucassen2018">&#8632;</a>Dataset: [lucassen2018] Lucassen et al. 2018</h2>
+<div>Lucassen2018 CSF sensitivity vs spatial frequency<br/>
+<img src="fig_lucassen2018_1.png"/>
+<br/></div>
+<h2 id="hdr_csf_disc"><a class="top_align_button" href="#hdr_csf_disc">&#8632;</a>Dataset: [hdr_csf_disc] High Dynamic Range Disc CSF</h2>
+<div>CSF as the function of size at different luminance levels<br/>
+<img src="fig_hdr_csf_disc_1.png"/>
+<br/></div>
+<h2 id="kong2018"><a class="top_align_button" href="#kong2018">&#8632;</a>Dataset: [kong2018] Kong et al. 2018</h2>
+<div>Chromatic CSF as a function of temporal frequency (9 background colors and 4 color directions in uv space<br/>
+<img src="fig_kong2018_1.png"/>
+<br/></div>
+<h2 id="vanderHorst1969_b"><a class="top_align_button" href="#vanderHorst1969_b">&#8632;</a>Dataset: [vanderHorst1969_b] Van der Horst & Bouman 1969</h2>
+<div>Static chromatic contrast thresholds as a function of spatial frequency<br/>
+<img src="fig_vanderHorst1969_b_1.png"/>
+<br/></div>
+<div>Static chromatic contrast thresholds as function of luminance<br/>
+<img src="fig_vanderHorst1969_b_2.png"/>
+<br/></div>
+<div>Chromatic contrast thresholds for travelling sine waves as function of spatial frequency<br/>
+<img src="fig_vanderHorst1969_b_3.png"/>
+<br/></div>
+<div>Chromatic contrast thresholds for travelling sine waves as function of temporal frequency<br/>
+<img src="fig_vanderHorst1969_b_4.png"/>
+<br/></div>
+</body>
+</html>
