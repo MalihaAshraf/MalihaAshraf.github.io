@@ -9,6 +9,8 @@ bundle exec jekyll serve
 After Ctrl+C
 set JEKYLL_ENV=development
 
+When debugging actively use:
+bundle exec jekyll serve --incremental
 
 Pages:
 _includes\themes\twitter\default.html

@@ -4,19 +4,28 @@ title: publications
 description: Maliha Ashraf's publications
 ---
 
-<div class="navbar">
-  <div class="navbar-inner">
-      <ul class="nav">  
-          <li><a href="https://scholar.google.com/citations?user=9Jl9K3wAAAAJ&hl=en">Google Scholar</a></li>
-		  <li><a href="https://www.researchgate.net/profile/Maliha_Ashraf4">Research Gate</a></li>
-      </ul>
-  </div>
-</div>
-
 ### <a name="articles"></a>articles
 
-Mantiuk, R. K., **Ashraf, M.**, & Chapiro, A. (2022). StelaCSF: a unified model of contrast sensitivity as the function of spatio-temporal frequency, eccentricity, luminance and area. *ACM Trans. Graph.* 41, 4, Article 145, 16 pages. 
+**Ashraf, M.**, Mantiuk, R., & Chapiro, A. (2023). Modelling contrast sensitivity of discs. *Electronic Imaging*, 35, 1-8.
+[![doi](icons16/doi-icon.png)](https://doi.org/10.2352/EI.2023.35.10.HVEI-246)
+
+Ward, R. J., Wuerger, S. M., **Ashraf, M.**, & Marshall, A. (2023). Physicochemical features partially explain olfactory crossmodal correspondences. *Scientific reports*, 13(1), 10590.
+[![doi](icons16/doi-icon.png)](https://doi.org/10.1038/s41598-023-37770-1)
+
+Kucuk, A., Finlayson, G. D., Mantiuk, R., & **Ashraf, M.** (2023). Performance Comparison of Classical Methods and Neural Networks for Colour Correction. *Journal of Imaging*, 9(10), 214.
+[![doi](icons16/doi-icon.png)](https://doi.org/10.3390/jimaging9100214)
+
+Chapiro, A., Matsuda, N., **Ashraf, M.**, & Mantiuk, R. (2023). Critical flicker frequency (CFF) at high luminance levels. *Electronic Imaging*, 35, 1-5.
+[![doi](icons16/doi-icon.png)](https://doi.org/10.2352/EI.2023.35.10.HVEI-223)
+
+Ward, R. J., **Ashraf, M.**, Wuerger, S., & Marshall, A. (2023). Odors modulate color appearance. *Frontiers in psychology*, 14.
+[![doi](icons16/doi-icon.png)](https://doi.org/10.3389%2Ffpsyg.2023.1175703)
+
+Mantiuk, R. K., **Ashraf, M.**, & Chapiro, A. (2022). stelaCSF: a unified model of contrast sensitivity as the function of spatio-temporal frequency, eccentricity, luminance and area. *ACM Trans. Graph.* 41, 4, Article 145, 16 pages. 
 [![doi](icons16/doi-icon.png)](https://doi.org/10.1145/3528223.3530115) 
+
+Kucuk, A., Finlayson, G. D., Mantiuk, R., & **Ashraf, M.** (2022). An Exposure Invariant Neural Network for Colour Correction. *Color and Imaging Conference* Vol. 30, pp. 176-181. Society for Imaging Science and Technology.
+[![doi](icons16/doi-icon.png)](https://doi.org/10.2352/CIC.2022.30.1.31)
 
 **Ashraf, M.**, Mantiuk, R. K., Finlayson, G. D., Kucuk, A., & Wuerger, S. (2022). Colour difference formula for photopic and mesopic vision incorporating cone and rod responses. *London Imaging Meeting*, 79 - 83.
 [![doi](icons16/doi-icon.png)](https://doi.org/10.2352/lim.2022.1.1.18)

@@ -66,8 +66,13 @@ NED University of Engineering & Technology <br/>  -->
 
 ### experience
 
+**University of Cambridge**<br/>
+*Research assistant (Feb 2023 - present)*<br/>
+[Rafał Mantiuk](https://www.cst.cam.ac.uk/)<br/>
+Build computational models of human vision for graphics and display optimisation. Designs and conducts psychophysical experiments to measure different aspects of human vision.<br/><br/>
+
 **University of Liverpool**<br/>
-*Research assistant (Jan 2019 - present)*<br/>
+*Research assistant (Jan 2019 - Jan 2023)*<br/>
 [Sophie Wuerger](https://pcwww.liv.ac.uk/~sophiew/)<br/>
 Designs and conducts psychophysical experiments using a prototype high dynamic range display. Responsible for data collection, analysis, and modelling to predict stimuli appearance (chromatic and achromatic contrast) for a wide range of luminance levels. <br/><br/>
 
@@ -115,33 +120,7 @@ First position academic merit award<br/><br/>
 
 
 <br/>
-[orcid](https://orcid.org): [0000-0002-8142-5611](https://orcid.org/0000-0002-8142-5611)<br/>
-[google scholar](https://scholar.google.com/citations?user=9Jl9K3wAAAAJ&hl=en)<br/>
-<!-- [impactstory](https://impactstory.org/u/0000-0002-4914-6671)<br/> -->
-[github](https://github.com/MalihaAshraf)<br/>
-she/her
+
 
 ---
 
-<div class="container">
-<h4><a name="contact"></a>contact</h4>
-
-    <div class="row-fluid">
-        <div class="span5">
-            Maliha Ashraf<br/>
-            <a href="https://www.liverpool.ac.uk/institute-of-life-and-human-sciences/schools-and-departments/department-of-psychological-sciences/">Department of Psychological Sciences</a><br/>
-            <a href="https://www.liverpool.ac.uk/">University of Liverpool</a><br/>
-            Eleanor Rathbone Building<br/>
-            Liverpool, L69 7ZA<br/>
-            UK<br/><br/>
-
-            maliha.ashraf@liverpool.ac.uk
-        </div>
-
-        <div class="span2">
-        <a href="../assets/pics/contact.jpg">
-            <img src="../assets/pics/contact.jpg"
-                  title="Maliha Ashraf" alt="Maliha Ashraf"/></a>
-        </div>
-    </div>
-</div>
