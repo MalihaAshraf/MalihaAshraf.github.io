@@ -1,0 +1,539 @@
+<html>
+<head>
+<title>csf-castle-sla</title>
+
+<script type="text/javascript">
+function detectLeftButton(evt) {
+    evt = evt || window.event;
+    var button = evt.which || evt.button;
+    return button == 1;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+
+<body>
+<h1>Fitting of spatial CSF Gabor and Disc datasets</h1>
+<h2>Fitting error</h2>
+<TABLE>
+<tr><td rowspan="2">Dataset</td>
+<td colspan="6">Fitting error</td>
+<td colspan="6">F-stat</td>
+<td colspan="6">Sensitivity adjustment</td>
+<td colspan="6">Luminance intrusion factor</td>
+</tr>
+<tr><td><a href="#stoBarten-Veridical">original Barten's spatiotemporal veridical CSF</a></td>
+<td><a href="#daly-csf">VDP CSF</a></td>
+<td><a href="#csf-jov">csf-jov</a></td>
+<td><a href="#post-recept-contrast-mat">Postreceptoral contrast</a></td>
+<td><a href="#stela-csf">stelaCSF</a></td>
+<td><a href="#castle-csf-jov">castleCSF-jov</a></td>
+<td><a href="#stoBarten-Veridical">original Barten's spatiotemporal veridical CSF</a></td>
+<td><a href="#daly-csf">VDP CSF</a></td>
+<td><a href="#csf-jov">csf-jov</a></td>
+<td><a href="#post-recept-contrast-mat">Postreceptoral contrast</a></td>
+<td><a href="#stela-csf">stelaCSF</a></td>
+<td><a href="#castle-csf-jov">castleCSF-jov</a></td>
+<td><a href="#stoBarten-Veridical">original Barten's spatiotemporal veridical CSF</a></td>
+<td><a href="#daly-csf">VDP CSF</a></td>
+<td><a href="#csf-jov">csf-jov</a></td>
+<td><a href="#post-recept-contrast-mat">Postreceptoral contrast</a></td>
+<td><a href="#stela-csf">stelaCSF</a></td>
+<td><a href="#castle-csf-jov">castleCSF-jov</a></td>
+<td><a href="#stoBarten-Veridical">original Barten's spatiotemporal veridical CSF</a></td>
+<td><a href="#daly-csf">VDP CSF</a></td>
+<td><a href="#csf-jov">csf-jov</a></td>
+<td><a href="#post-recept-contrast-mat">Postreceptoral contrast</a></td>
+<td><a href="#stela-csf">stelaCSF</a></td>
+<td><a href="#castle-csf-jov">castleCSF-jov</a></td>
+</tr>
+<tr><td>Average training</td>
+<td>3.46 &plusmn; 0.12 [dB]</td>
+<td>6.44 &plusmn; 0.61 [dB]</td>
+<td>3.37 &plusmn; 0.13 [dB]</td>
+<td>2.58 &plusmn; 0.12 [dB]</td>
+<td>3.02 &plusmn; 0.15 [dB]</td>
+<td>2.98 &plusmn; 0.06 [dB]</td>
+<td>SS: 7.176, df: 215, AIC: -779.893</td>
+<td>SS: 25.800, df: 222, AIC: -493.162, F-stat: 79.722, p-value: 0.000 &check;</td>
+<td>SS: 6.862, df: 201, AIC: -762.386, F-stat: 0.671, p-value: 0.998</td>
+<td>SS: 4.136, df: 197, AIC: -873.341, F-stat: 5.059, p-value: 0.000 &check;</td>
+<td>SS: 5.499, df: 207, AIC: -826.435, F-stat: 6.280, p-value: 0.000 &check;</td>
+<td>SS: 5.476, df: 171, AIC: -755.400, F-stat: 1.157, p-value: 0.155</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+<tr><td>Average testing</td>
+<td>3.58 &plusmn; 0.50 [dB]</td>
+<td>8.00 &plusmn; 3.81 [dB]</td>
+<td>3.56 &plusmn; 0.60 [dB]</td>
+<td>3.09 &plusmn; 0.62 [dB]</td>
+<td>3.20 &plusmn; 0.66 [dB]</td>
+<td>3.22 &plusmn; 0.63 [dB]</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+<tr><td><a href="#modelfest">modelfest</a></td>
+<td>2.41 [dB]</td>
+<td>3.22 [dB]</td>
+<td>2.84 [dB]</td>
+<td>1.64 [dB]</td>
+<td>2.54 [dB]</td>
+<td>2.26 [dB]</td>
+<td>SS: 0.186, df: -6, AIC: -20.483</td>
+<td>SS: 0.374, df: 1, AIC: -24.707, F-stat: -0.866, p-value: NaN</td>
+<td>SS: 0.222, df: -20, AIC: 9.980, F-stat: 0.082, p-value: NaN</td>
+<td>SS: 0.082, df: -24, AIC: 4.058, F-stat: -0.186, p-value: NaN</td>
+<td>SS: 0.246, df: -14, AIC: -0.589, F-stat: 0.241, p-value: NaN</td>
+<td>SS: 0.246, df: -50, AIC: 71.403, F-stat: 0.044, p-value: NaN</td>
+<td>1.377</td>
+<td>1.234</td>
+<td>1.399</td>
+<td>0.947</td>
+<td>1.371</td>
+<td>0.957</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+</tr>
+<tr><td><a href="#hdrvdp_csf">hdrvdp_csf</a></td>
+<td>3.91 [dB]</td>
+<td>8.42 [dB]</td>
+<td>2.57 [dB]</td>
+<td>2.00 [dB]</td>
+<td>3.01 [dB]</td>
+<td>2.27 [dB]</td>
+<td>SS: 2.922, df: 57, AIC: -211.898</td>
+<td>SS: 14.476, df: 64, AIC: -102.690, F-stat: 32.193, p-value: 0.000 &check;</td>
+<td>SS: 1.339, df: 43, AIC: -243.986, F-stat: 2.206, p-value: 0.003 &check;</td>
+<td>SS: 0.838, df: 39, AIC: -272.101, F-stat: 2.259, p-value: 0.002 &check;</td>
+<td>SS: 1.766, df: 49, AIC: -234.688, F-stat: 2.820, p-value: 0.000 &check;</td>
+<td>SS: 1.105, df: 13, AIC: -198.817, F-stat: 0.806, p-value: 0.652</td>
+<td>1.767</td>
+<td>3.020</td>
+<td>1.674</td>
+<td>1.102</td>
+<td>1.685</td>
+<td>1.150</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+</tr>
+<tr><td><a href="#rovamo1993">rovamo1993</a></td>
+<td>2.78 [dB]</td>
+<td>6.36 [dB]</td>
+<td>4.35 [dB]</td>
+<td>2.88 [dB]</td>
+<td>3.08 [dB]</td>
+<td>3.79 [dB]</td>
+<td>SS: 0.962, df: 26, AIC: -137.883</td>
+<td>SS: 4.634, df: 33, AIC: -79.583, F-stat: 14.170, p-value: 0.000 &check;</td>
+<td>SS: 2.315, df: 12, AIC: -69.503, F-stat: -2.611, p-value: 1.000</td>
+<td>SS: 1.022, df: 8, AIC: -99.137, F-stat: -0.089, p-value: 1.000</td>
+<td>SS: 1.099, df: 18, AIC: -115.784, F-stat: -0.461, p-value: 1.000</td>
+<td>SS: 1.645, df: -18, AIC: -25.229, F-stat: -0.419, p-value: NaN</td>
+<td>2.743</td>
+<td>4.877</td>
+<td>2.399</td>
+<td>1.623</td>
+<td>2.282</td>
+<td>1.747</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+</tr>
+<tr><td><a href="#virsu1979">virsu1979</a></td>
+<td>4.13 [dB]</td>
+<td>3.90 [dB]</td>
+<td>5.30 [dB]</td>
+<td>4.49 [dB]</td>
+<td>3.95 [dB]</td>
+<td>4.29 [dB]</td>
+<td>SS: 0.240, df: -14, AIC: 20.675</td>
+<td>SS: 0.182, df: -7, AIC: 5.032, F-stat: 0.479, p-value: NaN</td>
+<td>SS: 0.469, df: -28, AIC: 52.711, F-stat: 0.959, p-value: NaN</td>
+<td>SS: 0.331, df: -32, AIC: 58.620, F-stat: 0.298, p-value: NaN</td>
+<td>SS: 0.196, df: -22, AIC: 35.459, F-stat: -0.321, p-value: NaN</td>
+<td>SS: 0.250, df: -58, AIC: 108.924, F-stat: 0.013, p-value: NaN</td>
+<td>2.240</td>
+<td>3.755</td>
+<td>1.891</td>
+<td>1.463</td>
+<td>1.862</td>
+<td>1.704</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+</tr>
+<tr><td><a href="#wright1983">wright1983</a></td>
+<td>2.21 [dB]</td>
+<td>3.03 [dB]</td>
+<td>1.58 [dB]</td>
+<td>0.85 [dB]</td>
+<td>1.77 [dB]</td>
+<td>1.30 [dB]</td>
+<td>SS: 0.032, df: -17, AIC: 26.332</td>
+<td>SS: 0.064, df: -10, AIC: 14.460, F-stat: -2.507, p-value: NaN</td>
+<td>SS: 0.016, df: -31, AIC: 52.299, F-stat: -0.598, p-value: NaN</td>
+<td>SS: 0.005, df: -35, AIC: 56.553, F-stat: -0.807, p-value: NaN</td>
+<td>SS: 0.019, df: -25, AIC: 40.772, F-stat: -0.862, p-value: NaN</td>
+<td>SS: 0.018, df: -61, AIC: 112.637, F-stat: -0.167, p-value: NaN</td>
+<td>1.476</td>
+<td>1.589</td>
+<td>1.457</td>
+<td>1.055</td>
+<td>1.313</td>
+<td>1.040</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+</tr>
+<tr><td><a href="#colorfest">colorfest</a></td>
+<td>2.81 [dB]</td>
+<td>2.68 [dB]</td>
+<td>3.38 [dB]</td>
+<td>2.08 [dB]</td>
+<td>2.98 [dB]</td>
+<td>2.54 [dB]</td>
+<td>SS: 0.183, df: -10, AIC: -0.023</td>
+<td>SS: 0.145, df: -3, AIC: -16.307, F-stat: 0.292, p-value: NaN</td>
+<td>SS: 0.235, df: -24, AIC: 30.503, F-stat: 0.205, p-value: NaN</td>
+<td>SS: 0.090, df: -28, AIC: 28.936, F-stat: -0.281, p-value: NaN</td>
+<td>SS: 0.247, df: -18, AIC: 18.988, F-stat: 0.439, p-value: NaN</td>
+<td>SS: 0.226, df: -54, AIC: 90.095, F-stat: 0.054, p-value: NaN</td>
+<td>0.951</td>
+<td>1.204</td>
+<td>0.976</td>
+<td>0.971</td>
+<td>0.909</td>
+<td>0.940</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+</tr>
+<tr><td><a href="#hdr_csf">hdr_csf</a></td>
+<td>3.91 [dB]</td>
+<td>5.81 [dB]</td>
+<td>3.67 [dB]</td>
+<td>3.12 [dB]</td>
+<td>3.33 [dB]</td>
+<td>3.32 [dB]</td>
+<td>SS: 2.573, df: 44, AIC: -165.683</td>
+<td>SS: 5.860, df: 51, AIC: -127.009, F-stat: 8.029, p-value: 0.000 &check;</td>
+<td>SS: 2.142, df: 30, AIC: -149.409, F-stat: 0.526, p-value: 0.966</td>
+<td>SS: 1.622, df: 26, AIC: -159.222, F-stat: 0.904, p-value: 0.601</td>
+<td>SS: 1.847, df: 36, AIC: -170.899, F-stat: 1.552, p-value: 0.082</td>
+<td>SS: 1.801, df: 0, AIC: -100.513, F-stat: 0.300, p-value: NaN</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+</tr>
+<tr><td><a href="#hdr_csf_disc">hdr_csf_disc</a></td>
+<td>1.56 [dB]</td>
+<td>1.12 [dB]</td>
+<td>1.84 [dB]</td>
+<td>2.06 [dB]</td>
+<td>1.37 [dB]</td>
+<td>2.15 [dB]</td>
+<td>SS: 0.078, df: -5, AIC: -38.917</td>
+<td>SS: 0.065, df: 2, AIC: -55.670, F-stat: 0.120, p-value: NaN</td>
+<td>SS: 0.123, df: -19, AIC: -4.035, F-stat: 0.208, p-value: NaN</td>
+<td>SS: 0.147, df: -23, AIC: 6.616, F-stat: 0.247, p-value: NaN</td>
+<td>SS: 0.080, df: -13, AIC: -22.491, F-stat: 0.018, p-value: NaN</td>
+<td>SS: 0.187, df: -49, AIC: 62.219, F-stat: 0.159, p-value: NaN</td>
+<td>1.191</td>
+<td>1.154</td>
+<td>1.215</td>
+<td>1.186</td>
+<td>0.895</td>
+<td>1.169</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+<td>0.000, 0.000</td>
+</tr>
+</TABLE>
+<p>
+We use AIC and F-test to test whether the difference in fitting error is statistically significant at alpha=0.05 level. Both statistical metrics take the number of optimized parameters into account. 
+</p>
+
+<p>
+<b>F-test</b>: For F-test, we compare the fitting results from stelaCSF with those of other models. The F-static is calculated using the residual sum of squares and degrees of freedom (number of data points - number of optimized parameters) from both models. The corresponding p-value indicates whether or not the null hypothesis is rejected, where H<sub>0</sub>: the stelaCSF does not provide significant better fit than the other model. The p-values less than 0.05 indicates that stelaCSF provides a better fit to the data at the significance level of 0.05 (marked with &check;). We performed the F-test for all individual datasets as well as for all datasets combined. For smaller datasets, where the number of data points are comparable to the number of model parameters, F-test can not provide any results since it indicates there is more variance within the models' fits than between.  
+</p>
+
+<p>
+<b>AIC</b>: Akaike information criterion is a statistical estimator of prediction error and relative quality of the models, which accounts for the number of parameters of each model. 
+The model with the lower AIC score is considered to be better and with a good balance of error value and the number of parameters.  
+</p>
+
+<p>
+The sensitivity adjustment column contains a multiplier that is used to adjust the sensitivity of each datasets. It corresponds to <i>s<sub>d</sub></i> in the paper (Eq. 18).
+</p>
+<h2>Model parameters</h2>
+<div class="params_frame">
+<div align="center">original Barten's spatiotemporal veridical CSF</div>
+<div style="white-space: pre-line;">
+	p.k = 7.50783;
+	p.eta0 = 0.0540745;
+	p.sigma0 = 0.268369;
+	p.eg = 3.3;
+	p.u00 = 3.34419;
+	p.Phi00 = 3e-08;
+	p.T = 0.0632125;
+	p.Xmax0 = 15.0242;
+	p.Nmax = 5.85972;
+	p.tau10 = 0.032;
+	p.tau20 = 0.018;
+	p.n1 = 7;
+	p.n2 = 4;
+</div>
+</div>
+<div class="params_frame">
+<div align="center">VDP CSF</div>
+<div style="white-space: pre-line;">
+	p.P = 154.194;
+	p.ob = 1.3868;
+	p.k = 0.24;
+	p.epsilon = 1.11381;
+	p.a_l_m = 2.91073;
+	p.b_l_m = 78.1072;
+</div>
+</div>
+<div class="params_frame">
+<div align="center">csf-jov</div>
+<div style="white-space: pre-line;">
+	p.ach.S_max = [ 2.84078 1.34534 41.84 ];
+	p.ach.f_max = [ 227448 64.5407 305.751 ];
+	p.ach.bw = 1.56902;
+	p.ach.Ac_prime = 116.028;
+	p.ach.f_0 = 5.38583;
+	p.ach.gamma = 0.90634;
+	p.rg.S_max = [ 2.90539 3.04331 38.6588 ];
+	p.rg.f_max = [ 0.0686226 3.04969e-24 ];
+	p.rg.bw = 1.21802;
+	p.rg.Ac_prime = 18.6192;
+	p.rg.f_0 = 0.65;
+	p.rg.gamma = 1.24219;
+	p.yv.S_max = [ 2.19857 3.04952 23.8802 ];
+	p.yv.f_max = 0.121887;
+	p.yv.bw = 2.91534;
+	p.yv.Ac_prime = 2.12076;
+	p.yv.f_0 = 0.65;
+	p.yv.gamma = 1.35274;
+</div>
+</div>
+<div class="params_frame">
+<div align="center">Postreceptoral contrast</div>
+<div style="white-space: pre-line;">
+	p.ach.S_max = [ 676.159 0.63811 0.416629 15489.1 0.957643 ];
+	p.ach.f_max = [ 1.4336 59.5397 0.221623 ];
+	p.ach.bw = 1.06991e-07;
+	p.ach.gamma = 0.909082;
+	p.ach.Ac_prime = 101.041;
+	p.rg.S_max = [ 22269.7 0.329602 0.383617 ];
+	p.rg.f_max = 0.0826806;
+	p.rg.bw = 0.94352;
+	p.rg.gamma = 1.34102;
+	p.rg.Ac_prime = 86.2466;
+	p.yv.S_max = [ 12184.8 66.2122 0.355583 ];
+	p.yv.f_max = 0.00097508;
+	p.yv.bw = 0.112307;
+	p.yv.gamma = 1.39713;
+	p.yv.Ac_prime = 0.287547;
+	p.colmat = [ 0.135061 1.48126e-09 2.49217 0.00221276 3.89116e-06 1.99426 ];
+</div>
+</div>
+<div class="params_frame">
+<div align="center">stelaCSF</div>
+<div style="white-space: pre-line;">
+	p.ach_sust.S_max = [ 44.877 1.6509 0.297534 7.54866e-07 8.93101e+09 ];
+	p.ach_sust.f_max = [ 1.51832 82.7359 0.207597 ];
+	p.ach_sust.bw = 2.98722e-09;
+	p.ach_sust.a = 0.127009;
+	p.ach_trans.S_max = [ 0.0643615 36.7276 ];
+	p.ach_trans.f_max = 0.0190447;
+	p.ach_trans.bw = 1.0085;
+	p.ach_trans.a = 0.000273289;
+	p.sigma_trans = 0.000154977;
+	p.sigma_sust = 5.79336;
+	p.ecc_drop = 0.0296662;
+	p.ecc_drop_nasal = 0.0113638;
+	p.ecc_drop_f = 0.0190062;
+	p.ecc_drop_f_nasal = 0.0193858;
+</div>
+</div>
+<div class="params_frame">
+<div align="center">castleCSF-jov</div>
+<div style="white-space: pre-line;">
+
+M_lms2acc =
+
+    1.0000    1.0000         0
+    1.0000   -2.1515         0
+   -1.0000   -1.0000   49.9340
+
+	p.rg.sigma_sust = 16.541;
+	p.rg.beta_sust = 1.15549;
+	p.rg.ch_sust.S_max = [ 1317.78 0.342018 0.367998 ];
+	p.rg.ch_sust.f_max = 0.122965;
+	p.rg.ch_sust.bw = 0.424147;
+	p.rg.A_0 = 256.928;
+	p.rg.f_0 = 32.4658;
+	p.rg.ecc_drop = 0.0591431;
+	p.rg.ecc_drop_nasal = 2.89648e-05;
+	p.rg.ecc_drop_f = 2.04986e-69;
+	p.rg.ecc_drop_f_nasal = 0.180118;
+	p.yv.sigma_sust = 7.9187;
+	p.yv.beta_sust = 0.999363;
+	p.yv.ch_sust.S_max = [ 64.1982 62.9917 0.411333 ];
+	p.yv.ch_sust.f_max = 0.00220293;
+	p.yv.ch_sust.bw = 0.532509;
+	p.yv.A_0 = 2.81672e+07;
+	p.yv.f_0 = 0.000630084;
+	p.yv.ecc_drop = 0.00357397;
+	p.yv.ecc_drop_nasal = 5.85804e-141;
+	p.yv.ecc_drop_f = 0.0080878;
+	p.yv.ecc_drop_f_nasal = 0.0147658;
+	p.ach.ach_sust.S_max = [ 77.1236 0.470503 0.429523 4.22703e-07 1.92855e+10 ];
+	p.ach.ach_sust.f_max = [ 1.3741 58.8829 0.226072 ];
+	p.ach.ach_sust.bw = 0.000206379;
+	p.ach.ach_sust.a = 9.62791e+14;
+	p.ach.ach_sust.A_0 = 5.85361;
+	p.ach.ach_sust.f_0 = 4.20042;
+	p.ach.ach_trans.S_max = [ 0.262965 2084.81 ];
+	p.ach.ach_trans.f_max = 0.000275027;
+	p.ach.ach_trans.bw = 1.18228;
+	p.ach.ach_trans.a = 0.000241177;
+	p.ach.ach_trans.A_0 = 2.18495;
+	p.ach.ach_trans.f_0 = 2.76283;
+	p.ach.sigma_trans = 0.0246245;
+	p.ach.sigma_sust = 10.467;
+	p.ach.omega_trans_sl = 25.249;
+	p.ach.omega_trans_c = 0.692533;
+	p.ach.ecc_drop = 0.0259781;
+	p.ach.ecc_drop_nasal = 0.0452708;
+	p.ach.ecc_drop_f = 0.0217926;
+	p.ach.ecc_drop_f_nasal = 0.0068348;
+	p.colmat = [ 2.15154 0 0 49.934 ];
+Parameters for Ach component:
+	p.ach_sust.S_max = [ 77.1236 0.470503 0.429523 4.22703e-07 1.92855e+10 ];
+	p.ach_sust.f_max = [ 1.3741 58.8829 0.226072 ];
+	p.ach_sust.bw = 0.000206379;
+	p.ach_sust.a = 9.62791e+14;
+	p.ach_trans.S_max = [ 0.262965 2084.81 ];
+	p.ach_trans.f_max = 0.000275027;
+	p.ach_trans.bw = 1.18228;
+	p.ach_trans.a = 0.000241177;
+	p.sigma_trans = 0.0246245;
+	p.sigma_sust = 10.467;
+	p.omega_trans_sl = 25.249;
+	p.omega_trans_c = 0.692533;
+	p.ecc_drop = 0.0259781;
+	p.ecc_drop_nasal = 0.0452708;
+	p.ecc_drop_f = 0.0217926;
+	p.ecc_drop_f_nasal = 0.0068348;
+
+Parameters for RG component:
+				p.ch_sust.S_max = [ 1317.78 0.342018 0.367998 ];
+				p.ch_sust.f_max = 0.122965;
+				p.ch_sust.bw = 0.424147;
+				p.A_0 = 256.928;
+				p.f_0 = 32.4658;
+				p.sigma_sust = 16.541;
+				p.beta_sust = 1.15549;
+				p.ecc_drop = 0.0591431;
+				p.ecc_drop_nasal = 2.89648e-05;
+				p.ecc_drop_f = 2.04986e-69;
+				p.ecc_drop_f_nasal = 0.180118;
+
+Parameters for YV component:
+				p.ch_sust.S_max = [ 64.1982 62.9917 0.411333 ];
+				p.ch_sust.f_max = 0.00220293;
+				p.ch_sust.bw = 0.532509;
+				p.A_0 = 2.81672e+07;
+				p.f_0 = 0.000630084;
+				p.sigma_sust = 7.9187;
+				p.beta_sust = 0.999363;
+				p.ecc_drop = 0.00357397;
+				p.ecc_drop_nasal = 5.85804e-141;
+				p.ecc_drop_f = 0.0080878;
+				p.ecc_drop_f_nasal = 0.0147658;
+
+</div>
+</div>
+<h2 id="stoBarten-Veridical"><a class="top_align_button" href="#stoBarten-Veridical">&#8632;</a>CSF model: original Barten's spatiotemporal veridical CSF</h2>
+<img src="fig_csf_contour_original Barten's spatiotemporal veridical CSF_1.png"/>
+<br/>
+<h2 id="daly-csf"><a class="top_align_button" href="#daly-csf">&#8632;</a>CSF model: VDP CSF</h2>
+<img src="fig_csf_contour_VDP CSF_1.png"/>
+<br/>
+<h2 id="csf-jov"><a class="top_align_button" href="#csf-jov">&#8632;</a>CSF model: csf-jov</h2>
+<img src="fig_csf_contour_csf-jov_1.png"/>
+<br/>
+<h2 id="post-recept-contrast-mat"><a class="top_align_button" href="#post-recept-contrast-mat">&#8632;</a>CSF model: Postreceptoral contrast</h2>
+<img src="fig_csf_contour_Postreceptoral contrast_1.png"/>
+<br/>
+<h2 id="stela-csf"><a class="top_align_button" href="#stela-csf">&#8632;</a>CSF model: stelaCSF</h2>
+<img src="fig_csf_contour_stelaCSF_1.png"/>
+<br/>
+<h2 id="castle-csf-jov"><a class="top_align_button" href="#castle-csf-jov">&#8632;</a>CSF model: castleCSF-jov</h2>
+<img src="fig_csf_contour_castleCSF-jov_1.png"/>
+<br/>
+<h2>Legend</h2>
+<p>To keep the plots legible, only up to 3 models are plotted.</p>
+<img src="legend.png"/>
+<h2 id="modelfest"><a class="top_align_button" href="#modelfest">&#8632;</a>Dataset: [modelfest] ModelFest</h2>
