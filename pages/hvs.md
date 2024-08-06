@@ -67,6 +67,18 @@ description: Human contrast vision
 	</div> 
 </div>
 
+<div class="container container-box container-box-fixed">
+    <div class="row-fluid">
+        <div class="span3">
+			<img src="../assets/projects/contrast/stela_22.jpeg">
+		</div>
+		<div class="span9">
+		<b><a href="https://dl.acm.org/doi/10.1145/3528223.3530115">stelaCSF: a unified model of contrast sensitivity as the function of spatio-temporal frequency, eccentricity, luminance and area</a></b><br/><br/>		
+           A contrast sensitivity function, or CSF, is a cornerstone of many visual models. It explains whether a contrast pattern is visible to the human eye. The existing CSFs typically account for a subset of relevant dimensions describing a stimulus, limiting the use of such functions to either static or foveal content but not both. In this paper, we propose a unified CSF, stelaCSF, which accounts for all major dimensions of the stimulus: spatial and temporal frequency, eccentricity, luminance, and area. To model the 5-dimensional space of contrast sensitivity, we combined data from 11 papers, each of which studied a subset of this space. While previously proposed CSFs were fitted to a single dataset, stelaCSF can predict the data from all these studies using the same set of parameters. The predictions are accurate in the entire domain, including low frequencies. In addition, stelaCSF relies on psychophysical models and experimental evidence to explain the major interactions between the 5 dimensions of the CSF. We demonstrate the utility of our new CSF in a flicker detection metric and in foveated rendering.<br/><br/>
+        </div> 
+	</div> 
+</div>
+
 **posters**
 
 <div class="container container-box container-box-fixed">
@@ -79,6 +91,20 @@ description: Human contrast vision
 		<div class="span9">
 		<b><a href="https://jov.arvojournals.org/article.aspx?articleid=2785016">Deviations from constancy in contrast matching over a wide range of luminances</a></b><br/><br/>		
            The principle of contrast constancy in suprathreshold vision, first introduced by Georgeson and Sullivan (1975), stipulates that the perception of contrast remains invariant across different parameters of stimuli, including spatial frequency, size, retinal eccentricity, etc. Contrast constancy is also generally believed to hold over changes in luminance levels (Kulikowski, 1976; Peli, 1991), i.e., two stimuli with same physical contrast but different mean luminances will be perceived equal in contrast. However, the stimuli used in the studies investigating this kind of contrast matching varied within only 1 ~ 2.6 log units of luminance (cd/m^2). Modern high dynamic range (HDR) displays are capable of displaying content well over 1000 cd/m^2 and as low as 0.0001 cd/m^2. Our study aims to investigate whether contrast constancy also holds when the stimuli being matched vary across such large dynamic ranges. Our apparatus consisted of a reference and an HDR display, each visible to only one eye (haploscopic/dichoptic viewing). We used Gabor patches of 3 spatial frequencies (0.5, 1, and 4 cpd) with varying contrasts in achromatic and two chromatic directions. The reference display showed a reference stimulus at a fixed luminance level of 200 cd/m^2, whereas the HDR display showed similar test stimuli only varying in luminance levels ranging from 0.02 to 2,000 cd/m^2. Observers (n = 40) adjusted the contrast of the test stimuli until they perceived both reference and test contrasts to be the same. We found that contrast constancy does not hold over such a large range of luminance levels (5 log units). Stimuli over 20 cd/m^2 matched when their physical contrasts were the same for most conditions. But for lower luminances, much higher physical contrast was required for equal contrast perception. This deviation from constancy was also larger for lower spatial frequencies and lower pedestal suprathreshold contrasts.<br/><br/>
+        </div> 
+	</div> 
+</div>
+
+<div class="container container-box container-box-fixed">
+    <div class="row-fluid">
+        <div class="span3">
+		<a href="../assets/projects/contrast/vss21_poster.pdf" target="_blank">
+                <img src="../assets/projects/contrast/vss21_poster.png">
+            </a>			
+		</div>
+		<div class="span9">
+		<b><a href="https://jov.arvojournals.org/article.aspx?articleid=2777138#:~:text=Our%20results%20show%20that%20the,different%20factors%20than%20suprathreshold%20vision.">Effect of age on threshold and suprathreshold contrast vision</a></b><br/><br/>		
+           The purpose of our study was to investigate the difference in spatio-chromatic contrast vision between younger (below 40) and older (above 60) colour-normal observers. We were particularly interested in how the adapting light level affected contrast vision and whether there was a differential age-related change in contrast threshold as well as suprathreshold contrast matching. There are two parts of the study, (i) contrast threshold measurement, (ii) suprathreshold contrast matching. In threshold measurement task, contrast sensitivity was measured for Gabor patches of 5 spatial frequencies (0.5, 1, 2, 4, and 6 cpd) in achromatic and two chromatic directions, at background luminance levels ranging from 0.02 to 10,000 cd/m^2. In the contrast matching task, a reference stimulus was displayed at a fixed luminance level and observers adjusted the contrast of the test stimulus displayed at different luminance levels (0.02 to 2000 cd/m^2). The matching experiment was repeated for 0.5, 2, and 4 cpd for all three colour directions at three suprathreshold levels of increasing contrast. Our main findings are: (1) Contrast sensitivity increases with background luminance up to around 200 cd/m2, then either declines in case of luminance contrast sensitivity, or becomes constant in case of chromatic contrast sensitivity; (2) The sensitivity of the younger age group is higher by ~0.3 log units; (3) Contrast sensitivity at higher spatial frequencies is more affected by ageing; (4) The differences between old and young group are not carried over to suprathreshold levels. Our results show that the effect of age on suprathreshold contrast matching is small in comparison to the age-related decline in contrast sensitivity (Mei et al, 2007) which is consistent with the hypothesis that contrast sensitivity at threshold is limited by different factors than suprathreshold vision.<br/><br/>
         </div> 
 	</div> 
 </div>
