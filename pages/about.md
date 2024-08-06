@@ -3,11 +3,39 @@ layout: page
 title: about
 description: Maliha Ashraf
 ---
+### experience
+
+**University of Cambridge**<br/>
+*Research Associate (Feb 2023 - present)*<br/>
+[Rafał Mantiuk](https://www.cst.cam.ac.uk/)<br/>
+Build computational models of human vision for graphics and display optimisation. Designs and conducts psychophysical experiments to measure different aspects of human vision.<br/><br/>
+
+**University of Liverpool**<br/>
+*Research Assistant (Jan 2019 - Jan 2023)*<br/>
+[Sophie Wuerger](https://pcwww.liv.ac.uk/~sophiew/)<br/>
+Designs and conducts psychophysical experiments using a prototype high dynamic range display. Responsible for data collection, analysis, and modelling to predict stimuli appearance (chromatic and achromatic contrast) for a wide range of luminance levels. <br/><br/>
+
+**University of Cambridge**<br/>
+*Visiting Researcher (Aug 2019 - Sep 2019)*<br/>
+[Rafał Mantiuk](https://www.cl.cam.ac.uk/~rkm38/), [Minjung Kim](https://www.minjung.ca/)<br/>
+Received training in calibrating and operating a custom-made HDR (high dynamic range) display. Assisted in collecting data from psychophysical experiments. <br/><br/>
+
+**Océ - A Canon Company**<br/>
+*Research Intern (Feb 2018 - Aug 2018)*<br/>
+[Ricardo Sapaico](https://www.researchgate.net/profile/Ricardo_Sapaico)<br/>
+Developed a high-fidelity color calibration framework for 2D and 3D image acquisition devices as part of my master thesis. Developed methods for geometric, color, and radiometric characterization and calibration of imaging devices. <br/><br/>
+
+**Olympus Corporation**<br/>
+*Research Intern (Jul 2017 - Aug 2017)*<br/>
+[Joji Sakamoto](https://www.linkedin.com/in/joji-sakamoto-73b9b368/?originalSubdomain=fi)<br/>
+Imaging Technology Department (Hachioji, Japan).
+Developed a pipeline for spectral design and development of optimum illuminants for contrast enhancement <br/><br/>
+
 
 ### education
 
 **University of Liverpool**<br/>
-*PhD candidate (2019 - present)*<br/>
+*PhD candidate (2019 - 2024)*<br/>
 <div class="row-fluid">
 	<div class="span2">
 		<i>Supervisors:<br/>
@@ -64,45 +92,47 @@ appearance across viewing conditions
 ##### BE in Electronic Engineering (2012 - 2016)
 NED University of Engineering & Technology <br/>  -->
 
-### experience
 
-**University of Cambridge**<br/>
-*Research assistant (Feb 2023 - present)*<br/>
-[Rafał Mantiuk](https://www.cst.cam.ac.uk/)<br/>
-Build computational models of human vision for graphics and display optimisation. Designs and conducts psychophysical experiments to measure different aspects of human vision.<br/><br/>
+### organisational roles
 
-**University of Liverpool**<br/>
-*Research assistant (Jan 2019 - Jan 2023)*<br/>
-[Sophie Wuerger](https://pcwww.liv.ac.uk/~sophiew/)<br/>
-Designs and conducts psychophysical experiments using a prototype high dynamic range display. Responsible for data collection, analysis, and modelling to predict stimuli appearance (chromatic and achromatic contrast) for a wide range of luminance levels. <br/><br/>
+**Color and Imaging Conference (CIC)**<br/>
+*2021-2024*<br/>
+Conference committee member<br/><br/>
 
-**University of Cambridge**<br/>
-*Visiting researcher (Aug 2019 - Sep 2019)*<br/>
-[Rafał Mantiuk](https://www.cl.cam.ac.uk/~rkm38/), [Minjung Kim](https://www.minjung.ca/)<br/>
-Received training in calibrating and operating a custom-made HDR (high dynamic range) display. Assisted in collecting data from psychophysical experiments. <br/><br/>
+**Symposium on Applied Perception (SAP)**<br/>
+*2023-2024*<br/>
+Program committee member<br/><br/>
 
-**Océ - A Canon Company**<br/>
-*Research intern (Feb 2018 - Aug 2018)*<br/>
-[Ricardo Sapaico](https://www.researchgate.net/profile/Ricardo_Sapaico)<br/>
-Developed a high-fidelity color calibration framework for 2D and 3D image acquisition devices as part of my master thesis. Developed methods for geometric, color, and radiometric characterization and calibration of imaging devices. <br/><br/>
+**Scottish Vision Group (SVG) virtual meeting’21**<br/>
+*2021*<br/>
+Conference co-organizer<br/><br/>
 
-**Olympus Corporation**<br/>
-*Research intern (Jul 2017 - Aug 2017)*<br/>
-[Joji Sakamoto](https://www.linkedin.com/in/joji-sakamoto-73b9b368/?originalSubdomain=fi)<br/>
-Imaging Technology Department (Hachioji, Japan).
-Developed a pipeline for spectral design and development of optimum illuminants for contrast enhancement <br/><br/>
+
+### teaching experience
+
+**Demonstrator**<br/>
+*2019-2022*<br/>
+University of Liverpool, School of Electrical and Electronic Engineering. Supervised Basic Electronics and MATLAB laboratory sessions for 1st and 2nd year students <br/><br/>
+
+**Workshops and Tutorials**<br/>
+*2012-2016*<br/>
+Organised informal workshops and tutorials on electrical/electronic simulation software (OrCAD, LabView), designing microcontroller-based modules and fundamental of programming (MATLAB, Python, C/C++)<br/><br/>
 
 ### awards
 
-**Best paper award**<br/>	
+**MDPI Vision Early Career Researcher Prize**<br/>
+*2024*<br/>
+Invited talk: Towards a Unified Model of Contrast Sensitivity<br/><br/>
+
+**Best Paper Award**<br/>	
 *2022*<br/>
 Paper (*Suprathreshold Contrast Matching between Different Luminance Levels*) won award at the Color and Imaging Conference’22<br/><br/>
 
-**Meta Reality Labs travel award**<br/>	
+**Meta Reality Labs Travel Award**<br/>	
 *April 2022*<br/>
 Travel award for Scottish Vision Conference 2022<br/><br/> 
 
-**Best paper award**<br/>	
+**Best Paper Award**<br/>	
 *2020*<br/>
 Paper (*Practical color contrast sensitivity functions for luminance levels up to 10,000 cd/m^2*) won award at the Color and Imaging Conference’20<br/><br/>
 
@@ -114,7 +144,7 @@ Travel award by Colour Vision Group of Great Britain for Colour and Imaging Conf
 *Sep 2016 - Aug 2018*<br/>
 EU-funded full scholarship grant<br/><br/>
 
-**Gold medal**<br/>
+**Gold Medal**<br/>
 *Mar 2016*<br/>
 First position academic merit award<br/><br/>
 

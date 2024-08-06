@@ -1,0 +1,100 @@
+---
+layout: page
+title: projects
+description: Human contrast vision 
+---
+
+### human contrast vision
+
+<div class="container container-box container-box-fixed">
+    <div class="row-fluid">
+        <div class="span3">
+			<img src="../assets/projects/contrast/castleCSF_icon.gif">
+		</div>
+		<div class="span9">
+		<b><a href="https://jov.arvojournals.org/article.aspx?articleid=2793530">castleCSF — A contrast sensitivity function of color, area, spatiotemporal frequency, luminance and eccentricity</a></b><br/><br/>		
+           The contrast sensitivity function (CSF) is a fundamental visual model explaining our ability to detect small contrast patterns. CSFs found many applications in engineering, where they can be used to optimize a design for perceptual limits. To serve such a purpose, CSFs must explain possibly a complete set of stimulus parameters, such as spatial and temporal frequency, luminance, and others. Although numerous contrast sensitivity measurements can be found in the literature, none fully explains the complete space of stimulus parameters. Therefore, in this work, we first collect and consolidate contrast sensitivity measurements from 18 studies, which explain the sensitivity variation across the parameters of interest. Then, we build an analytical contrast sensitivity model that explains the data from all those studies. The proposed castleCSF model explains the sensitivity as the function of spatial and temporal frequencies, an arbitrary contrast modulation direction in the color space, mean luminance, and chromaticity of the background, eccentricity, and stimulus area. The proposed model uses the same set of parameters to explain the data from 18 studies with an error of 3.59 dB. The consolidated contrast sensitivity data and the code for the model are publicly available at the <a href="https://github.com/gfxdisp/castleCSF/">project website</a>. <br/><br/>
+        </div> 
+	</div> 
+</div>
+
+<div class="container container-box container-box-fixed">
+    <div class="row-fluid">
+        <div class="span3">
+			<img src="../assets/projects/contrast/Bozorgian_hvei24.png">
+		</div>
+		<div class="span9">
+		<b><a href="https://library.imaging.org/ei/articles/36/11/HVEI-209">Spatiotemporal contrast sensitivity functions: predictions for the critical flicker frequency</a></b><br/><br/>		
+           Contrast sensitivity functions (CSFs), which provide estimations of detection thresholds, have far-reaching applications in digital media processing, rendering, and transmission. There is a practical interest in obtaining accurate estimations of spatial and temporal resolution limits from a spatiotemporal CSF model. However, current spatiotemporal CSFs are inaccurate when predicting high-frequency limits such as critical flicker frequency (CFF). To address this problem, we modified two spatiotemporal CSFs, namely Barten’s CSF and stelaCSF, to better account for the contrast sensitivity at high temporal frequencies, both in the fovea and eccentricity. We trained these models using 15 datasets of spatial and temporal contrast sensitivity measurements from the literature. Our modifications account for two features observed in CFF measurement: the increase of CFF at medium eccentricities (of about 15 deg), and the saturation of CFF at high luminance values. As a result, the prediction errors for CFF obtained from the modified models improved remarkably.<br/><br/>
+        </div> 
+	</div> 
+</div>
+
+<div class="container container-box container-box-fixed">
+    <div class="row-fluid">
+        <div class="span3">
+			<img src="../assets/projects/contrast/discs_hvei23.png">
+		</div>
+		<div class="span9">
+		<b><a href="https://library.imaging.org/ei/articles/35/10/HVEI-246">Modelling contrast sensitivity of discs</a></b><br/><br/>		
+           Spatial and temporal contrast sensitivity is typically measured using different stimuli. Gabor patterns are used to measure spatial contrast sensitivity and flickering discs are used for temporal contrast sensitivity. The data from both types of studies is difficult to compare as there is no well-established relationship between the sensitivity to disc and Gabor patterns. The goal of this work is to propose a model that can predict the contrast sensitivity of a disc using the more commonly available data and models for Gabors. To that end, we measured the contrast sensitivity for discs of different sizes, shown at different luminance levels, and for both achromatic and chromatic (isoluminant) contrast. We used this data to compare 6 different models, each of which tested a different hypothesis on the detection and integration mechanisms of disc contrast. The results indicate that multiple detectors contribute to the perception of disc stimuli, and each can be modelled either using an energy model, or the peak spatial frequency of the contrast sensitivity function.<br/><br/>
+        </div> 
+	</div> 
+</div>
+
+<div class="container container-box container-box-fixed">
+    <div class="row-fluid">
+        <div class="span3">
+			<img src="../assets/projects/contrast/cff_hvei23.png">
+		</div>
+		<div class="span9">
+		<b><a href="https://library.imaging.org/ei/articles/35/10/HVEI-223">Critical flicker frequency (CFF) at high luminance levels
+</a></b><br/><br/>		
+           The critical flicker fusion (CFF) is the frequency of changes at which a temporally periodic light will begin to appear completely steady to an observer. This value is affected by several visual factors, such as the luminance of the stimulus or its location on the retina. With new high dynamic range (HDR) displays, operating at higher luminance levels, and virtual reality (VR) displays, presenting at wide fields-of-view, the effective CFF may change significantly from values expected for traditional presentation. In this work we use a prototype HDR VR display capable of luminances up to 20,000 cd/m^2 to gather a novel set of CFF measurements for never before examined levels of luminance, eccentricity, and size. Our data is useful to study the temporal behavior of the visual system at high luminance levels, as well as setting useful thresholds for display engineering.<br/><br/>
+        </div> 
+	</div> 
+</div>
+
+<div class="container container-box container-box-fixed">
+    <div class="row-fluid">
+        <div class="span3">
+			<img src="../assets/projects/contrast/supra_cic22.png">
+		</div>
+		<div class="span9">
+		<b><a href="https://library.imaging.org/cic/articles/30/1/38">Suprathreshold Contrast Matching between Different Luminance Levels</a></b><br/><br/>		
+           We investigated how perceived achromatic and chromatic contrast changes with luminance. The experiment consisted of test and reference displays viewed haploscopically, where each eye sees one of the displays. Test stimuli presented on the test display on a background of varying luminance levels (0.02, 2,20,200,2000 cd/m²) were matched in perceived contrast to reference stimuli presented on a background at a fixed 200 cd/m² luminance level. We found that approximate contrast constancy holds at photopic luminance levels (20 cd/m² and above), that is, test stimuli presented at these luminance backgrounds matched when their physical contrasts were the same magnitude as the reference stimulus for most conditions. For lower background luminances, covering an extensive range of 5 log units, much higher physical contrast was required to achieve a match with the reference. This deviation from constancy was larger for lower spatial frequencies and lower pedestal suprathreshold contrasts. Our data provides the basis for new contrast retargeting models for matching appearances across luminance levels.<br/><br/>
+        </div> 
+	</div> 
+</div>
+
+**posters**
+
+<div class="container container-box container-box-fixed">
+    <div class="row-fluid">
+        <div class="span3">
+		<a href="../assets/projects/contrast/vss22_poster.pdf" target="_blank">
+                <img src="../assets/projects/contrast/vss22_poster.png">
+            </a>			
+		</div>
+		<div class="span9">
+		<b><a href="https://jov.arvojournals.org/article.aspx?articleid=2785016">Deviations from constancy in contrast matching over a wide range of luminances</a></b><br/><br/>		
+           The principle of contrast constancy in suprathreshold vision, first introduced by Georgeson and Sullivan (1975), stipulates that the perception of contrast remains invariant across different parameters of stimuli, including spatial frequency, size, retinal eccentricity, etc. Contrast constancy is also generally believed to hold over changes in luminance levels (Kulikowski, 1976; Peli, 1991), i.e., two stimuli with same physical contrast but different mean luminances will be perceived equal in contrast. However, the stimuli used in the studies investigating this kind of contrast matching varied within only 1 ~ 2.6 log units of luminance (cd/m^2). Modern high dynamic range (HDR) displays are capable of displaying content well over 1000 cd/m^2 and as low as 0.0001 cd/m^2. Our study aims to investigate whether contrast constancy also holds when the stimuli being matched vary across such large dynamic ranges. Our apparatus consisted of a reference and an HDR display, each visible to only one eye (haploscopic/dichoptic viewing). We used Gabor patches of 3 spatial frequencies (0.5, 1, and 4 cpd) with varying contrasts in achromatic and two chromatic directions. The reference display showed a reference stimulus at a fixed luminance level of 200 cd/m^2, whereas the HDR display showed similar test stimuli only varying in luminance levels ranging from 0.02 to 2,000 cd/m^2. Observers (n = 40) adjusted the contrast of the test stimuli until they perceived both reference and test contrasts to be the same. We found that contrast constancy does not hold over such a large range of luminance levels (5 log units). Stimuli over 20 cd/m^2 matched when their physical contrasts were the same for most conditions. But for lower luminances, much higher physical contrast was required for equal contrast perception. This deviation from constancy was also larger for lower spatial frequencies and lower pedestal suprathreshold contrasts.<br/><br/>
+        </div> 
+	</div> 
+</div>
+
+
+<!-- 
+<div class = "container">
+	<div class="row-fluid">
+		<div class="span7">
+			
+			<b>Retinal illuminance is reduced with age</b>
+			<img src="../assets/projects/agingcsf/AgingCSF.gif" width="100%"/>
+			
+			<br/><br/><br/><b>CSF of older adults match CSF of younger adults at lower luminances</b>
+			<img src="../assets/projects/agingcsf/AgingCSF2.gif" width="100%"/>
+		</div>
+	</div>
+</div>
+-->

@@ -1,4 +1,117 @@
 /* Custom container */
+
+
+/* New container-box class for additional styles */
+.container-box {
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+    margin: 20px; /* Center the container itself */
+	max-width: 630px; /* Set a maximum width */
+}
+
+/* Ensure the image is maximized and centered */
+.container-box .row-fluid {
+    display: flex;
+    align-items: center; /* Center vertically */
+    /*justify-content: center;  Center horizontally */
+}
+
+/* Apply styles to all span classes within .container-box */
+.container-box .span1,
+.container-box .span2,
+.container-box .span3,
+.container-box .span4,
+.container-box .span5,
+.container-box .span6,
+.container-box .span7,
+.container-box .span8,
+.container-box .span9,
+.container-box .span10,
+.container-box .span11,
+.container-box .span12 {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+/* Apply styles to all img tags within the span classes */
+.container-box .span1 img,
+.container-box .span2 img,
+.container-box .span3 img,
+.container-box .span4 img,
+.container-box .span5 img,
+.container-box .span6 img,
+.container-box .span7 img,
+.container-box .span8 img,
+.container-box .span9 img,
+.container-box .span10 img,
+.container-box .span11 img,
+.container-box .span12 img {
+    width: 100%; /* Resize the image to fill the parent container and beyond */
+    height: auto;
+    display: block;
+    object-fit: contain; /* Ensure the image scales properly */
+}
+
+/* Apply styles to text-containing span classes within .container-box */
+.container-box .span8,
+.container-box .span9 {
+    display: block;
+}
+
+/* New container-box-fixed class */
+.container-box-fixed {
+    height: 180px; /* Fixed height */
+    overflow: hidden; /* Hide overflow content */
+    position: relative; /* Required for positioning pseudo-element */
+}
+
+/* Ensure the text container allows for ellipsis */
+.container-box-fixed .span9 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8; /* Limit to 10 lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 100%; /* Ensure it takes the full height of the container */
+}
+
+/* Flexbox styling for row and span classes 
+.row-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}*/
+
+/*
+.span1 .span2 .span3 .span4 .span5 .span6 .span7 .span8 {
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+
+.span1, .span5, .span7 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.span1 {
+    flex: 1;
+}
+
+.span5 {
+    flex: 5;
+}
+
+.span7 {
+    flex: 7;
+}*/
+
 .container-narrow {
   margin: 0 auto;
   max-width: 700px; }
