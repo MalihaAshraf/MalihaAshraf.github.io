@@ -7,22 +7,21 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
 
 <div class="container">
     <div class="row-fluid">
+		<div class="span2">
+        <a href="../assets/pics/contact.jpg">
+            <img src="../assets/pics/contact.jpg"
+                  title="Maliha Ashraf" alt="Maliha Ashraf"/></a>
+				  <br/>
+        </div>
         <div class="span5">
-            <strong>Researcher</strong> in <a href="https://www.cl.cam.ac.uk/~rkm38/">Rafał Mantiuk</a>'s group at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a> (funded by <a href="https://about.meta.com/realitylabs/">Meta</a>)<br/>
+            <strong>Researcher</strong> in <a href="https://www.cl.cam.ac.uk/~rkm38/">Rafał Mantiuk</a>'s group at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a> (funded by <a href="https://about.meta.com/realitylabs/">Reality Labs</a>)<br/>
 			<!--<strong>PhD student</strong> at <a href="https://www.liverpool.ac.uk/">University of Liverpool</a> supervised by <a href="https://www.liverpool.ac.uk/electrical-engineering-and-electronics/staff/jeremy-smith/">Jeremy Smith</a> and <a href="https://pcwww.liv.ac.uk/~sophiew/">Sophie Wuerger</a><br/>-->
             <br/>
 			<strong>Email:</strong>
 			ma905 (at) cam (dot) ac (dot) (uk)
 			<br/>
-			<br/>
-			<br/>
         </div>
-
-        <div class="span2">
-        <a href="../assets/pics/contact.jpg">
-            <img src="../assets/pics/contact.jpg"
-                  title="Maliha Ashraf" alt="Maliha Ashraf"/></a>
-        </div>
+        
     </div>
 </div>
 

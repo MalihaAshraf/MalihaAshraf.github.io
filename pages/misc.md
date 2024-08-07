@@ -4,6 +4,17 @@ title: projects
 description: Miscellaneous 
 ---
 
+<div class="navbar">
+  <div class="navbar-inner">
+      <ul class="nav">  
+		  <li><a href="hvs.html">Human contrast vision</a></li>
+		  <li><a href="metrics.html">Perceptual visual quality metrics</a></li>
+		  <li><a href="colour.html">Colour correction and calibration</a></li>
+		  <!-- <li><a href="misc.html">Miscellaneous projects</a></li>-->
+      </ul>
+  </div>
+</div>
+
 ### miscellaneous projects
 
 <div class="container container-box container-box-fixed">
