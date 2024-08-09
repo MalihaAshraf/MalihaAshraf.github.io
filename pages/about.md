@@ -35,7 +35,7 @@ Developed a pipeline for spectral design and development of optimum illuminants 
 ### education
 
 **University of Liverpool**<br/>
-*PhD candidate (2019 - 2024)*<br/>
+*PhD (2019 - 2024)*<br/>
 <div class="row-fluid">
 	<div class="span2">
 		<i>Supervisors:<br/>
@@ -43,9 +43,8 @@ Developed a pipeline for spectral design and development of optimum illuminants 
 	</div>
 	<div class="span7">
 		<a href="https://www.liverpool.ac.uk/electrical-engineering-and-electronics/staff/jeremy-smith/">Jeremy Smith</a>, <a href="https://pcwww.liv.ac.uk/~sophiew/">Sophie Wuerger</a><br/>
-		A spatio-chromatic colour appearance model for
-		retargeting high dynamic range (HDR) image
-		appearance across viewing conditions
+		<a href="../assets/thesis/MalihaAshraf_PhD_Thesis.pdf">
+		Perceptually-based Modelling of Human Contrast Vision</a>
 	</div>
 </div>
 <br/>

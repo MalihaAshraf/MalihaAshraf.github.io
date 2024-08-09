@@ -82,10 +82,48 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
     <b><a href="/pages/misc.html">Miscellaneous projects</a></b><br/>
 </div>
 
-<!--
+
 <hr />
 
+<div class="container">
+	<h3>news</h3>
+</div>
 
+<div class="container container-box">
+    <b>August 2024: Speaking at <a href="https://ecvp2024.abdn.ac.uk/">ECVP</a> in Aberdeen</b><br/><br/>
+    <div class="row-fluid">		
+        <div class="span12">
+            I will be speaking at the ECVP (European Conference on Visual Perception) conference in Aberdeen on Wednesday, 28th August. I will be presenting at two symposia; <a href="https://ecvp2024.abdn.ac.uk/symposia/">Reproducing Reality: What is needed to build displays that pass the “Visual Turing Test”?</a> and <a href="https://ecvp2024.abdn.ac.uk/symposia/">Spanning the space of science: From cones to colour applications. A symposium in honour of Sophie Wuerger</a>.<br/><br/>
+        </div>   
+	</div> 
+</div>
+
+<div class="container container-box">
+    <div class="row-fluid">		
+        <div class="span9">
+		<b>July 2024: Graduated!</b><br/><br/>
+        Thesis: <a href="assets/thesis/MalihaAshraf_PhD_Thesis.pdf">
+		Perceptually-based Modelling of Human Contrast Vision</a><br/><br/>
+        </div>   
+		<div class="span4">
+           <img src="assets/thesis/graduation.jpg" alt="Graduation photo at Liverpool Metropolitan Cathedral">
+		</div>
+	</div> 
+</div>
+
+<div class="container container-box">
+    <div class="row-fluid">		
+        <div class="span6">
+		<b>March 2024: <a href="https://stirlingperception.stir.ac.uk/svg2024/programme/">ECR Prize at the Scottish Vision Group Meeting</a></b><br/><br/>
+        I received the Early Career Researcher (ECR) prize at the Scottish Vision Group (SVG) meeting in and presented my work titled: <em>Towards a Unified Model of Contrast Sensitivity</em><br/><br/>
+        </div>   
+		<div class="span6">
+                <img src="assets/news/mdpi2.jpg" alt="SVG Prize">
+		</div>       
+	</div> 
+</div>
+
+<!--
 <div class="container">
 	<h3>highlights</h3>
 </div>

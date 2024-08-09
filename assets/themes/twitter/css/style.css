@@ -58,7 +58,9 @@
 
 /* Apply styles to text-containing span classes within .container-box */
 .container-box .span8,
-.container-box .span9 {
+.container-box .span9,
+.container-box .span6,
+.container-box .span12 {
     display: block;
 }
 
