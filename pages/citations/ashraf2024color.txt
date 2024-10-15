@@ -1,0 +1,10 @@
+@article{ashraf2024color,
+  title={Color calibration methods for OLED displays},
+  author={Ashraf, Maliha and Sztrajman, Alejandro and Hammou, Dounia and Mantiuk, Rafa{\l} K},
+  journal={Electronic Imaging},
+  volume={36},
+  pages={1--7},
+  year={2024},
+  publisher={Society for Imaging Science and Technology},
+  doi={10.2352/EI.2024.36.16.COLOR-166}
+}

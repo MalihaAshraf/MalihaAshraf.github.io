@@ -66,7 +66,7 @@
 
 /* New container-box-fixed class */
 .container-box-fixed {
-    height: 180px; /* Fixed height */
+    height: 200px; /* Fixed height */
     overflow: hidden; /* Hide overflow content */
     position: relative; /* Required for positioning pseudo-element */
 }
@@ -75,7 +75,7 @@
 .container-box-fixed .span9 {
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 8; /* Limit to 10 lines */
+    -webkit-line-clamp: 10; /* Limit to 10 lines */
     overflow: hidden;
     text-overflow: ellipsis;
     height: 100%; /* Ensure it takes the full height of the container */

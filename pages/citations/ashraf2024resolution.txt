@@ -1,0 +1,7 @@
+@article{ashraf2024resolution,
+  title={Resolution limit of the eye: how many pixels can we see?},
+  author={Ashraf, Maliha and Chapiro, Alexandre and Mantiuk, Rafa{\l} K},
+  journal={arXiv preprint arXiv:2410.06068},
+  year={2024},
+  doi={10.48550/arXiv.2410.06068}
+}

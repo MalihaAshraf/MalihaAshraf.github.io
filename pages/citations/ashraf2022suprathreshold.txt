@@ -1,0 +1,9 @@
+@inproceedings{ashraf2022suprathreshold,
+  title={Suprathreshold contrast matching between different luminance levels},
+  author={Ashraf, Maliha and Mantiuk, Rafa{\l} K and Martinovic, Jasna and Wuerger, Sophie},
+  booktitle={30th Color and Imaging Conference-Color Science and Engineering Systems, Technologies, and Applications, CIC 2022},
+  pages={219--224},
+  year={2022},
+  organization={Society for Imaging Science and Technology},
+  doi={10.2352/CIC.2022.30.1.38}
+}

@@ -1,0 +1,11 @@
+@article{ashraf2024castlecsf,
+  title={castleCSF—A contrast sensitivity function of color, area, spatiotemporal frequency, luminance and eccentricity},
+  author={Ashraf, Maliha and Mantiuk, Rafa{\l} K and Chapiro, Alexandre and Wuerger, Sophie},
+  journal={Journal of Vision},
+  volume={24},
+  number={4},
+  pages={1--38},
+  year={2024},
+  publisher={The Association for Research in Vision and Ophthalmology},
+  doi={10.1167/jov.24.4.5}
+}

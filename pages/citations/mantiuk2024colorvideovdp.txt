@@ -1,0 +1,11 @@
+@article{mantiuk2022stelacsf,
+  title={ColorVideoVDP: A visual difference predictor for image, video and display distortions},
+  author={Mantiuk, Rafal K and Hanji, Param and Ashraf, Maliha and Asano, Yuta and Chapiro, Alexandre},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={43},
+  number={4},
+  pages={1--20},
+  year={2024},
+  publisher={ACM New York, NY, USA},
+  doi={10.1145/3658144}
+}

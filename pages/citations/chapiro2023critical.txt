@@ -1,0 +1,10 @@
+@article{chapiro2023critical,
+  title={Critical flicker frequency (CFF) at high luminance levels},
+  author={Chapiro, Alexandre and Matsuda, Nathan and Ashraf, Maliha and Mantiuk, Rafa{\l} K},
+  journal={Electronic Imaging},
+  volume={35},
+  pages={1--5},
+  year={2023},
+  publisher={Society for Imaging Science and Technology},
+  doi={10.2352/EI.2023.35.10.HVEI-223}
+}

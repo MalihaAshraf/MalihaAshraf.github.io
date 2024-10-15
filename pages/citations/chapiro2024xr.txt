@@ -1,0 +1,6 @@
+@article{chapiro2024xr,
+  title={XR-DAVID: XR Display Artifact Video Dataset},
+  author={Chapiro, Alexandre and Asano, Yuta and Mantiuk, Rafa{\l} K and Hanji, Param and Ashraf, Maliha},
+  year={2024},
+  doi={10.17863/CAM.108210}
+}

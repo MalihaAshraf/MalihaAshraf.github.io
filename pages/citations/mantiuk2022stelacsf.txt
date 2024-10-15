@@ -1,0 +1,11 @@
+@article{mantiuk2022stelacsf,
+  title={stelaCSF: A unified model of contrast sensitivity as the function of spatio-temporal frequency, eccentricity, luminance and area},
+  author={Mantiuk, Rafa{\l} K and Ashraf, Maliha and Chapiro, Alexandre},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={41},
+  number={4},
+  pages={1--16},
+  year={2022},
+  publisher={ACM New York, NY, USA},
+  doi={10.1145/3528223.3530115}
+}

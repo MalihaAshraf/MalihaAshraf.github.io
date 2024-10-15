@@ -1,0 +1,10 @@
+@article{bozorgian2024spatiotemporal,
+  title={Spatiotemporal contrast sensitivity functions: predictions for the critical flicker frequency},
+  author={Bozorgian, Ali and Ashraf, Maliha and Mantiuk, Rafa{\l} K},
+  journal={Electronic Imaging},
+  volume={36},
+  pages={1--8},
+  year={2024},
+  publisher={Society for Imaging Science and Technology},
+  doi={10.2352/EI.2024.36.11.HVEI-209}
+}

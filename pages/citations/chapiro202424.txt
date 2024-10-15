@@ -1,0 +1,11 @@
+@inproceedings{chapiro202424,
+  title={24-1: Visible Difference Predictors: A Class of Perception-Based Metrics},
+  author={Chapiro, Alexandre and Hanji, Param and Ashraf, Maliha and Asano, Yuta and Mantiuk, Rafa{\l} K},
+  booktitle={SID Symposium Digest of Technical Papers},
+  volume={55},
+  number={1},
+  pages={299--301},
+  year={2024},
+  organization={Wiley Online Library},
+  doi={10.1002/sdtp.17514}
+}

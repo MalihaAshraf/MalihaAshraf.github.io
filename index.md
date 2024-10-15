@@ -90,11 +90,27 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
 </div>
 
 <div class="container container-box">
-    <b>August 2024: Speaking at <a href="https://ecvp2024.abdn.ac.uk/">ECVP</a> in Aberdeen</b><br/><br/>
+    <b>October 2024: Speaking at <a href="https://www.imaging.org/IST/IST/Conferences/CIC/CIC2024/CIC_Home.aspx" target="_blank">CIC32</a> in Montreal</b><br/><br/>
     <div class="row-fluid">		
         <div class="span12">
-            I will be speaking at the ECVP (European Conference on Visual Perception) conference in Aberdeen on Wednesday, 28th August. I will be presenting at two symposia; <a href="https://ecvp2024.abdn.ac.uk/symposia/">Reproducing Reality: What is needed to build displays that pass the “Visual Turing Test”?</a> and <a href="https://ecvp2024.abdn.ac.uk/symposia/">Spanning the space of science: From cones to colour applications. A symposium in honour of Sophie Wuerger</a>.<br/><br/>
-        </div>   
+            I am giving a talk at CIC (Color & Imaging Conference) in Montreal on Thursday, 31st October, 2024. The title of the talk is "Modelling Contrast Matching Across Luminance Levels".<br/><br/>
+        </div> 
+	</div> 
+</div>
+
+<div class="container container-box">
+    <b>August 2024: Attended <a href="https://ecvp2024.abdn.ac.uk/" target="_blank">ECVP</a> in Aberdeen</b><br/><br/>
+    <div class="row-fluid">		
+        <div class="span12">
+            I attended the ECVP (European Conference on Visual Perception) conference in Aberdeen from 25th - 29th August, 2024. I gave two talks in the symposia; <a href="https://ecvp2024.abdn.ac.uk/symposia/">Reproducing Reality: What is needed to build displays that pass the “Visual Turing Test”?</a> and <a href="https://ecvp2024.abdn.ac.uk/symposia/">Spanning the space of science: From cones to colour applications. A symposium in honour of Sophie Wuerger</a>.<br/><br/>
+        </div> 
+	</div> 
+	<div class="row-fluid">	
+		<div class="span2">	
+		</div>		
+		<div class="span8">
+			<img src="assets/news/ecvp.JPG" alt="ECVP talk">
+		</div>  
 	</div> 
 </div>
 
@@ -102,7 +118,7 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
     <div class="row-fluid">		
         <div class="span9">
 		<b>July 2024: Graduated!</b><br/><br/>
-        Thesis: <a href="assets/thesis/MalihaAshraf_PhD_Thesis.pdf">
+        Thesis: <a href="https://doi.org/10.17638/03182202" target="_blank">
 		Perceptually-based Modelling of Human Contrast Vision</a><br/><br/>
         </div>   
 		<div class="span4">
@@ -114,11 +130,11 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
 <div class="container container-box">
     <div class="row-fluid">		
         <div class="span6">
-		<b>March 2024: <a href="https://stirlingperception.stir.ac.uk/svg2024/programme/">ECR Prize at the Scottish Vision Group Meeting</a></b><br/><br/>
+		<b>March 2024: <a href="https://stirlingperception.stir.ac.uk/svg2024/programme/" target="_blank">ECR Prize at the Scottish Vision Group Meeting</a></b><br/><br/>
         I received the Early Career Researcher (ECR) prize at the Scottish Vision Group (SVG) meeting in and presented my work titled: <em>Towards a Unified Model of Contrast Sensitivity</em><br/><br/>
         </div>   
 		<div class="span6">
-                <img src="assets/news/mdpi2.jpg" alt="SVG Prize">
+            <img src="assets/news/mdpi2.jpg" alt="SVG Prize">
 		</div>       
 	</div> 
 </div>

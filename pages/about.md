@@ -43,7 +43,7 @@ Developed a pipeline for spectral design and development of optimum illuminants 
 	</div>
 	<div class="span7">
 		<a href="https://www.liverpool.ac.uk/electrical-engineering-and-electronics/staff/jeremy-smith/">Jeremy Smith</a>, <a href="https://pcwww.liv.ac.uk/~sophiew/">Sophie Wuerger</a><br/>
-		<a href="../assets/thesis/MalihaAshraf_PhD_Thesis.pdf">
+		<a href="https://doi.org/10.17638/03182202" target="_blank">
 		Perceptually-based Modelling of Human Contrast Vision</a>
 	</div>
 </div>
