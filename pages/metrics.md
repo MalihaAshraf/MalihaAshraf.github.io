@@ -28,7 +28,7 @@ description: Perceptual visual quality metrics
 		<b><a href="https://dl.acm.org/doi/10.1145/3658144" target="_blank">ColorVideoVDP: A visual difference predictor for image, video and display distortions</a></b><br/>
 		Rafał K. Mantiuk, Param Hanji, Maliha Ashraf, Yuta Asano, Alexandre Chapiro<br/>
 		<i>SIGGRAPH, ACM TOG—Transactions on Graphics (2024)</i>
-		<a href="citations/mantiuk2022stelacsf.txt" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
+		<a href="citations/mantiuk2024colorvideovdp.txt" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
 		<a href="https://github.com/gfxdisp/ColorVideoVDP/" target="_blank"><i class="fa-brands fa-github" style="font-size:16px; margin-left: 10px;"></i></a>
 		<a href="https://www.cl.cam.ac.uk/research/rainbow/projects/colorvideovdp/" target="_blank"><i class="fa-solid fa-globe" style="font-size:16px; margin-left: 10px;"></i></a>
 		<a href="https://www.cl.cam.ac.uk/~rkm38/pdfs/mantiuk2024_ColorVideoVDP_supplementary.pdf" target="_blank"><i class="fa-solid fa-file" style="font-size:16px; margin-left: 10px;"></i></a>
