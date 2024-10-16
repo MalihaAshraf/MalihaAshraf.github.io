@@ -141,6 +141,39 @@ description: Human contrast vision
 	</div> 
 </div>
 
+<div class="container container-box container-box-fixed">
+    <div class="row-fluid">
+        <div class="span3">
+			<img src="../assets/projects/contrast/mantiuk2020practical.png">
+		</div>
+		<div class="span9">
+		<b><a href="https://library.imaging.org/cic/articles/28/1/art00002" target="_blank">Practical Color Contrast Sensitivity Functions for Luminance Levels up to 10000 cd/m2</a></b><br/>
+		Rafał K. Mantiuk, Minjung Kim, Maliha Ashraf, Qiang Xu, M. Ronnier Luo, Jasna Martinovic, Sophie Wuerger<br/>
+		<i>CIC—Color and Imaging Conference (2020)</i>
+		<a href="citations/mantiuk2020practical.txt" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
+		<i class="fa-solid fa-award" style="font-size:16px; margin-left: 10px;"></i>
+		<br/><br/>		
+           We model color contrast sensitivity for Gabor patches as a function of spatial frequency, luminance and chromacity of the background, modulation direction in the color space and stimulus size. To fit the model parameters, we combine the data from five independent datasets, which let us make predictions for background luminance levels between 0.0002 cd/m2 and 10 000 cd/m2, and for spatial frequencies between 0.06 cpd and 32 cpd. The data are well-explained by two models: A model that encodes cone contrast and a model that encodes postreceptoral, opponent-color contrast. Our intention is to create practical models, which can well explain the detection performance for natural viewing in a wide range of conditions. As our models are fitted to the data spanning very large range of luminance, they can find applications in modeling visual performance for high dynamic range and augmented reality displays. <br/><br/>
+        </div> 
+	</div> 
+</div>
+
+<div class="container container-box container-box-fixed">
+    <div class="row-fluid">
+        <div class="span3">
+			<img src="../assets/projects/contrast/ashraf2020spatio.png">
+		</div>
+		<div class="span9">
+		<b><a href="https://library.imaging.org/cic/articles/28/1/art00011" target="_blank">Spatio-chromatic contrast sensitivity across the lifespan: interactions between age and light level in high dynamic range</a></b><br/>
+		Maliha Ashraf, Sophie Wuerger, Minjung Kim, Jasna Martinovic, Rafał K. Mantiuk<br/>
+		<i>CIC—Color and Imaging Conference (2020)</i>
+		<a href="citations/ashraf2020spatio.txt" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
+		<br/><br/>		
+         We investigated spatio-chromatic contrast sensitivity in both younger and older color-normal observers. We tested how the adapting light level affected the contrast sensitivity and whether there was a differential age-related change in sensitivity. Contrast sensitivity was measured along three directions in colour space (achromatic, red-green, yellowish-violet), at background luminance levels from 0.02 to 2000 cd/m2, and different stimuli sizes using 4AFC method on a high dynamic range display. 20 observers with a mean age of 33 y. o. a. and 20 older observers with mean age of 65 participated in the study. Within each session, observers were fully adapted to the fixed background luminance. Our main findings are: (1) Contrast sensitivity increases with background luminance up to around 200 cd/m2, then either declines in case of achromatic contrast sensitivity, or remains constant in case of chromatic contrast sensitivity; (2) The sensitivity of the younger age group is higher than that for the older age group by 0.3 log units on average. Only for the achromatic contrast sensitivity, the old age group shows a relatively larger decline in sensitivity for medium to high spatial frequencies at high photopic light levels; (3) Peak frequency, peak sensitivity and cut-off frequency of contrast sensitivity functions show decreasing trends with age and the rate of this decrease is dependent on mean luminance. The data is being modeled to predict contrast sensitivity as a function of age, luminance level, spatial frequency, and stimulus size.<br/><br/>
+        </div> 
+	</div> 
+</div>
+
 **posters**
 
 <div class="container container-box container-box-fixed">

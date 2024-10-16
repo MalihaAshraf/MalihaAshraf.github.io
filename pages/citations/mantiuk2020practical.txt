@@ -1,0 +1,11 @@
+@inproceedings{mantiuk2020practical,
+  title={Practical color contrast sensitivity functions for luminance levels up to 10000 cd/m 2},
+  author={Mantiuk, Rafa{\l} K and Kim, Minjung and Ashraf, Maliha and Xu, Qiang and Luo, M Ronnier and Martinovic, Jasna and Wuerger, Sophie},
+  booktitle={Color and Imaging Conference},
+  volume={28},
+  number={1},
+  pages={1--6},
+  year={2020},
+  organization={Society for Imaging Science \& Technology},
+  doi={10.2352/issn.2169-2629.2020.28.1}
+}
