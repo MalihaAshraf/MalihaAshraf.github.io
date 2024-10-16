@@ -1,0 +1,10 @@
+@inproceedings{kucuk2022comparison,
+  title={Comparison of Regression Methods and Neural Networks for Colour Corrections},
+  author={Kucuk, Abdullah and Finlayson, Graham and Mantiuk, Rafa{\l} K and Ashraf, Maliha},
+  booktitle={London Imaging Meeting},
+  volume={3},
+  pages={74--79},
+  year={2022},
+  organization={Society for Imaging Science and Technology},
+  doi={10.2352/lim.2022.1.1.17}
+}

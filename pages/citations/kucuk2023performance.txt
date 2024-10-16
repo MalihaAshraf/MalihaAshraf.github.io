@@ -1,0 +1,10 @@
+@article{kucuk2023performance,
+  title={Performance Comparison of Classical Methods and Neural Networks for Colour Correction},
+  author={Kucuk, Abdullah and Finlayson, Graham D and Mantiuk, Rafa{\l} K and Ashraf, Maliha},
+  journal={Journal of Imaging},
+  volume={9},
+  number={10},
+  pages={214},
+  year={2023},
+  doi={10.3390/jimaging9100214}
+}

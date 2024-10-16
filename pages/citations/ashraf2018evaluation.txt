@@ -1,0 +1,9 @@
+@inproceedings{ashraf2018evaluation,
+  title={Evaluation of color correction methods for printed surfaces},
+  author={Ashraf, Maliha and Sapaico, Luis Ricardo},
+  booktitle={2018 Colour and Visual Computing Symposium (CVCS)},
+  pages={1--6},
+  year={2018},
+  organization={IEEE},
+  doi={10.1109/CVCS.2018.8496542}
+}

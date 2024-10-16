@@ -1,0 +1,10 @@
+@article{ward2023odors,
+  title={Odors modulate color appearance},
+  author={Ward, Ryan J and Ashraf, Maliha and Wuerger, Sophie and Marshall, Alan},
+  journal={Frontiers in psychology},
+  volume={14},
+  pages={1175703},
+  year={2023},
+  publisher={Frontiers Media SA},
+  doi={10.3389/fpsyg.2023.1175703}
+}

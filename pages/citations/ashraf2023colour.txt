@@ -1,0 +1,10 @@
+@inproceedings{ashraf2023colour,
+  title={Colour difference formula for photopic and mesopic vision incorporating cone and rod responses},
+  author={Ashraf, Maliha and Mantiuk, Rafa{\l} K and Finlayson, Graham and Kucuk, Abdullah and Wuerger, Sophie},
+  booktitle={London Imaging Meeting},
+  volume={3},
+  pages={79--83},
+  year={2022},
+  organization={Society for Imaging Science and Technology},
+  doi={10.2352/lim.2022.1.1.18}
+}

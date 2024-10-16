@@ -1,0 +1,10 @@
+@inproceedings{kucuk2022exposure,
+  title={An exposure invariant neural network for colour correction},
+  author={Kucuk, Abdullah and Finlayson, Graham D and Mantiuk, Rafa{\l} K and Ashraf, Maliha},
+  booktitle={Color and Imaging Conference},
+  volume={30},
+  pages={176--181},
+  year={2022},
+  organization={Society for Imaging Science and Technology},
+  doi={10.2352/CIC.2022.30.1.31}
+}
