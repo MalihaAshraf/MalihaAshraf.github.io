@@ -144,6 +144,26 @@ description: Human contrast vision
 <div class="container container-box container-box-fixed">
     <div class="row-fluid">
         <div class="span3">
+			<img src="../assets/projects/contrast/wuerger2020spatio.gif">
+		</div>
+		<div class="span9">
+		<b><a href="https://jov.arvojournals.org/article.aspx?articleid=2765519" target="_blank">Spatio-chromatic contrast sensitivity under mesopic and photopic light levels</a></b><br/>
+		Sophie Wuerger, Maliha Ashraf, Minjung Kim, Jasna Martinovic, María Pérez-Ortiz, Rafał K. Mantiuk<br/>		
+		<i>Journal of Vision (2020)</i>
+		<a href="citations/wuerger2020spatio.txt" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
+		<a href="https://github.com/MalihaAshraf/CSF_luminance_model" target="_blank"><i class="fa-brands fa-github" style="font-size:16px; margin-left: 10px;"></i></a>
+		<a href="https://www.cl.cam.ac.uk/research/rainbow/projects/hdr-csf/" target="_blank"><i class="fa-solid fa-globe" style="font-size:16px; margin-left: 10px;"></i></a>
+		<a href="https://www.repository.cam.ac.uk/items/d0fdf331-8bf5-4f2e-b6b9-d9ff077c9c21" target="_blank"><i class="fa-solid fa-file" style="font-size:16px; margin-left: 10px;"></i></a>
+		<br/>
+		<br/>
+           Contrast sensitivity functions (CSFs) characterize the sensitivity of the human visual system at different spatial scales, but little is known as to how contrast sensitivity for achromatic and chromatic stimuli changes from a mesopic to a highly photopic range reflecting outdoor illumination levels. The purpose of our study was to further characterize the CSF by measuring both achromatic and chromatic sensitivities for background luminance levels from 0.02 cd/m2 to 7,000 cd/m2. Stimuli consisted of Gabor patches of different spatial frequencies and angular sizes, varying from 0.125 to 6 cpd, which were displayed on a custom high dynamic range (HDR) display with luminance levels up to 15,000 cd/m2. Contrast sensitivity was measured in three directions in color space, an achromatic direction, an isoluminant “red-green” direction, and an S-cone isolating “yellow-violet” direction, selected to isolate the luminance, L/M-cone opponent, and S-cone opponent pathways, respectively, of the early postreceptoral processing stages. Within each session, observers were fully adapted to the fixed background luminance (0.02, 2, 20, 200, 2,000, or 7,000 cd/m2). Our main finding is that the background luminance has a differential effect on achromatic contrast sensitivity compared to chromatic contrast sensitivity. The achromatic contrast sensitivity increases with higher background luminance up to 200 cd/m2 and then shows a sharp decline when background luminance is increased further. In contrast, the chromatic sensitivity curves do not show a significant sensitivity drop at higher luminance levels. We present a computational luminance-dependent model that predicts the CSF for achromatic and chromatic stimuli of arbitrary size.<br/><br/>
+        </div> 
+	</div> 
+</div>
+
+<div class="container container-box container-box-fixed">
+    <div class="row-fluid">
+        <div class="span3">
 			<img src="../assets/projects/contrast/mantiuk2020practical.png">
 		</div>
 		<div class="span9">
@@ -151,6 +171,7 @@ description: Human contrast vision
 		Rafał K. Mantiuk, Minjung Kim, Maliha Ashraf, Qiang Xu, M. Ronnier Luo, Jasna Martinovic, Sophie Wuerger<br/>
 		<i>CIC—Color and Imaging Conference (2020)</i>
 		<a href="citations/mantiuk2020practical.txt" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
+		<a href="https://github.com/gfxdisp/omni-csf" target="_blank"><i class="fa-brands fa-github" style="font-size:16px; margin-left: 10px;"></i></a>
 		<i class="fa-solid fa-award" style="font-size:16px; margin-left: 10px;"></i>
 		<br/><br/>		
            We model color contrast sensitivity for Gabor patches as a function of spatial frequency, luminance and chromacity of the background, modulation direction in the color space and stimulus size. To fit the model parameters, we combine the data from five independent datasets, which let us make predictions for background luminance levels between 0.0002 cd/m2 and 10 000 cd/m2, and for spatial frequencies between 0.06 cpd and 32 cpd. The data are well-explained by two models: A model that encodes cone contrast and a model that encodes postreceptoral, opponent-color contrast. Our intention is to create practical models, which can well explain the detection performance for natural viewing in a wide range of conditions. As our models are fitted to the data spanning very large range of luminance, they can find applications in modeling visual performance for high dynamic range and augmented reality displays. <br/><br/>

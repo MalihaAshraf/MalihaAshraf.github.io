@@ -1,0 +1,11 @@
+@article{wuerger2020spatio,
+  title={Spatio-chromatic contrast sensitivity under mesopic and photopic light levels},
+  author={Wuerger, Sophie and Ashraf, Maliha and Kim, Minjung and Martinovic, Jasna and P{\'e}rez-Ortiz, Mar{\'\i}a and Mantiuk, Rafa{\l} K},
+  journal={Journal of Vision},
+  volume={20},
+  number={4},
+  pages={23--23},
+  year={2020},
+  publisher={The Association for Research in Vision and Ophthalmology},
+  doi={10.1167/jov.20.4.23}
+}
