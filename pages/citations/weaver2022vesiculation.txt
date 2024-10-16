@@ -1,0 +1,10 @@
+@article{weaver2022vesiculation,
+  title={Vesiculation and densification of pyroclasts: a clast-size dependent competition between bubble growth and diffusive outgassing},
+  author={Weaver, Joshua and Lavall{\'e}e, Yan and Ashraf, Maliha and Kendrick, Jackie E and Lamur, Anthony and Schauroth, Jenny and Wadsworth, Fabian B},
+  journal={Journal of Volcanology and Geothermal Research},
+  volume={428},
+  pages={107550},
+  year={2022},
+  publisher={Elsevier},
+  doi={10.1016/j.jvolgeores.2022.107550}
+}
