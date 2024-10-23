@@ -1,0 +1,188 @@
+<html>
+<head>
+<title>color_checker_ratio</title>
+
+<script type="text/javascript">
+function detectLeftButton(evt) {
+    evt = evt || window.event;
+    var button = evt.which || evt.button;
+    return button == 1;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+
+<body>
+<h1>Tone mapping operators in DKL space</h1>
+<h2>Method: Schlick</h2>
+<tr><td><img src="fig_ref.png"/>
+</td>
+<td><img src="fig_tt_1_c_0.1.png"/>
+</td>
+<td><img src="fig_tt_1_c_0.2.png"/>
+</td>
+<td><img src="fig_tt_1_c_0.3.png"/>
+</td>
+<td><img src="fig_tt_1_c_0.4.png"/>
+</td>
+<td><img src="fig_tt_1_c_0.5.png"/>
+</td>
+<td><img src="fig_tt_1_c_0.6.png"/>
+</td>
+<td><img src="fig_tt_1_c_0.7.png"/>
+</td>
+<td><img src="fig_tt_1_c_0.8.png"/>
+</td>
+<td><img src="fig_tt_1_c_0.9.png"/>
+</td>
+<td><img src="fig_tt_1_c_1.png"/>
+</td>
+<td><img src="fig_tt_1_c_1.1.png"/>
+</td>
+<td><img src="fig_tt_1_c_1.2.png"/>
+</td>
+<td><img src="fig_tt_1_c_1.3.png"/>
+</td>
+<td><img src="fig_tt_1_c_1.4.png"/>
+</td>
+<td><img src="fig_tt_1_c_1.5.png"/>
+</td>
+<td><img src="fig_tt_1_c_1.6.png"/>
+</td>
+<td><img src="fig_tt_1_c_1.7.png"/>
+</td>
+<td><img src="fig_tt_1_c_1.8.png"/>
+</td>
+<td><img src="fig_tt_1_c_1.9.png"/>
+</td>
+<td><img src="fig_tt_1_c_2.png"/>
+</td>
+</tr>
+<tr><td><img src="plot_metric_tt_1plot_metric_tt_1.png"/>
+</td>
+<td><img src="plot_metric_tt_1plot_metric_tt_2.png"/>
+</td>
+<td><img src="plot_metric_tt_1plot_metric_tt_3.png"/>
+</td>
+<td><img src="plot_metric_tt_1plot_metric_tt_4.png"/>
+</td>
+<td><img src="plot_metric_tt_1plot_metric_tt_5.png"/>
+</td>
+<td><img src="plot_metric_tt_1plot_metric_tt_6.png"/>
+</td>
+</tr>
+<h2>Method: Mantiuk 2009</h2>
+<tr><td><img src="fig_ref.png"/>
+</td>
+<td><img src="fig_tt_2_c_0.1.png"/>
+</td>
+<td><img src="fig_tt_2_c_0.2.png"/>
+</td>
+<td><img src="fig_tt_2_c_0.3.png"/>
+</td>
+<td><img src="fig_tt_2_c_0.4.png"/>
+</td>
+<td><img src="fig_tt_2_c_0.5.png"/>
+</td>
+<td><img src="fig_tt_2_c_0.6.png"/>
+</td>
+<td><img src="fig_tt_2_c_0.7.png"/>
+</td>
+<td><img src="fig_tt_2_c_0.8.png"/>
+</td>
+<td><img src="fig_tt_2_c_0.9.png"/>
+</td>
+<td><img src="fig_tt_2_c_1.png"/>
+</td>
+<td><img src="fig_tt_2_c_1.1.png"/>
+</td>
+<td><img src="fig_tt_2_c_1.2.png"/>
+</td>
+<td><img src="fig_tt_2_c_1.3.png"/>
+</td>
+<td><img src="fig_tt_2_c_1.4.png"/>
+</td>
+<td><img src="fig_tt_2_c_1.5.png"/>
+</td>
+<td><img src="fig_tt_2_c_1.6.png"/>
+</td>
+<td><img src="fig_tt_2_c_1.7.png"/>
+</td>
+<td><img src="fig_tt_2_c_1.8.png"/>
+</td>
+<td><img src="fig_tt_2_c_1.9.png"/>
+</td>
+<td><img src="fig_tt_2_c_2.png"/>
+</td>
+</tr>
+<tr><td><img src="plot_metric_tt_2plot_metric_tt_1.png"/>
+</td>
+<td><img src="plot_metric_tt_2plot_metric_tt_2.png"/>
+</td>
+<td><img src="plot_metric_tt_2plot_metric_tt_3.png"/>
+</td>
+<td><img src="plot_metric_tt_2plot_metric_tt_4.png"/>
+</td>
+<td><img src="plot_metric_tt_2plot_metric_tt_5.png"/>
+</td>
+<td><img src="plot_metric_tt_2plot_metric_tt_6.png"/>
+</td>
+</tr>
+<h2>Method: Pouli 2013</h2>
+<tr><td><img src="fig_ref.png"/>
+</td>
+<td><img src="fig_tt_3_c_0.1.png"/>
+</td>
+<td><img src="fig_tt_3_c_0.2.png"/>
+</td>
+<td><img src="fig_tt_3_c_0.3.png"/>
+</td>
+<td><img src="fig_tt_3_c_0.4.png"/>
+</td>
+<td><img src="fig_tt_3_c_0.5.png"/>
+</td>
+<td><img src="fig_tt_3_c_0.6.png"/>
+</td>
+<td><img src="fig_tt_3_c_0.7.png"/>
+</td>
+<td><img src="fig_tt_3_c_0.8.png"/>
+</td>
+<td><img src="fig_tt_3_c_0.9.png"/>
+</td>
+<td><img src="fig_tt_3_c_1.png"/>
+</td>
+<td><img src="fig_tt_3_c_1.1.png"/>
+</td>
+<td><img src="fig_tt_3_c_1.2.png"/>
+</td>
+<td><img src="fig_tt_3_c_1.3.png"/>
+</td>
+<td><img src="fig_tt_3_c_1.4.png"/>
+</td>
+<td><img src="fig_tt_3_c_1.5.png"/>
+</td>
+<td><img src="fig_tt_3_c_1.6.png"/>
+</td>
+<td><img src="fig_tt_3_c_1.7.png"/>
+</td>
+<td><img src="fig_tt_3_c_1.8.png"/>
+</td>
+<td><img src="fig_tt_3_c_1.9.png"/>
+</td>
+<td><img src="fig_tt_3_c_2.png"/>
+</td>
+</tr>
+<tr><td><img src="plot_metric_tt_3plot_metric_tt_1.png"/>
+</td>
+<td><img src="plot_metric_tt_3plot_metric_tt_2.png"/>
+</td>
+<td><img src="plot_metric_tt_3plot_metric_tt_3.png"/>
+</td>
+<td><img src="plot_metric_tt_3plot_metric_tt_4.png"/>
+</td>
+<td><img src="plot_metric_tt_3plot_metric_tt_5.png"/>
+</td>
+<td><img src="plot_metric_tt_3plot_metric_tt_6.png"/>
+</td>
+</tr>
+</body>
+</html>
