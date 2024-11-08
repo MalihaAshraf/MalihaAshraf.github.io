@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>scmf-default</title>
+
+<script type="text/javascript">
+function detectLeftButton(evt) {
+    evt = evt || window.event;
+    var button = evt.which || evt.button;
+    return button == 1;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+
+<body>
+<h1>Default SCMF models</h1>
+<h2>Fitting error</h2>
+<TABLE>
+<tr><td rowspan="2">Dataset</td>
+<td colspan="1">Fitting error</td>
+<td colspan="1">Matched contrast adjustment</td>
+</tr>
+<tr><td><a href="#kulikowski-smcf">Kulikwoski SCMF</a></td>
+<td><a href="#kulikowski-smcf">Kulikwoski SCMF</a></td>
+</tr>
+<tr><td><a href="#hdr_matching_young">hdr_matching_young</a></td>
+<td>4.80 [dB]</td>
+<td>1.000</td>
+</tr>
+</TABLE>
+<h2>Legend</h2>
+<p>To keep the plots legible, only up to 3 models are plotted.</p>
+<img src="legend.png"/>
+<h2 id="hdr_matching_young"><a class="top_align_button" href="#hdr_matching_young">&#8632;</a>Dataset: [hdr_matching_young] Ashraf et al., 2022</h2>
+<div>SCMF across luminance levels (ref level: 200 nits, fixed cycles, lambda: 0.5)<br/>
+<img src="fig_hdr_matching_young_1.png"/>
+<br/></div>
+<div>SCMF across luminance levels (ref level: 20 nits, fixed cycles, lambda: 0.5)<br/>
+<img src="fig_hdr_matching_young_2.png"/>
+<br/></div>
+</body>
+</html>
