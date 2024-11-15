@@ -16,17 +16,45 @@ function detectLeftButton(evt) {
 <h2>Fitting error</h2>
 <TABLE>
 <tr><td rowspan="2">Dataset</td>
-<td colspan="2">Fitting error</td>
-<td colspan="2">Matched contrast adjustment</td>
+<td colspan="3">Fitting error</td>
+<td colspan="3">Matched contrast adjustment</td>
 </tr>
 <tr><td><a href="#kulikowski-smcf">Kulikowski's SCMF</a></td>
 <td><a href="#peli-smcf">Peli's SCMF</a></td>
+<td><a href="#wanat-smcf">Wanat's SCMF</a></td>
 <td><a href="#kulikowski-smcf">Kulikowski's SCMF</a></td>
 <td><a href="#peli-smcf">Peli's SCMF</a></td>
+<td><a href="#wanat-smcf">Wanat's SCMF</a></td>
 </tr>
 <tr><td><a href="#hdr_matching_young">hdr_matching_young</a></td>
-<td>4.80 [dB]</td>
-<td>6.09 [dB]</td>
+<td>3.68 [dB]</td>
+<td>5.84 [dB]</td>
+<td>3.64 [dB]</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+</tr>
+<tr><td><a href="#georgeson1975">georgeson1975</a></td>
+<td>4.12 [dB]</td>
+<td>11.65 [dB]</td>
+<td>4.10 [dB]</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+</tr>
+<tr><td><a href="#georgeson1975_lum">georgeson1975_lum</a></td>
+<td>12.32 [dB]</td>
+<td>33.88 [dB]</td>
+<td>11.68 [dB]</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+</tr>
+<tr><td><a href="#kulikowski1976_lum">kulikowski1976_lum</a></td>
+<td>0.50 [dB]</td>
+<td>17.96 [dB]</td>
+<td>0.14 [dB]</td>
+<td>1.000</td>
 <td>1.000</td>
 <td>1.000</td>
 </tr>
@@ -43,6 +71,24 @@ function detectLeftButton(evt) {
 <br/><br/><br/></div>
 <div>SCMF across luminance levels (ref level: 20 nits, fixed cycles, lambda: 1)<br/>
 <img src="fig_hdr_matching_young_3.png"/>
+<br/><br/><br/></div>
+<h2 id="georgeson1975"><a class="top_align_button" href="#georgeson1975">&#8632;</a>Dataset: [georgeson1975] Georgeoson & Sullivan, 1975</h2>
+<div>SCMF across spatial frequencies (ref sf: 5 cpd)<br/>
+<img src="fig_georgeson1975_1.png"/>
+<br/><br/><br/></div>
+<h2 id="georgeson1975_lum"><a class="top_align_button" href="#georgeson1975_lum">&#8632;</a>Dataset: [georgeson1975_lum] Georgeoson & Sullivan, 1975</h2>
+<div>SCMF across photopic (10 cd/m^2) reference and scotopic (0.001585 cd/m^2) test stimulus at 2 cpd<br/>
+<img src="fig_georgeson1975_lum_1.png"/>
+<br/><br/><br/></div>
+<div>SCMF (G contrast scale) across photopic (10 cd/m^2) reference and scotopic (0.001585 cd/m^2) test stimulus at 2 cpd<br/>
+<img src="fig_georgeson1975_lum_2.png"/>
+<br/><br/><br/></div>
+<h2 id="kulikowski1976_lum"><a class="top_align_button" href="#kulikowski1976_lum">&#8632;</a>Dataset: [kulikowski1976_lum] Kulikowski, 1976</h2>
+<div>SCMF across test photopic (10 cd/m^2) stimulus and scotopic luminance reference stimuli at 5 cpd<br/>
+<img src="fig_kulikowski1976_lum_1.png"/>
+<br/><br/><br/></div>
+<div>SCMF (G contrast scale) across test photopic (10 cd/m^2) stimulus and scotopic luminance reference stimuli at 5 cpd<br/>
+<img src="fig_kulikowski1976_lum_2.png"/>
 <br/><br/><br/></div>
 </body>
 </html>
