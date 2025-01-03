@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"></meta>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
+    <title></title>
+    <link href="./stylesheets/root.css" rel="StyleSheet" type="text/css"></link>
+    <script src="./scripts/cssrule.js"></script>
+    <script src="./scripts/toc.js"></script>
+    <script src="./scripts/util.js"></script>
+    <script src="./scripts/moduletabs.js"></script>
+    <script src="./scripts/loc.js"></script>
+    <script src="./scripts/sidebar.js"></script>
+    <script>
+        //<![CDATA[
+        function outline() {
+            util.renameSpanToAutonumber();
+            util.autoNumber();
+            var toc_elements = document.querySelectorAll('div#toc, toc');
+            var loc_elements = document.querySelectorAll('div#loc, loc');
+
+            if (toc_elements.length != 0 || loc_elements.length != 0){
+                sidebar.createSidebar();
+            }
+
+            if (toc_elements.length != 0) {
+                var content = document.body;
+                toc.HTMLOutline(content);
+                if (content.sectionList) {
+                    for (var toc_index = 0; toc_index < toc_elements.length; ++toc_index) {
+                        var toc_element = toc_elements[toc_index];
+                        var toc_levels = 6;
+                        var toc_levels_attribute = toc_element.getAttribute('number-of-levels');
+                        if (toc_levels_attribute) {
+                            toc_levels = Number(toc_levels_attribute);
+                        }
+                        toc_element.appendChild(toc.createOutline(content.sectionList, toc_levels, 1));
+                    }
+                }
+                var toc_element = document.querySelector('div#toc, toc');
+                if (toc_element.nextElementSibling == null) {
+                    // TOC element is in its own div element, so append that div element to the sidebar
+                    var tocParentDiv = toc_element.parentElement;
+                }
+                else {
+                    // TOC element shares a div element with other elements. Add it to its own div
+                    // and then append to sidebar
+                    var tocParentDiv = document.createElement("div")
+                    tocParentDiv.appendChild(toc_element);
+                }
+                //document.body.removeChild(tocParentDiv);
+                sidebar.appendData(tocParentDiv);
+            }
+
+            for (var i = 0; i < loc_elements.length; i++) {
+                var loc_element = loc_elements[i];
+                var content = document.body;
+                if (loc_element.nextElementSibling == null) {
+                    // LOC element is in its own div element, so append that div element to the sidebar
+                    var locParentDiv = loc_element.parentElement;
+                }
+                else {
+                    // LOC element shares a div element with other elements. Add it to its own div
+                    // and then append to sidebar
+                    var locParentDiv = document.createElement("div");
+                    locParentDiv.appendChild(loc_element);
+                }
+                var streamName = loc_element.getAttribute("an-stream-name");
+                var locElements = loc.getLOCElements(content, streamName);
+                locParentDiv.appendChild(locElements);
+                sidebar.appendData(loc_element.parentElement);
+             }
+
+            // Open HTMLModuleTabs reporter's first tab on report load
+            moduletabs.clickFirstTab();
+        }
+        //]]>
+    </script>
+<link href="./stylesheets/combined.css" rel="StyleSheet" type="text/css"></link></head>
+<body bgcolor="white" onload="outline()" text="black"><p style="font-weight:bold;"><span>Experiment 2 - Condition-wise Data Analysis with Swarm Charts</span></p><br/>
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image13.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 2, c_base 0.3, Y_fg 1, Y_amb 2.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image14.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 2, c_base 0.3, Y_fg 1, Y_amb 4.806</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image15.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 2, c_base 0.3, Y_fg 10, Y_amb 12.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image16.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 2, c_base 0.3, Y_fg 10, Y_amb 55.690</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image17.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 2, c_base 0.3, Y_fg 100, Y_amb 442.711</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image18.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 2, c_base 0.8, Y_fg 1, Y_amb 2.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image19.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 2, c_base 0.8, Y_fg 1, Y_amb 15.276</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image20.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 2, c_base 0.8, Y_fg 10, Y_amb 13.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image21.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 2, c_base 0.8, Y_fg 10, Y_amb 160.379</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image22.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 2, c_base 0.8, Y_fg 100, Y_amb 98.011</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image23.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 4, c_base 0.3, Y_fg 1, Y_amb 2.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image24.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 4, c_base 0.3, Y_fg 1, Y_amb 5.794</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image25.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 4, c_base 0.3, Y_fg 10, Y_amb 14.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image26.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 4, c_base 0.3, Y_fg 10, Y_amb 79.973</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image27.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 4, c_base 0.3, Y_fg 100, Y_amb 108.011</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image28.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 4, c_base 0.3, Y_fg 100, Y_amb 587.069</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image29.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 4, c_base 0.8, Y_fg 1, Y_amb 2.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image30.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 4, c_base 0.8, Y_fg 1, Y_amb 21.424</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image31.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 4, c_base 0.8, Y_fg 10, Y_amb 15.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image32.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 4, c_base 0.8, Y_fg 10, Y_amb 224.758</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image33.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 1, cpd 4, c_base 0.8, Y_fg 100, Y_amb 112.011</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image34.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 2, cpd 2, c_base 0.07, Y_fg 1, Y_amb 1.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image35.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 2, cpd 2, c_base 0.07, Y_fg 10, Y_amb 14.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image36.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 2, cpd 2, c_base 0.07, Y_fg 100, Y_amb 101.011</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image37.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 2, cpd 2, c_base 0.1, Y_fg 1, Y_amb 2.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image38.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 2, cpd 2, c_base 0.1, Y_fg 10, Y_amb 15.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image39.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 2, cpd 2, c_base 0.1, Y_fg 100, Y_amb 104.011</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image40.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 3, cpd 2, c_base 0.3, Y_fg 10, Y_amb 12.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image41.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 3, cpd 2, c_base 0.3, Y_fg 100, Y_amb 96.011</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image42.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 3, cpd 2, c_base 0.8, Y_fg 1, Y_amb 2.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image43.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 3, cpd 2, c_base 0.8, Y_fg 10, Y_amb 15.010</span></p>
+        
+        
+            
+                
+            <!-- filled with FormalImageImage template -->
+            
+            <p class="FigureImage"><img src="images/image44.svg" style="width:560px;height:420px;"/></p>
+        
+            
+            <!-- filled with FormalImageHierNumberedCaption or FormalImageNumberedCaption template -->
+            
+             <p class="FigureCaption" style="counter-increment:figure"><span>Figure </span><span class="an_figure"></span><span>. </span><span>Condition: Col 3, cpd 2, c_base 0.8, Y_fg 100, Y_amb 109.011</span></p>
+        
+        
+            
+</body>
+</html>

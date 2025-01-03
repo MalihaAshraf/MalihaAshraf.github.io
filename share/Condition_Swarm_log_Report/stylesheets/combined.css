@@ -1,0 +1,10 @@
+p.FigureImage { margin-bottom: 10pt; }
+p.FigureCaption { font-size: 10pt; white-space: pre; color:black; }
+p.FigureImage { margin-bottom: 10pt; }
+p.FigureCaption { font-size: 10pt; white-space: pre; color:black; }
+p.FormalImageImage { margin-bottom: 10pt; }
+p.FormalImageCaption { font-size: 10pt; white-space: pre; color:black; }
+span.an_sect1:before {content: counter(sect1);}
+span.an_figure:before {content: counter(figure);}
+p.FigureImage { margin-bottom: 10pt; }
+p.FigureCaption { font-size: 10pt; white-space: pre; color:black; }
