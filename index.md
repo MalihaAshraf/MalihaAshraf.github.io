@@ -14,15 +14,24 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
 				  <br/>
         </div>
         <div class="span5">
-            <strong>Researcher</strong> in <a href="https://www.cl.cam.ac.uk/~rkm38/">Rafał Mantiuk</a>'s group at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a> (funded by <a href="https://about.meta.com/realitylabs/">Reality Labs</a>)<br/>
-			<!--<strong>PhD student</strong> at <a href="https://www.liverpool.ac.uk/">University of Liverpool</a> supervised by <a href="https://www.liverpool.ac.uk/electrical-engineering-and-electronics/staff/jeremy-smith/">Jeremy Smith</a> and <a href="https://pcwww.liv.ac.uk/~sophiew/">Sophie Wuerger</a><br/>-->
+			I am a researcher trained in electronic engineering, colour science, and psychophysics with a strong interest in visual perception. My work focuses on understanding how humans process contrast, colour, and detail, with applications in image processing, display technology, and human-computer interaction.
+			<br/>			 
+			<!--<strong>PhD student</strong> at <a href="https://www.liverpool.ac.uk/">University of Liverpool</a> supervised by <a href="https://www.liverpool.ac.uk/electrical-engineering-and-electronics/staff/jeremy-smith/">Jeremy Smith</a> and <a href="https://pcwww.liv.ac.uk/~sophiew/">Sophie Wuerger</a><br/>
             <br/>
 			<strong>Email:</strong>
-			ma905 (at) cam (dot) ac (dot) (uk)
+			ma905 (at) cam (dot) ac (dot) (uk)-->
 			<br/>
         </div>
         
     </div>
+	<div class="row-fluid">
+		<div class="span7">
+			I completed my PhD at <a href="https://www.liverpool.ac.uk/">University of Liverpool</a>, supervised by Prof. Sophie Wuerger and Prof. Jeremy Smith, in 2024, where I measured and modelled human contrast vision. Before that, I earned my master's in <a href="https://cosi-master.eu/">Colour Science</a> via an <a href="https://ec.europa.eu/programmes/erasmus-plus/opportunities/individuals/students/erasmus-mundus-joint-master-degrees_en">Erasmus Mundus Joint Master Degree (EMJMD) Program</a>. More recently, I have worked as a postdoctoral researcher in <a href="https://www.cl.cam.ac.uk/~rkm38/">Prof. Rafał Mantiuk</a>'s group at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a> (funded by <a href="https://about.meta.com/realitylabs/">Reality Labs</a>).
+			<br/><br/>
+			After finishing my postdoc, I decided to take a break to travel and wrap up previous projects before figuring out my next step. I am now looking for a role that is exciting, intellectually stimulating, and makes good use of my skills. 
+			<br/>
+		</div>
+	</div>
 </div>
 
 <div class="navbar">

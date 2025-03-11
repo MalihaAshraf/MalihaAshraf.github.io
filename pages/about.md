@@ -6,7 +6,7 @@ description: Maliha Ashraf
 ### experience
 
 **University of Cambridge**<br/>
-*Research Associate (Feb 2023 - present)*<br/>
+*Research Associate (Feb 2023 - Feb 2025)*<br/>
 [Rafał Mantiuk](https://www.cst.cam.ac.uk/)<br/>
 Build computational models of human vision for graphics and display optimisation. Designs and conducts psychophysical experiments to measure different aspects of human vision.<br/><br/>
 
