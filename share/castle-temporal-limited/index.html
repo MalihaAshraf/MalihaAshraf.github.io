@@ -1,0 +1,371 @@
+<html>
+<head>
+<title>csf-castle-temporal-limit</title>
+
+<script type="text/javascript">
+function detectLeftButton(evt) {
+    evt = evt || window.event;
+    var button = evt.which || evt.button;
+    return button == 1;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+
+<body>
+<h1>castleCSF refitting with transient channel limited</h1>
+<h2>Fitting error</h2>
+<TABLE>
+<tr><td rowspan="2">Dataset</td>
+<td colspan="1">Fitting error</td>
+<td colspan="1">Sensitivity adjustment</td>
+</tr>
+<tr><td><a href="#castle-csf-temporal-limit">castleCSF temporal limited</a></td>
+<td><a href="#castle-csf-temporal-limit">castleCSF temporal limited</a></td>
+</tr>
+<tr><td>Average training</td>
+<td>3.86 [dB]</td>
+<td>N/A</td>
+</tr>
+<tr><td><a href="#modelfest">modelfest</a></td>
+<td>2.74 [dB]</td>
+<td>0.945</td>
+</tr>
+<tr><td><a href="#hdrvdp_csf">hdrvdp_csf</a></td>
+<td>2.56 [dB]</td>
+<td>1.315</td>
+</tr>
+<tr><td><a href="#rovamo1993">rovamo1993</a></td>
+<td>2.65 [dB]</td>
+<td>1.505</td>
+</tr>
+<tr><td><a href="#laird2006">laird2006</a></td>
+<td>5.23 [dB]</td>
+<td>0.861</td>
+</tr>
+<tr><td><a href="#snowden1995">snowden1995</a></td>
+<td>5.38 [dB]</td>
+<td>1.233</td>
+</tr>
+<tr><td><a href="#robson1966">robson1966</a></td>
+<td>2.78 [dB]</td>
+<td>1.164</td>
+</tr>
+<tr><td><a href="#virsu1979">virsu1979</a></td>
+<td>6.77 [dB]</td>
+<td>1.010</td>
+</tr>
+<tr><td><a href="#virsu1982">virsu1982</a></td>
+<td>3.99 [dB]</td>
+<td>1.130</td>
+</tr>
+<tr><td><a href="#wright1983">wright1983</a></td>
+<td>2.62 [dB]</td>
+<td>0.738</td>
+</tr>
+<tr><td><a href="#anderson1991">anderson1991</a></td>
+<td>7.45 [dB]</td>
+<td>3.620</td>
+</tr>
+<tr><td><a href="#colorfest">colorfest</a></td>
+<td>2.84 [dB]</td>
+<td>0.880</td>
+</tr>
+<tr><td><a href="#hdr_csf">hdr_csf</a></td>
+<td>3.95 [dB]</td>
+<td>1.000</td>
+</tr>
+<tr><td><a href="#kim2013">kim2013</a></td>
+<td>3.99 [dB]</td>
+<td>1.109</td>
+</tr>
+<tr><td><a href="#five_centres">five_centres</a></td>
+<td>3.34 [dB]</td>
+<td>1.247</td>
+</tr>
+<tr><td><a href="#lucassen2018">lucassen2018</a></td>
+<td>3.01 [dB]</td>
+<td>0.620</td>
+</tr>
+<tr><td><a href="#hdr_csf_disc">hdr_csf_disc</a></td>
+<td>3.01 [dB]</td>
+<td>2.240</td>
+</tr>
+<tr><td><a href="#kong2018">kong2018</a></td>
+<td>4.39 [dB]</td>
+<td>1.259</td>
+</tr>
+<tr><td><a href="#vanderHorst1969_b">vanderHorst1969_b</a></td>
+<td>3.59 [dB]</td>
+<td>0.683</td>
+</tr>
+<tr><td><a href="#hansen2009">hansen2009</a></td>
+<td>9.03 [dB]</td>
+<td>1.221</td>
+</tr>
+<tr><td><a href="#krajancich2021">krajancich2021</a></td>
+<td>3.07 [dB]</td>
+<td>1.043</td>
+</tr>
+<tr><td><a href="#hecht1933">hecht1933</a></td>
+<td>6.12 [dB]</td>
+<td>0.646</td>
+</tr>
+<tr><td><a href="#hvei_cff2022">hvei_cff2022</a></td>
+<td>2.35 [dB]</td>
+<td>0.947</td>
+</tr>
+<tr><td><a href="#deLange1958b">deLange1958b</a></td>
+<td>3.19 [dB]</td>
+<td>1.103</td>
+</tr>
+<tr><td><a href="#hartmann1979">hartmann1979</a></td>
+<td>3.42 [dB]</td>
+<td>0.929</td>
+</tr>
+</TABLE>
+<h2>Model parameters</h2>
+<div class="params_frame">
+<div align="center">castleCSF temporal limited</div>
+<div style="white-space: pre-line;">
+
+M_lms2acc =
+
+    1.0000    1.0000         0
+    1.0000   -2.3112         0
+   -1.0000   -1.0000   50.9875
+
+	p.disc_area = 0.853219;
+	p.disc_beta = 2.76064;
+	p.rg.sigma_sust = 28.0127;
+	p.rg.beta_sust = 1.33869;
+	p.rg.ch_sust.S_max = [ 605.248 34.764 0.501281 ];
+	p.rg.ch_sust.f_max = 0.0342253;
+	p.rg.ch_sust.bw = 2.2956;
+	p.rg.A_0 = 3570.21;
+	p.rg.f_0 = 0.0457635;
+	p.rg.ecc_drop = 2.29774e-08;
+	p.rg.ecc_drop_nasal = 13063.1;
+	p.rg.ecc_drop_f = 9.40748e-13;
+	p.rg.ecc_drop_f_nasal = 0.718231;
+	p.yv.sigma_sust = 1.96014;
+	p.yv.beta_sust = 0.381203;
+	p.yv.ch_sust.S_max = [ 72.2762 24.1768 0.439391 ];
+	p.yv.ch_sust.f_max = 0.0233062;
+	p.yv.ch_sust.bw = 2.27911;
+	p.yv.A_0 = 1.0848e+08;
+	p.yv.f_0 = 0.00027766;
+	p.yv.ecc_drop = 7.65737;
+	p.yv.ecc_drop_nasal = 9.6761e-08;
+	p.yv.ecc_drop_f = 4435.93;
+	p.yv.ecc_drop_f_nasal = 5.74003e-16;
+	p.ach.ach_sust.bw = 2.31772e-14;
+	p.ach.ach_sust.a = 0.0470342;
+	p.ach.ach_sust.A_0 = 281.567;
+	p.ach.ach_sust.f_0 = 0.566254;
+	p.ach.ach_trans.S_max = [ 302858 1.30882e+11 0.278488 ];
+	p.ach.ach_trans.f_max = 0.00960901;
+	p.ach.ach_trans.bw = 1.55508;
+	p.ach.ach_trans.a = 1.11309;
+	p.ach.ach_trans.A_0 = 5.0307e+12;
+	p.ach.ach_trans.f_0 = 28.2074;
+	p.ach.sigma_trans = [ 2.34152e-12 1.83032e-07 ];
+	p.ach.sigma_sust = 3.22395;
+	p.ach.beta_trans = 0.000441189;
+	p.ach.beta_sust = 0.709738;
+	p.ach.omega_trans = [ 3.01147 1.53198 6.55791 2.81476 ];
+	p.ach.ecc_drop = 0.0102499;
+	p.ach.ecc_drop_nasal = 0.0130768;
+	p.ach.ecc_drop_f = 0.0190786;
+	p.ach.ecc_drop_f_nasal = 0.0158771;
+</div>
+</div>
+<h2 id="castle-csf-temporal-limit"><a class="top_align_button" href="#castle-csf-temporal-limit">&#8632;</a>CSF model: castleCSF temporal limited</h2>
+<div class="params_frame">
+<div align="center">L+M</div>
+<div style="white-space: pre-line;">
+<img src="fig_csf_contour_castleCSF temporal limited_1.png"/>
+</div>
+</div>
+<div class="params_frame">
+<div align="center">L-M</div>
+<div style="white-space: pre-line;">
+<img src="fig_csf_contour_castleCSF temporal limited_2.png"/>
+</div>
+</div>
+<div class="params_frame">
+<div align="center">S-(L+M)</div>
+<div style="white-space: pre-line;">
+<img src="fig_csf_contour_castleCSF temporal limited_3.png"/>
+</div>
+</div>
+<br/>
+<div class="params_frame">
+<div align="center">Color mechanisms</div>
+<div style="white-space: pre-line;">
+<img src="fig_csf_castleCSF temporal limited_mech_1.png"/>
+</div>
+</div>
+<div class="params_frame">
+<div align="center">Sustained and transient response</div>
+<div style="white-space: pre-line;">
+<img src="fig_csf_castleCSF temporal limited_mech_2.png"/>
+</div>
+</div>
+<div class="params_frame">
+<div align="center">Peak transient frequency</div>
+<div style="white-space: pre-line;">
+<img src="fig_csf_castleCSF temporal limited_mech_3.png"/>
+</div>
+</div>
+<div class="params_frame">
+<div align="center">Peak sensitivity</div>
+<div style="white-space: pre-line;">
+<img src="fig_csf_castleCSF temporal limited_mech_4.png"/>
+</div>
+</div>
+<div class="params_frame">
+<div align="center">Ferry-Porter law</div>
+<div style="white-space: pre-line;">
+<img src="fig_csf_castleCSF temporal limited_mech_5.png"/>
+</div>
+</div>
+<div class="params_frame">
+<div align="center">CFF with area</div>
+<div style="white-space: pre-line;">
+<img src="fig_csf_castleCSF temporal limited_mech_6.png"/>
+</div>
+</div>
+<h2>Legend</h2>
+<p>To keep the plots legible, only up to 3 models are plotted.</p>
+<img src="legend.png"/>
+<h2 id="modelfest"><a class="top_align_button" href="#modelfest">&#8632;</a>Dataset: [modelfest] ModelFest</h2>
+<div>Achromatic CSF as a function of frequency<br/>
+<img src="fig_modelfest_1.png"/>
+<br/></div>
+<h2 id="hdrvdp_csf"><a class="top_align_button" href="#hdrvdp_csf">&#8632;</a>Dataset: [hdrvdp_csf] HDR-VDP CSF</h2>
+<div>Achromatic CSF as a function of frequency<br/>
+<img src="fig_hdrvdp_csf_1.png"/>
+<br/></div>
+<div>Achromatic CSF as a function of size<br/>
+<img src="fig_hdrvdp_csf_2.png"/>
+<br/></div>
+<h2 id="rovamo1993"><a class="top_align_button" href="#rovamo1993">&#8632;</a>Dataset: [rovamo1993] Rovamo et al. 1993</h2>
+<div>CSF as the funcation of stimulus area<br/>
+<img src="fig_rovamo1993_1.png"/>
+<br/></div>
+<div>CSF as the function of spatial frequency<br/>
+<img src="fig_rovamo1993_2.png"/>
+<br/></div>
+<h2 id="laird2006"><a class="top_align_button" href="#laird2006">&#8632;</a>Dataset: [laird2006] Laird et al. 2006</h2>
+<div>Achromatic CSF as a function of temporal frequency for different spatial frequencies<br/>
+<img src="fig_laird2006_1.png"/>
+<br/></div>
+<h2 id="snowden1995"><a class="top_align_button" href="#snowden1995">&#8632;</a>Dataset: [snowden1995] Snowden et al. 1995</h2>
+<div>Temporal contrast sensitivity at different spatial frequencies and luminance levels<br/>
+<img src="fig_snowden1995_1.png"/>
+<br/></div>
+<h2 id="robson1966"><a class="top_align_button" href="#robson1966">&#8632;</a>Dataset: [robson1966] Robson 1966</h2>
+<div>Spatial CSF for different temporal frequencies<br/>
+<img src="fig_robson1966_1.png"/>
+<br/></div>
+<div>Temporal CSF for different spatial frequencies<br/>
+<img src="fig_robson1966_2.png"/>
+<br/></div>
+<h2 id="virsu1979"><a class="top_align_button" href="#virsu1979">&#8632;</a>Dataset: [virsu1979] Virsu & Rovamo 1979</h2>
+<div>Contrast sensitivity of central and peripheral vision as a function of spatial frequency and eccentricity<br/>
+<img src="fig_virsu1979_1.png"/>
+<br/></div>
+<h2 id="virsu1982"><a class="top_align_button" href="#virsu1982">&#8632;</a>Dataset: [virsu1982] Virsu et al. 1982</h2>
+<div>Contrast sensitivity as the function of frequency<br/>
+<img src="fig_virsu1982_1.png"/>
+<br/></div>
+<h2 id="wright1983"><a class="top_align_button" href="#wright1983">&#8632;</a>Dataset: [wright1983] Wright and Johnson 1983</h2>
+<div>CSF as function of eccentricity<br/>
+<img src="fig_wright1983_1.png"/>
+<br/></div>
+<h2 id="anderson1991"><a class="top_align_button" href="#anderson1991">&#8632;</a>Dataset: [anderson1991] Anderson et al. 1991</h2>
+<div>Contrast sensitivity as the function of retinal visual field (at 8 Hz)<br/>
+<img src="fig_anderson1991_1.png"/>
+<br/></div>
+<h2 id="colorfest"><a class="top_align_button" href="#colorfest">&#8632;</a>Dataset: [colorfest] ColorFest</h2>
+<div>Chromatic CSF as a function of frequency<br/>
+<img src="fig_colorfest_1.png"/>
+<br/></div>
+<h2 id="hdr_csf"><a class="top_align_button" href="#hdr_csf">&#8632;</a>Dataset: [hdr_csf] High Dynamic Range CSF</h2>
+<div>CSF as the function of frequency at different luminance levels (fixed number of cycles)<br/>
+<img src="fig_hdr_csf_1.png"/>
+<br/></div>
+<div>CSF for different number of cycles<br/>
+<img src="fig_hdr_csf_2.png"/>
+<br/></div>
+<h2 id="kim2013"><a class="top_align_button" href="#kim2013">&#8632;</a>Dataset: [kim2013] Chromatic CSF [Kim et al. 2013]</h2>
+<div>Chromatic CSF as a function of frequency<br/>
+<img src="fig_kim2013_1.png"/>
+<br/></div>
+<h2 id="five_centres"><a class="top_align_button" href="#five_centres">&#8632;</a>Dataset: [five_centres] Five centres [Xu et al. 2020]</h2>
+<div>Chromatic CSF as ellipses<br/>
+<img src="fig_five_centres_1.png"/>
+<br/></div>
+<div>Chromatic CSF as a function of frequency<br/>
+<img src="fig_five_centres_2.png"/>
+<br/></div>
+<h2 id="lucassen2018"><a class="top_align_button" href="#lucassen2018">&#8632;</a>Dataset: [lucassen2018] Lucassen et al. 2018</h2>
+<div>Lucassen2018 CSF sensitivity vs spatial frequency<br/>
+<img src="fig_lucassen2018_1.png"/>
+<br/></div>
+<h2 id="hdr_csf_disc"><a class="top_align_button" href="#hdr_csf_disc">&#8632;</a>Dataset: [hdr_csf_disc] High Dynamic Range Disc CSF</h2>
+<div>CSF as the function of size at different luminance levels<br/>
+<img src="fig_hdr_csf_disc_1.png"/>
+<br/></div>
+<h2 id="kong2018"><a class="top_align_button" href="#kong2018">&#8632;</a>Dataset: [kong2018] Kong et al. 2018</h2>
+<div>Chromatic CSF as a function of temporal frequency (9 background colors and 4 color directions in uv space<br/>
+<img src="fig_kong2018_1.png"/>
+<br/></div>
+<h2 id="vanderHorst1969_b"><a class="top_align_button" href="#vanderHorst1969_b">&#8632;</a>Dataset: [vanderHorst1969_b] Van der Horst & Bouman 1969</h2>
+<div>Static chromatic contrast thresholds as a function of spatial frequency<br/>
+<img src="fig_vanderHorst1969_b_1.png"/>
+<br/></div>
+<div>Static chromatic contrast thresholds as function of luminance<br/>
+<img src="fig_vanderHorst1969_b_2.png"/>
+<br/></div>
+<div>Chromatic contrast thresholds for travelling sine waves as function of spatial frequency<br/>
+<img src="fig_vanderHorst1969_b_3.png"/>
+<br/></div>
+<div>Chromatic contrast thresholds for travelling sine waves as function of temporal frequency<br/>
+<img src="fig_vanderHorst1969_b_4.png"/>
+<br/></div>
+<h2 id="hansen2009"><a class="top_align_button" href="#hansen2009">&#8632;</a>Dataset: [hansen2009] Hansen et al. 2009</h2>
+<div>CSF as the function of eccentricity<br/>
+<img src="fig_hansen2009_2.png"/>
+<br/></div>
+<h2 id="krajancich2021"><a class="top_align_button" href="#krajancich2021">&#8632;</a>Dataset: [krajancich2021] Krajancich et al. 2021</h2>
+<div>Critical fusion frequency at eccentricities<br/>
+<img src="fig_krajancich2021_1.png"/>
+<br/></div>
+<div>CFF at luminance levels for 0.57 cpd<br/>
+<img src="fig_krajancich2021_2.png"/>
+<br/></div>
+<div>CFF at luminance levels, foveal vision (ecc=0)<br/>
+<img src="fig_krajancich2021_3.png"/>
+<br/></div>
+<h2 id="hecht1933"><a class="top_align_button" href="#hecht1933">&#8632;</a>Dataset: [hecht1933] Hecht 1933</h2>
+<div>CFF for white light as a function of luminance and eccentricity<br/>
+<img src="fig_hecht1933_1.png"/>
+<br/></div>
+<h2 id="hvei_cff2022"><a class="top_align_button" href="#hvei_cff2022">&#8632;</a>Dataset: [hvei_cff2022] HVEI CFF 2022</h2>
+<div>CFF for white light as a function of luminance and eccentricity<br/>
+<img src="fig_hvei_cff2022_1.png"/>
+<br/></div>
+<h2 id="deLange1958b"><a class="top_align_button" href="#deLange1958b">&#8632;</a>Dataset: [deLange1958b] De Lange 1958</h2>
+<div>CFF for white light as a function of luminance<br/>
+<img src="fig_deLange1958b_1.png"/>
+<br/></div>
+<h2 id="hartmann1979"><a class="top_align_button" href="#hartmann1979">&#8632;</a>Dataset: [hartmann1979] Hartmann et al. 1979</h2>
+<div>CFF as a function of eccentricity at different luminance levels<br/>
+<img src="fig_hartmann1979_1.png"/>
+<br/></div>
+<div>CFF as a function of stimulus diameter<br/>
+<img src="fig_hartmann1979_2.png"/>
+<br/></div>
+</body>
+</html>
