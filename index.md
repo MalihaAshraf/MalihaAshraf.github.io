@@ -1,7 +1,7 @@
 ---
 layout: frontpage
 title: Maliha Ashraf
-description: Maliha Ashraf is a research associate at the University of Cambridge. She has previously received an Erasumus Mundus Joint Master degree in "Color in Science & Technology".
+description: Maliha Ashraf is a research associate at the University of Cambridge. She has previously received a PhD from the University of Liverpool and an Erasumus Mundus Joint Master degree in "Color in Science & Technology".
 keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computational color, computational vision, vision, contrast, contrast sensitivity, perception, modeling, modelling, psychology, psychophysics, ned, ujm, ugr, uef, uol, liverpool, cambridge, reality labs, meta
 ---
 
@@ -27,9 +27,9 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
 	<div class="row-fluid">
 		<div class="span7">
 			I completed my PhD at <a href="https://www.liverpool.ac.uk/">University of Liverpool</a>, supervised by Prof. Sophie Wuerger and Prof. Jeremy Smith, in 2024, where I measured and modelled human contrast vision. Before that, I earned my master's in <a href="https://cosi-master.eu/">Colour Science</a> via an <a href="https://ec.europa.eu/programmes/erasmus-plus/opportunities/individuals/students/erasmus-mundus-joint-master-degrees_en">Erasmus Mundus Joint Master Degree (EMJMD) Program</a>. More recently, I have worked as a postdoctoral researcher in <a href="https://www.cl.cam.ac.uk/~rkm38/">Prof. Rafał Mantiuk</a>'s group at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a> (funded by <a href="https://about.meta.com/realitylabs/">Reality Labs</a>).
-			<br/><br/>
+			<!--<br/><br/>
 			After finishing my postdoc, I decided to take a break to travel and wrap up previous projects before figuring out my next step. I am now looking for a role that is exciting, intellectually stimulating, and makes good use of my skills. 
-			<br/>
+			<br/>-->
 		</div>
 	</div>
 </div>
