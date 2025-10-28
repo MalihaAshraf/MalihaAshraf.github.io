@@ -87,7 +87,6 @@ description: Human contrast vision
 		Maliha Ashraf, Rafał K. Mantiuk<br/>
 		<i>CIC—Color and Imaging Conference (2024)</i>
 		<a href="citations/ashraf2024modelling.txt" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
-		<a href="https://library.imaging.org/cic/articles/32/1/13" target="_blank"><i class="fa-solid fa-award" style="font-size:16px; margin-left: 10px;"></i></a>
 		<br/><br/>		
            The study investigates the modelling of contrast matching functions (SCMF) across various luminance levels, addressing the nonlinear behaviour of the human visual system in perceiving suprathreshold contrasts. Using a comprehensive dataset of contrast matching experiments involving younger and older observers, the research tests existing models and proposes a new hybrid model. The additive model by Kulikowski (1976) and the multiplicative model inspired by Peli et al. (1996) are evaluated against the dataset, revealing their limitations in predicting contrast matching across a broad luminance range. A novel model combining additive and multiplicative elements is introduced, accounting for threshold ratios and differences, and optimised using regression analysis. The proposed model demonstrates superior prediction accuracy, particularly for achromatic contrasts at extreme luminance levels, and holds potential applications in image processing, particularly for high dynamic range (HDR) content adaptation across different luminance conditions.
 		   <br/><br/>
