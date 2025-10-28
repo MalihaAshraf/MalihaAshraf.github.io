@@ -24,11 +24,12 @@ description: Human contrast vision
 			<img src="../assets/projects/contrast/res_limit.png">
 		</div>
 		<div class="span9">
-			<b><a href="https://arxiv.org/abs/2410.06068" target="_blank">Resolution limit of the eye: how many pixels can we see?</a></b><br/>
+			<b><a href="https://www.nature.com/articles/s41467-025-64679-2" target="_blank">Resolution limit of the eye — how many pixels can we see?</a></b><br/>
 			Maliha Ashraf, Alexandre Chapiro, Rafał K. Mantiuk <br/>	
-			<i>arXiv preprint (2024)</i>
-			<a href="citations/ashraf2024resolution.txt" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
-			<a href="https://www.cl.cam.ac.uk/research/rainbow/projects/display_calc/" target="_blank"><i class="fa-solid fa-globe" style="font-size:16px; margin-left: 10px;"></i></a>
+			<i>Nature Communications (2025)</i>
+			<a href="citations/ashraf2025resolution.txt" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
+			<a href="https://github.com/gfxdisp/resolution_limit" target="_blank"><i class="fa-brands fa-github" style="font-size:16px; margin-left: 10px;"></i></a>
+			<a href="https://www.cl.cam.ac.uk/research/rainbow/projects/resolution_limit/" target="_blank"><i class="fa-solid fa-globe" style="font-size:16px; margin-left: 10px;"></i></a>
 			<br/>
 			<br/>
 			As large engineering efforts go towards improving the resolution of mobile, AR and VR displays, it is important to know the maximum resolution at which further improvements bring no noticeable benefit. This limit is often referred to as the "retinal resolution", although the limiting factor may not necessarily be attributed to the retina. To determine the ultimate resolution at which an image appears sharp to our eyes with no perceivable blur, we created an experimental setup with a sliding display, which allows for continuous control of the resolution. The lack of such control was the main limitation of the previous studies. We measure achromatic (black-white) and chromatic (red-green and yellow-violet) resolution limits for foveal vision, and at two eccentricities (10 and 20 deg). Our results demonstrate that the resolution limit is higher than what was previously believed, reaching 94 pixels-per-degree (ppd) for foveal achromatic vision, 89 ppd for red-green patterns, and 53 ppd for yellow-violet patterns. We also observe a much larger drop in the resolution limit for chromatic patterns (red-green and yellow-violet) than for achromatic. Our results set the north star for display development, with implications for future imaging, rendering and video coding technologies.

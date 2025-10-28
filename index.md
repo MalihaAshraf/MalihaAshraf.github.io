@@ -27,8 +27,8 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
 	<div class="row-fluid">
 		<div class="span7">
 			I completed my PhD at <a href="https://www.liverpool.ac.uk/">University of Liverpool</a>, supervised by Prof. Sophie Wuerger and Prof. Jeremy Smith, in 2024, where I measured and modelled human contrast vision. Before that, I earned my master's in <a href="https://cosi-master.eu/">Colour Science</a> via an <a href="https://ec.europa.eu/programmes/erasmus-plus/opportunities/individuals/students/erasmus-mundus-joint-master-degrees_en">Erasmus Mundus Joint Master Degree (EMJMD) Program</a>. More recently, I have worked as a postdoctoral researcher in <a href="https://www.cl.cam.ac.uk/~rkm38/">Prof. Rafał Mantiuk</a>'s group at <a href="https://www.cst.cam.ac.uk/">University of Cambridge</a> (funded by <a href="https://about.meta.com/realitylabs/">Reality Labs</a>).
-			<!--<br/><br/>
-			After finishing my postdoc, I decided to take a break to travel and wrap up previous projects before figuring out my next step. I am now looking for a role that is exciting, intellectually stimulating, and makes good use of my skills. 
+			<br/><br/>
+			<!--After finishing my postdoc, I decided to take a break to travel and wrap up previous projects before figuring out my next step. I am now looking for a role that is exciting, intellectually stimulating, and makes good use of my skills. 
 			<br/>-->
 		</div>
 	</div>
@@ -96,6 +96,27 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
 
 <div class="container">
 	<h3>news</h3>
+</div>
+
+<div class="container container-box">
+    <b>October 2025: Our article on <a href="https://www.nature.com/articles/s41467-025-64679-2" target="_blank">Pixel Resolution Limits</a> is out now!</b><br/><br/>
+    <div class="row-fluid">	
+        <div class="span12">
+            <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.cam.ac.uk/research/news/is-your-ultra-hd-tv-worth-it-scientists-measure-the-resolution-limit-of-the-human-eye" data-iframely-url="//iframely.net/U3OujMkP?card=small&theme=light"></a></div></div><script async src="//iframely.net/embed.js"></script>
+        </div>
+        <div class="span12">
+            <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.theguardian.com/technology/2025/oct/27/ultra-hd-televisions-4k-8k-not-noticeably-better-study" data-iframely-url="//iframely.net/Yv6Kpqbb?card=small&theme=light"></a></div></div>
+        </div>
+    </div> <br/>
+    <div class="row-fluid">	
+        <div class="span12">
+            <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.popsci.com/technology/eyes-hdtv-pixels/" data-iframely-url="//iframely.net/LHfrG9Xh?card=small&theme=light"></a></div></div>
+        </div>
+        <div class="span12">
+            <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://thedebrief.org/are-4k-and-8k-televisions-worth-it-scientists-say-these-experiments-may-finally-settle-the-debate/" data-iframely-url="//iframely.net/PhDFboGz?card=small&theme=light"></a></div>
+        </div>
+    </div>
+</div>
 </div>
 
 <div class="container container-box">
