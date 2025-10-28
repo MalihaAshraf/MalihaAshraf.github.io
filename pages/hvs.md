@@ -38,6 +38,27 @@ description: Human contrast vision
 </div>
 
 <div class="container container-box container-box-fixed">
+	<div class="row-fluid">
+		<div class="span3">
+			<img src="../assets/projects/contrast/elaTCSF_plot.jpg">
+		</div>
+		<div class="span9">
+			<b><a href="https://dl.acm.org/doi/full/10.1145/3680528.3687586" target="_blank">elaTCSF: A Temporal Contrast Sensitivity Function for Flicker Detection and Modeling Variable Refresh Rate Flicker</a></b><br/>
+			Yancheng Cai, Ali Bozorgian, Maliha Ashraf, Robert Wanat, Rafał K. Mantiuk
+			<br/>	
+			<i>SIGGRAPH Asia 2024 Conference Papers (2024)</i>
+			<a href="citations/cai2024elatcsf.txt" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
+			<a href="https://github.com/gfxdisp/elaTCSF" target="_blank"><i class="fa-brands fa-github" style="font-size:16px; margin-left: 10px;"></i></a>
+			<a href="https://www.cl.cam.ac.uk/research/rainbow/projects/elaTCSF/" target="_blank"><i class="fa-solid fa-globe" style="font-size:16px; margin-left: 10px;"></i></a>
+			<br/>
+			<br/>
+				The perception of flicker has been a prominent concern in illumination and electronic display fields for over a century. Traditional approaches often rely on Critical Flicker Frequency (CFF), primarily suited for high-contrast (full-on, full-off) flicker. To tackle varying contrast flicker, the International Committee for Display Metrology (ICDM) introduced a Temporal Contrast Sensitivity Function TCSFIDMS within the Information Display Measurements Standard (IDMS). Nevertheless, this standard overlooks crucial parameters: luminance, eccentricity, and area. Existing models incorporating these parameters are inadequate for flicker detection, especially at low spatial frequencies. To address these limitations, we extend the TCSFIDMS and combine it with a new spatial probability summation model to incorporate the effects of luminance, eccentricity, and area (elaTCSF). We train the elaTCSF on various flicker detection datasets and establish the first variable refresh rate flicker detection dataset for further verification. Additionally, we contribute to resolving a longstanding debate on whether the flicker is more visible in peripheral vision. We demonstrate how elaTCSF can be used to predict flicker due to low-persistence in VR headsets, identify flicker-free VRR operational ranges, and determine flicker sensitivity in lighting design.
+		</div>
+	</div>
+</div>
+
+
+<div class="container container-box container-box-fixed">
     <div class="row-fluid">
         <div class="span3">
 			<img src="../assets/projects/contrast/castleCSF_icon.gif">

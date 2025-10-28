@@ -1,0 +1,10 @@
+@article{cai2024elatcsf,
+  title={elaTCSF: A Temporal Contrast Sensitivity Function for Flicker Detection and Modeling Variable Refresh Rate Flicker},
+  author={Cai, Yancheng and Bozorgian, Ali and Ashraf, Maliha and Wanat, Robert and Mantiuk, Rafa{\l} K},
+  journal={SIGGRAPH Asia 2024 Conference Papers},
+  volume={27},
+  pages={1--11},
+  year={2024},
+  publisher={ACM New York, NY, USA},
+  doi={10.1145/3680528.3687586}
+}

@@ -1,0 +1,11 @@
+@article{ashraf2025resolution,
+  title={Resolution limit of the eye -- how many pixels can we see?},
+  author={Ashraf, Maliha and Chapiro, Alexandre and Mantiuk, Rafa{\l} K},
+  journal={Nature Communications},
+  volume={16},
+  number={9086},
+  pages={1--9},
+  year={2025},
+  publisher={Nature Publishing Group},
+  doi={10.1038/s41467-025-64679-2}
+}
