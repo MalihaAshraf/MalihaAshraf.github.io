@@ -40,6 +40,26 @@ description: Human contrast vision
 <div class="container container-box container-box-fixed">
 	<div class="row-fluid">
 		<div class="span3">
+			<img src="../assets/projects/contrast/ar_contrast_teaser.png">
+		</div>
+		<div class="span9">
+			<b><a href="https://www.cl.cam.ac.uk/research/rainbow/projects/ar_contrast/" target="_blank">Supra-threshold Contrast Perception in Augmented Reality</a></b><br/>
+			Dongyeon Kim, Maliha Ashraf, Alexandre Chapiro, Rafał K. Mantiuk
+			<br/>	
+			<i>SIGGRAPH Asia 2025 Conference Papers (2025)</i>
+			<a href="citations/kim2025suprathreshold" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
+			<a href="https://github.com/gfxdisp/ar_contrast_perception" target="_blank"><i class="fa-brands fa-github" style="font-size:16px; margin-left: 10px;"></i></a>
+			<a href="https://www.cl.cam.ac.uk/research/rainbow/projects/ar_contrast/" target="_blank"><i class="fa-solid fa-globe" style="font-size:16px; margin-left: 10px;"></i></a>
+			<br/>
+			<br/>
+				When an image is seen on an optical see-through augmented reality (AR) display, the light from the display is mixed with the background light from the environment. This can severely limit the available contrast in AR, which is often orders of magnitude below that of traditional displays. Yet, the presented images appear sharper and show more details than the reduction in physical contrast would indicate. In this work, we hypothesize two effects that are likely responsible for the enhanced perceived contrast in AR: background discounting, which allows observers focused on the display plane to partially discount the light from environment; and supra-threshold contrast perception, which explains the differences in contrast perception across luminance levels. In a series of controlled experiments on AR high-dynamic-range multi-focal haploscope testbed, we found no statistical evidence supporting the effect of background discounting on contrast perception. Instead, the increase of visibility in AR is better explained with models of supra-threshold contrast perception. Our findings can be generalized to incorporate an image input and this model serves to design better algorithms and hardware for display systems affected by additive light, such as AR.
+		</div>
+	</div>
+</div>
+
+<div class="container container-box container-box-fixed">
+	<div class="row-fluid">
+		<div class="span3">
 			<img src="../assets/projects/contrast/elaTCSF_plot.jpg">
 		</div>
 		<div class="span9">
@@ -57,6 +77,23 @@ description: Human contrast vision
 	</div>
 </div>
 
+<div class="container container-box container-box-fixed">
+    <div class="row-fluid">
+        <div class="span3">
+			<img src="../assets/projects/contrast/supra_cic24.png">
+		</div>
+		<div class="span9">
+		<b><a href="https://library.imaging.org/cic/articles/32/1/13" target="_blank">Modelling Contrast Matching Across Luminance Levels</a></b><br/>
+		Maliha Ashraf, Rafał K. Mantiuk<br/>
+		<i>CIC—Color and Imaging Conference (2024)</i>
+		<a href="citations/ashraf2024modelling.txt" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
+		<a href="https://library.imaging.org/cic/articles/32/1/13" target="_blank"><i class="fa-solid fa-award" style="font-size:16px; margin-left: 10px;"></i></a>
+		<br/><br/>		
+           The study investigates the modelling of contrast matching functions (SCMF) across various luminance levels, addressing the nonlinear behaviour of the human visual system in perceiving suprathreshold contrasts. Using a comprehensive dataset of contrast matching experiments involving younger and older observers, the research tests existing models and proposes a new hybrid model. The additive model by Kulikowski (1976) and the multiplicative model inspired by Peli et al. (1996) are evaluated against the dataset, revealing their limitations in predicting contrast matching across a broad luminance range. A novel model combining additive and multiplicative elements is introduced, accounting for threshold ratios and differences, and optimised using regression analysis. The proposed model demonstrates superior prediction accuracy, particularly for achromatic contrasts at extreme luminance levels, and holds potential applications in image processing, particularly for high dynamic range (HDR) content adaptation across different luminance conditions.
+		   <br/><br/>
+        </div> 
+	</div> 
+</div>
 
 <div class="container container-box container-box-fixed">
     <div class="row-fluid">

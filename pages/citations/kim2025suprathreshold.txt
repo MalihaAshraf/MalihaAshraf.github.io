@@ -1,0 +1,10 @@
+@article{kim2025suprathreshold,
+  title={Supra-threshold Contrast Perception in Augmented Reality},
+  author={Kim, Dongyeon and Ashraf, Maliha and Chapiro, Alexandre and Mantiuk, Rafa{\l} K},
+  journal={SIGGRAPH Asia 2025 Conference Papers},
+  volume={},
+  pages={1--11},
+  year={2025},
+  publisher={ACM New York, NY, USA},
+  doi={}
+}
