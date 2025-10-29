@@ -88,7 +88,14 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
 </div>
 
 <div class="container container-box">
-    <b><a href="/pages/misc.html">Miscellaneous projects</a></b><br/>
+	<div class="row-fluid">
+        <div class="span3">
+			<img src="assets/projects/misc/misc_projects_thumbnail.png">
+		</div>
+		<div class="span9">
+            <b><a href="/pages/misc.html">Miscellaneous projects</a></b><br/>
+        </div> 
+	</div> 
 </div>
 
 
