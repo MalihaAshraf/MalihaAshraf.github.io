@@ -109,18 +109,17 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
     <b>October 2025: Our article on <a href="https://www.cl.cam.ac.uk/research/rainbow/projects/resolution_limit/" target="_blank">Pixel Resolution Limits</a> is out now!</b><br/><br/>
     <div class="row-fluid">
         <div class="span12">
-            <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.nature.com/articles/s41467-025-64679-2" data-iframely-url="//iframely.net/DmiHeHzl?card=small&theme=light"></a></div></div><script async src="//iframely.net/embed.js"></script>
+            <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom:0px;"><a href="https://www.nature.com/articles/s41467-025-64679-2" data-iframely-url="//iframely.net/DmiHeHzl?card=small&theme=light"></a></div></div><script async src="//iframely.net/embed.js"></script>
         </div>    
         <!--<div class="span5">
         </div>-->       
         <div class="span5">
             <div class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41467-025-64679-2" data-badge-popover='right' data-link-target='_blank'></div>
-            <script type='text/javascript' src='https://embed.altmetric.com/assets/embed.js'></script>
         </div>        
     </div>
     <div class="row-fluid">	
         <div class="span12">
-            <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.cam.ac.uk/research/news/is-your-ultra-hd-tv-worth-it-scientists-measure-the-resolution-limit-of-the-human-eye" data-iframely-url="//iframely.net/U3OujMkP?card=small&theme=light"></a></div></div><script async src="//iframely.net/embed.js"></script>
+            <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.cam.ac.uk/research/news/is-your-ultra-hd-tv-worth-it-scientists-measure-the-resolution-limit-of-the-human-eye" data-iframely-url="//iframely.net/U3OujMkP?card=small&theme=light"></a></div></div>
         </div>
         <div class="span12">
             <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.theguardian.com/technology/2025/oct/27/ultra-hd-televisions-4k-8k-not-noticeably-better-study" data-iframely-url="//iframely.net/Yv6Kpqbb?card=small&theme=light"></a></div></div>
