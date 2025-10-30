@@ -113,7 +113,7 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
         </div>    
         <div class="span5">
         </div>-->       
-        <div class="span5">
+        <div class="span12">
             <div class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41467-025-64679-2" data-badge-popover='right' data-link-target='_blank' style="display: flex; justify-content: center;"></div>
 			<script type='text/javascript' src='https://embed.altmetric.com/assets/embed.js'></script>
         </div>        
