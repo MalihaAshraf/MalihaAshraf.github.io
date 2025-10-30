@@ -121,6 +121,7 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
     <div class="row-fluid">	
         <div class="span12">
             <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.cam.ac.uk/research/news/is-your-ultra-hd-tv-worth-it-scientists-measure-the-resolution-limit-of-the-human-eye" data-iframely-url="//iframely.net/U3OujMkP?card=small&theme=light"></a></div></div>
+			<script async src="//iframely.net/embed.js"></script>
         </div>
         <div class="span12">
             <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.theguardian.com/technology/2025/oct/27/ultra-hd-televisions-4k-8k-not-noticeably-better-study" data-iframely-url="//iframely.net/Yv6Kpqbb?card=small&theme=light"></a></div></div>
