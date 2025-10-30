@@ -20,6 +20,23 @@ description: Miscellaneous
 <div class="container container-box container-box-fixed">
     <div class="row-fluid">
         <div class="span3">
+			<img src="../assets/projects/colour/colour_frontiers24.jpg">
+		</div>
+		<div class="span9">
+		<b><a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1175703/full" target="_blank">Odors modulate color appearance</a></b><br/>
+		Ryan J. Ward, Maliha Ashraf, Sophie Wuerger, Alan Marshall<br/>
+		<i>Frontiers in Psychology (2023)</i>
+		<a href="citations/ward2023odors.txt" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
+		<br/><br/>		
+           Our brain constantly combines multisensory information from our surrounding environment. Odors for instance are often perceived with visual cues; these sensations interact to form our own subjective experience. This integration process can have a profound impact on the resulting experience and can alter our subjective reality. Crossmodal correspondences are the consistent associations between stimulus features in different sensory modalities. These correspondences are presumed to be bidirectional in nature and have been shown to influence our perception in a variety of different sensory modalities. Vision is dominant in our multisensory perception and can influence how we perceive information in our other senses, including olfaction. We explored the effect that different odors have on human color perception by presenting olfactory stimuli while asking observers to adjust a color patch to be devoid of hue (neutral gray task). We found a shift in the perceived neutral gray point to be biased toward warmer colors. Four out of five of our odors also trend toward their expected crossmodal correspondences. For instance, when asking observers to perform the neutral gray task while presenting the smell of cherry, the perceptually achromatic stimulus was biased toward a red-brown. Using an achromatic adjustment task, we were able to demonstrate a small but systematic effect of the presence of odors on human color perception.<br/><br/>
+        </div> 
+	</div> 
+</div>
+
+
+<div class="container container-box container-box-fixed">
+    <div class="row-fluid">
+        <div class="span3">
 			<img src="../assets/projects/misc/nature_23.png">
 		</div>
 		<div class="span9">
