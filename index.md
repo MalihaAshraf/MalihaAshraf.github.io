@@ -106,7 +106,7 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
 </div>
 
 <div class="container container-box">
-    <b>October 2025: Our article on <a href="https://www.cl.cam.ac.uk/research/rainbow/projects/resolution_limit/" target="_blank">Pixel Resolution Limits</a> is out now!</b><br/><br/>
+    <b>October 2025: Our <a href="https://www.nature.com/articles/s41467-025-64679-2" target="_blank">article</a> on <a href="https://www.cl.cam.ac.uk/research/rainbow/projects/resolution_limit/" target="_blank">Pixel Resolution Limits</a> is out now!</b><br/><br/>
     <div class="row-fluid">
         <!--<div class="span12">
             <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom:0px;"><a href="https://www.nature.com/articles/s41467-025-64679-2" data-iframely-url="//iframely.net/DmiHeHzl?card=small&theme=light"></a></div></div><script async src="//iframely.net/embed.js"></script>
