@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>daly_masking_inv_f</title>
+
+<script type="text/javascript">
+function detectLeftButton(evt) {
+    evt = evt || window.event;
+    var button = evt.which || evt.button;
+    return button == 1;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+
+<body>
+<h1>Fitting config: dither, model: daly_masking_inv_f</h1>
+<h3>Fitting error (RMSE): 2.3581</h3>
+<h3>Model parameters</h3>
+<div class="params_frame">
+<div style="white-space: pre-line;">
+	p.beta = 1.05327;
+	p.beta_cc = 1;
+	p.gs_num = [ 0.462713 0.2 0.964944 ];
+	p.noise_params = [ 0.428139 0.696367 0.684776 ];
+	p.dither_mask_params = [ 0.00293647 1.00658 0.993528 ];
+	p.blue_dither_params = [ 28.1094 150.505 2.40666 2.73579 ];
+</div>
+</div>
+<h2>Dataset: [ar2025]</h2>
+<p>Scaling factor: 0.328428</p>
+
+
+<img src="fig_ar2025.png"/>
+<br/></div>
+<h2>Dataset: [kim2020]</h2>
+<p>Scaling factor: 1.08003</p>
+
+
+<img src="fig_kim2020.png"/>
+<br/></div>
+</body>
+</html>

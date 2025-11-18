@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>transducer</title>
+
+<script type="text/javascript">
+function detectLeftButton(evt) {
+    evt = evt || window.event;
+    var button = evt.which || evt.button;
+    return button == 1;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+
+<body>
+<h1>Fitting config: dither, model: transducer</h1>
+<h3>Fitting error (RMSE): 2.25586</h3>
+<h3>Model parameters</h3>
+<div class="params_frame">
+<div style="white-space: pre-line;">
+	p.beta = 1.17309;
+	p.beta_cc = 1;
+	p.gs_num = [ 0.549859 0.2 0.964983 ];
+	p.noise_params = [ 0.262086 0.5 0.409297 0.208924 0.597314 ];
+	p.dither_mask_params = [ 0.00284337 0.988975 0.936937 ];
+	p.blue_dither_params = [ 40.1841 326.39 2.61142 2.12121 ];
+</div>
+</div>
+<h2>Dataset: [ar2025]</h2>
+<p>Scaling factor: 0.344039</p>
+
+
+<img src="fig_ar2025.png"/>
+<br/></div>
+<h2>Dataset: [kim2020]</h2>
+<p>Scaling factor: 1.09523</p>
+
+
+<img src="fig_kim2020.png"/>
+<br/></div>
+</body>
+</html>
