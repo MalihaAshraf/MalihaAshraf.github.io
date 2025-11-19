@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>mutual_masking_inv_f</title>
+
+<script type="text/javascript">
+function detectLeftButton(evt) {
+    evt = evt || window.event;
+    var button = evt.which || evt.button;
+    return button == 1;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+
+<body>
+<h1>Fitting config: dither_spd, model: mutual_masking_inv_f</h1>
+<h3>Fitting error (RMSE): 0.873441</h3>
+<h3>Model parameters</h3>
+<div class="params_frame">
+<div style="white-space: pre-line;">
+	p.beta = 0.270872;
+	p.gs_num = [ 0.100859 0.00136475 0.999785 ];
+	p.noise_params = [ 1.30236 1.15807 0.810366 ];
+	p.dither_amp_params = [ 3.00256 0.769707 ];
+	p.blue_dither_params = [ 2.82311 8.71953 0.001732 0.791805 ];
+</div>
+</div>
+<h3>Model components</h3>
+<div class="params_frame">
+<div align="center">Blue noise dither spectrum</div>
+<div style="white-space: pre-line;">
+<img src="fig_mech_1.png"/>
+</div>
+</div>
+<h2>Dataset: [ar2025]</h2>
+<p>Scaling factor: 3.62525</p>
+
+
+<img src="fig_ar2025.png"/>
+<br/></div>
+<h2>Dataset: [kim2020]</h2>
+<p>Scaling factor: 18.3082</p>
+
+
+<img src="fig_kim2020.png"/>
+<br/></div>
+</body>
+</html>

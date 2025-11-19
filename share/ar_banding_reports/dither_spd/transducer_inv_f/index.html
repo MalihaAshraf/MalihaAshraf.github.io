@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>transducer_inv_f</title>
+
+<script type="text/javascript">
+function detectLeftButton(evt) {
+    evt = evt || window.event;
+    var button = evt.which || evt.button;
+    return button == 1;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+
+<body>
+<h1>Fitting config: dither_spd, model: transducer_inv_f</h1>
+<h3>Fitting error (RMSE): 0.843971</h3>
+<h3>Model parameters</h3>
+<div class="params_frame">
+<div style="white-space: pre-line;">
+	p.beta = 0.483058;
+	p.gs_num = [ 0.0624031 0.0502542 0.999501 ];
+	p.noise_params = [ 0.577983 0.736608 0.283241 0.00273884 0.260343 ];
+	p.dither_amp_params = [ 0.025199 0.705624 ];
+	p.blue_dither_params = [ 0.497743 9.50619 0.133974 0.200861 ];
+</div>
+</div>
+<h3>Model components</h3>
+<div class="params_frame">
+<div align="center">Blue noise dither spectrum</div>
+<div style="white-space: pre-line;">
+<img src="fig_mech_1.png"/>
+</div>
+</div>
+<h2>Dataset: [ar2025]</h2>
+<p>Scaling factor: 2.18706</p>
+
+
+<img src="fig_ar2025.png"/>
+<br/></div>
+<h2>Dataset: [kim2020]</h2>
+<p>Scaling factor: 9.56931</p>
+
+
+<img src="fig_kim2020.png"/>
+<br/></div>
+</body>
+</html>
