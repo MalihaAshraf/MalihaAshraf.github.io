@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>daly_masking</title>
+
+<script type="text/javascript">
+function detectLeftButton(evt) {
+    evt = evt || window.event;
+    var button = evt.which || evt.button;
+    return button == 1;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+
+<body>
+<h1>Fitting config: dither_blue-ordered, model: daly_masking</h1>
+<h3>Fitting error (RMSE): 0.396731</h3>
+<h3>Fitting error (dB): 7.93463</h3>
+<h3>Reduced chi-squared statistic: 95.1028</h3>
+<h3>Model parameters</h3>
+<div class="params_frame">
+<div style="white-space: pre-line;">
+	p.beta = 1.32678;
+	p.gs_num = [ 0.658033 0.2 0.965032 ];
+	p.noise_params = [ 0.45913 0.528451 0.557986 ];
+	p.dither_amp_params = [ 0.902746 0.843333 ];
+	p.blue_dither_params = [ 0.102221 2.93018 0.00209683 0.225317 ];
+	p.ordered_dither_params = [ 0.102221 2.93018 0.00209683 0.225317 ];
+</div>
+</div>
+<h3>Model components</h3>
+<div class="params_frame">
+<div align="center">Blue noise dither spectrum</div>
+<div style="white-space: pre-line;">
+<img src="fig_mech_1.png"/>
+</div>
+</div>
+<h2>Dataset: [ar2025]</h2>
+<p>Scaling factor: 1</p>
+
+
+<img src="fig_ar2025_1.png"/>
+<br/></div>
+<img src="fig_ar2025_2.png"/>
+<br/></div>
+<h2>Dataset: [kim2020]</h2>
+<p>Scaling factor: 1</p>
+
+
+<img src="fig_kim2020.png"/>
+<br/></div>
+</body>
+</html>

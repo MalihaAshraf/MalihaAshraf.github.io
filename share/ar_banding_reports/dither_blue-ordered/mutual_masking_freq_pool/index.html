@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>mutual_masking_freq_pool</title>
+
+<script type="text/javascript">
+function detectLeftButton(evt) {
+    evt = evt || window.event;
+    var button = evt.which || evt.button;
+    return button == 1;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+
+<body>
+<h1>Fitting config: dither_blue-ordered, model: mutual_masking_freq_pool</h1>
+<h3>Fitting error (RMSE): 1.65269</h3>
+<h3>Fitting error (dB): 33.0539</h3>
+<h3>Reduced chi-squared statistic: 238.44</h3>
+<h3>Model parameters</h3>
+<div class="params_frame">
+<div style="white-space: pre-line;">
+	p.beta = 1.92107;
+	p.gs_num = [ 0.997775 0.120042 0.0631918 ];
+	p.noise_params = [ 0.147075 2.92933 0.13195 6.92273 ];
+	p.dither_amp_params = [ 0.0013758 0.633499 ];
+	p.blue_dither_params = [ 0.0302432 0.548055 0.0039614 0.972752 ];
+	p.ordered_dither_params = [ 0.0451919 1.35696 0.150282 0.354641 ];
+</div>
+</div>
+<h3>Model components</h3>
+<div class="params_frame">
+<div align="center">Blue noise dither spectrum</div>
+<div style="white-space: pre-line;">
+<img src="fig_mech_1.png"/>
+</div>
+</div>
+<h2>Dataset: [ar2025]</h2>
+<p>Scaling factor: 0.203245</p>
+
+
+<img src="fig_ar2025_1.png"/>
+<br/></div>
+<img src="fig_ar2025_2.png"/>
+<br/></div>
+<h2>Dataset: [kim2020]</h2>
+<p>Scaling factor: 1.08421</p>
+
+
+<img src="fig_kim2020.png"/>
+<br/></div>
+</body>
+</html>
