@@ -106,6 +106,15 @@ keywords: maliha ashraf, maliha, ashraf, erasmus, cosi, colour, color, computati
 </div>
 
 <div class="container container-box">
+    <b>December 2025: Our <a href="https://dl.acm.org/doi/10.1145/3757377.3763824" target="_blank">article</a> on <a href="https://www.cl.cam.ac.uk/research/rainbow/projects/ar_contrast/" target="_blank">Supra-threshold Contrast Perception in Augmented Reality</a> is now published</b><br/><br/>
+    <div class="row-fluid">		
+        <div class="span12">
+            My colleague <a href="https://dongyeon93.github.io/" target="_blank">Dongyeon Kim</a> presented our work at SIGGRAPH Asia.<br/><br/>
+        </div> 
+	</div> 
+</div>
+
+<div class="container container-box">
     <b>October 2025: Our <a href="https://www.nature.com/articles/s41467-025-64679-2" target="_blank">article</a> on <a href="https://www.cl.cam.ac.uk/research/rainbow/projects/resolution_limit/" target="_blank">Pixel Resolution Limits</a> is out now!</b><br/><br/>
     <div class="row-fluid">
         <!--<div class="span12">

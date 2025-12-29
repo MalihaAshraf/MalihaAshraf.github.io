@@ -43,11 +43,11 @@ description: Human contrast vision
 			<img src="../assets/projects/contrast/ar_contrast_teaser.png">
 		</div>
 		<div class="span9">
-			<b><a href="https://www.cl.cam.ac.uk/research/rainbow/projects/ar_contrast/" target="_blank">Supra-threshold Contrast Perception in Augmented Reality</a></b><br/>
+			<b><a href="https://dl.acm.org/doi/10.1145/3757377.3763824" target="_blank">Supra-threshold Contrast Perception in Augmented Reality</a></b><br/>
 			Dongyeon Kim, Maliha Ashraf, Alexandre Chapiro, Rafał K. Mantiuk
 			<br/>	
 			<i>SIGGRAPH Asia 2025 Conference Papers (2025)</i>
-			<a href="citations/kim2025suprathreshold" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
+			<a href="citations/kim2025suprathreshold.txt" target="_blank"><i class="fa-solid fa-quote-right" style="font-size:16px; margin-left: 10px;"></i></a>
 			<a href="https://github.com/gfxdisp/ar_contrast_perception" target="_blank"><i class="fa-brands fa-github" style="font-size:16px; margin-left: 10px;"></i></a>
 			<a href="https://www.cl.cam.ac.uk/research/rainbow/projects/ar_contrast/" target="_blank"><i class="fa-solid fa-globe" style="font-size:16px; margin-left: 10px;"></i></a>
 			<br/>
